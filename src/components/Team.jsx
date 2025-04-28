@@ -3,13 +3,31 @@ import './Team.css'
 function Team () {
     return <>
         <div className='teams'>
-            <div className='team'>1</div>
-            <div className='team'>2</div>
-            <div className='team'>3</div>
-            <div className='team'>4</div>
-            <div className='team'>5</div>
-            <div className='team'>6</div>
-            <div className='team'>7</div>
+            <div className='team'>
+                <img src='public\type_icons\Grass_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+
+            <div className='team'>
+                <img src='public\type_icons\Fire_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+
+                        <div className='team'>
+                <img src='public\type_icons\Water_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+            
+            <div className='team'>
+                <img src='public\type_icons\Electric_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+            
+            <div className='team'>
+                <img src='public\type_icons\Flying_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+            
+            <div className='team'>
+                <img src='public\type_icons\Ground_icon_Sleep.png' alt='Grass Type'/>
+            </div>
+            
+            <div className='team'>Misc.</div>
         </div>
     </>
 }

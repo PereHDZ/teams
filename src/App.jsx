@@ -4,8 +4,8 @@ import TeamGrid from './components/TeamGrid'
 
 function App() {
   const kanto = {name: 'Kanto', start: 1, end:151, color: '#d87d7d'}
-  const johto = {name: 'Johto', start: 152, end:251, color: '#f8f67e'}
-  const hoenn = {name: 'Hoenn', start: 252, end:386, color: '#5ebf64'}
+  const johto = {name: 'Johto', start: 152, end:251, color: '#f2d367'}
+  const hoenn = {name: 'Hoenn', start: 252, end:386, color: '#009551'}
   const sinnoh = {name: 'Sinnoh', start: 387, end:493, color: '#72a2ce'}
   const unova = {name: 'Unova', start: 494, end:649, color: '#a2aab3'}
   const kalos = {name: 'Kalos', start: 650, end:721, color: '#e7bde2'}
