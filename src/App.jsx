@@ -1,5 +1,6 @@
 import './App.css'
-import Grid from './components/grid'
+import GenGrid from './components/GenGrid'
+import TeamGrid from './components/TeamGrid'
 
 function App() {
   const kanto = {name: 'Kanto', start: 1, end:151, color: '#d87d7d'}
@@ -17,17 +18,19 @@ function App() {
   return (
     <>
       <div className='center'>
-        <Grid start={kanto.start} end={kanto.end} color={kanto.color} name={kanto.name}/>
-        <Grid start={johto.start} end={johto.end} color={johto.color} name={johto.name}/>
-        <Grid start={hoenn.start} end={hoenn.end} color={hoenn.color} name={hoenn.name}/>
-        <Grid start={sinnoh.start} end={sinnoh.end} color={sinnoh.color} name={sinnoh.name}/>
-        <Grid start={unova.start} end={unova.end} color={unova.color} name={unova.name}/>
-        <Grid start={kalos.start} end={kalos.end} color={kalos.color} name={kalos.name}/>
-        <Grid start={alola.start} end={alola.end} color={alola.color} name={alola.name}/>
-        <Grid start={galar.start} end={galar.end} color={galar.color} name={galar.name}/>
-        <Grid start={hisui.start} end={hisui.end} color={hisui.color} name={hisui.name}/>
-        <Grid start={paldea.start} end={paldea.end} color={paldea.color} name={paldea.name}/>
-      </div>      
+        <GenGrid start={kanto.start} end={kanto.end} color={kanto.color} name={kanto.name}/>
+        <GenGrid start={johto.start} end={johto.end} color={johto.color} name={johto.name}/>
+        <GenGrid start={hoenn.start} end={hoenn.end} color={hoenn.color} name={hoenn.name}/>
+        <GenGrid start={sinnoh.start} end={sinnoh.end} color={sinnoh.color} name={sinnoh.name}/>
+        <GenGrid start={unova.start} end={unova.end} color={unova.color} name={unova.name}/>
+        <GenGrid start={kalos.start} end={kalos.end} color={kalos.color} name={kalos.name}/>
+        <GenGrid start={alola.start} end={alola.end} color={alola.color} name={alola.name}/>
+        <GenGrid start={galar.start} end={galar.end} color={galar.color} name={galar.name}/>
+        <GenGrid start={hisui.start} end={hisui.end} color={hisui.color} name={hisui.name}/>
+        <GenGrid start={paldea.start} end={paldea.end} color={paldea.color} name={paldea.name}/>
+
+        <TeamGrid/>
+      </div>     
     </>
   )
 }

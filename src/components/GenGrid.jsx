@@ -1,6 +1,6 @@
-import './Grid.css'
+import './GenGrid.css'
 
-function Grid ({end, start, color, name}) {
+function GenGrid ({end, start, color, name}) {
     const items = Array.from({ length: end - start + 1 }, (_, index) => start + index)
 
     return <>
@@ -25,4 +25,4 @@ function Grid ({end, start, color, name}) {
     </>
 }
 
-export default Grid
+export default GenGrid

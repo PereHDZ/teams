@@ -1,0 +1,12 @@
+.teams {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 equal columns for subsubelements */
+    gap: 5px;
+}
+
+.team {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
