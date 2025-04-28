@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-public/national/
-public/type_icons/
+app/public/national/
+app/public/type_icons/
