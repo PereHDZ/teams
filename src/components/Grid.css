@@ -46,3 +46,7 @@
     max-height: 100%;
     object-fit: contain;
   }
+
+  .test {
+    background-color: #7c0d0d;
+  }

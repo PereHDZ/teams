@@ -1,7 +1,7 @@
 import './Grid.css'
 
-function Grid ({length, color, name}) {
-    const items = Array.from({ length: length }, (_, index) => index + 1);
+function Grid ({end, start, color, name}) {
+    const items = Array.from({ length: end - start + 1 }, (_, index) => start + index)
 
     return <>
         <div className='grid-wrapper'>
