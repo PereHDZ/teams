@@ -40,10 +40,11 @@ function App() {
     <>
       <div className='center'>
         {!available && available.map(pokemon => {
-          return (<p>{pokemon.name}</p>)
-        }
-          
+            return (<p>{pokemon.name}</p>)
+          }          
         )}
+
+        <p>HOLA</p>
 
         {regions.map(region => {
           return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name} key={region.name}/>)
