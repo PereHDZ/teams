@@ -41,9 +41,9 @@ function App() {
 
   return (
     <>
-      <div className='pokemon-selector'>
+      {/* <div className='pokemon-selector'>
         <h1>Hola</h1>
-      </div>     
+      </div>      */}
 
       <div className='center'>
         {regions.map(region => {
