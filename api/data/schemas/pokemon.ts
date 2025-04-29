@@ -24,8 +24,8 @@ const pokemon = new Schema ({
         required: true
     },
     finalStage: {
-        type: Boolean,
-        required: true
+        type: [String],
+        required: false
     },
     preEvo: {
         type: [String],

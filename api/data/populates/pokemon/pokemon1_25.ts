@@ -5,7 +5,6 @@ export const pokemon1_25 = [
         name: 'Bulbasaur',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
       },
       {
         id: '2',
@@ -13,7 +12,6 @@ export const pokemon1_25 = [
         name: 'Ivysaur',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['1'],
       },
       {
@@ -22,16 +20,14 @@ export const pokemon1_25 = [
         name: 'Venusaur',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['1','2'],
       },
       {
         id: '4',
         dexNum: '0004',
         name: 'Charmander',
-        type: ['Fire'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        type: ['Fire']
       },
       {
         id: '5',
@@ -39,7 +35,6 @@ export const pokemon1_25 = [
         name: 'Charmeleon',
         type: ['Fire'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['4'],
       },
       {
@@ -48,7 +43,7 @@ export const pokemon1_25 = [
         name: 'Charizard',
         type: ['Fire', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['4', '5'],
       },
       {
@@ -57,7 +52,6 @@ export const pokemon1_25 = [
         name: 'Squirtle',
         type: ['Water'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '8',
@@ -65,7 +59,6 @@ export const pokemon1_25 = [
         name: 'Wartortle',
         type: ['Water'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['7'],
       },
       {
@@ -74,7 +67,7 @@ export const pokemon1_25 = [
         name: 'Blastoise',
         type: ['Water'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['7', '8'],
       },
       {
@@ -83,7 +76,6 @@ export const pokemon1_25 = [
         name: 'Caterpie',
         type: ['Bug'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '11',
@@ -91,7 +83,6 @@ export const pokemon1_25 = [
         name: 'Metapod',
         type: ['Bug'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['10'],
       },
       {
@@ -100,7 +91,7 @@ export const pokemon1_25 = [
         name: 'Butterfree',
         type: ['Bug', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['10', '11'],
       },
       {
@@ -109,7 +100,6 @@ export const pokemon1_25 = [
         name: 'Weedle',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '14',
@@ -117,7 +107,6 @@ export const pokemon1_25 = [
         name: 'Kakuna',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['13'],
       },
       {
@@ -126,7 +115,7 @@ export const pokemon1_25 = [
         name: 'Beedrill',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['13', '14'],
       },
       {
@@ -135,7 +124,6 @@ export const pokemon1_25 = [
         name: 'Pidgey',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '17',
@@ -143,7 +131,6 @@ export const pokemon1_25 = [
         name: 'Pidgeotto',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['16']
       },
       {
@@ -152,7 +139,7 @@ export const pokemon1_25 = [
         name: 'Pidgeot',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['16', '17'],
       },
       {
@@ -161,7 +148,6 @@ export const pokemon1_25 = [
         name: 'Rattata',
         type: ['Normal'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '20',
@@ -169,7 +155,7 @@ export const pokemon1_25 = [
         name: 'Raticate',
         type: ['Normal'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['19'],
       },
       {
@@ -178,7 +164,6 @@ export const pokemon1_25 = [
         name: 'Spearow',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '22',
@@ -186,7 +171,7 @@ export const pokemon1_25 = [
         name: 'Fearow',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['21'],
       },
       {
@@ -195,7 +180,6 @@ export const pokemon1_25 = [
         name: 'Ekans',
         type: ['Poison'],
         availableIn: ['FRLG'],
-        finalStage: false
       },
       {
         id: '24',
@@ -203,7 +187,7 @@ export const pokemon1_25 = [
         name: 'Arbok',
         type: ['Poison'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['23'],
       },
       {
@@ -212,7 +196,6 @@ export const pokemon1_25 = [
         name: 'Pikachu',
         type: ['Electric'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['172'],
       },
 ]

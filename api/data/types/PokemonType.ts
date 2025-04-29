@@ -4,7 +4,7 @@ type PokemonType = {
     name: string,
     type: [string],
     availableIn: [string],
-    finalStage: boolean,
+    finalStage?: [String],
     preEvo?: [string],
 }
 

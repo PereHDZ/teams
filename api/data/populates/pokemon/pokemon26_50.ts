@@ -5,7 +5,7 @@ export const pokemon26_50 = [
         name: 'Raichu',
         type: ['Electric'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['172', '25']
       },
       {
@@ -13,8 +13,7 @@ export const pokemon26_50 = [
         dexNum: '0027',
         name: 'Sandshrew',
         type: ['Ground'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '28',
@@ -22,7 +21,7 @@ export const pokemon26_50 = [
         name: 'Sandslash',
         type: ['Ground'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['27'],
       },
       {
@@ -30,8 +29,7 @@ export const pokemon26_50 = [
         dexNum: '0029',
         name: 'Nidoran',
         type: ['Poison'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '30',
@@ -39,7 +37,6 @@ export const pokemon26_50 = [
         name: 'Nidorina',
         type: ['Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['29'],
       },
       {
@@ -48,7 +45,7 @@ export const pokemon26_50 = [
         name: 'Nidoqueen',
         type: ['Poison', 'Ground'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['29', '30'],
       },
       {
@@ -56,8 +53,7 @@ export const pokemon26_50 = [
         dexNum: '0032',
         name: 'Nidoran',
         type: ['Poison'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '33',
@@ -65,7 +61,6 @@ export const pokemon26_50 = [
         name: 'Nidorino',
         type: ['Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['32'],
       },
       {
@@ -74,7 +69,7 @@ export const pokemon26_50 = [
         name: 'Nidoking',
         type: ['Poison', 'Ground'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['32', '33'],
       },
       {
@@ -83,7 +78,6 @@ export const pokemon26_50 = [
         name: 'Clefairy',
         type: ['Fairy'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['173']
       },
       {
@@ -92,7 +86,7 @@ export const pokemon26_50 = [
         name: 'Clefable',
         type: ['Fairy'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['173', '35'],
       },
       {
@@ -100,8 +94,7 @@ export const pokemon26_50 = [
         dexNum: '0037',
         name: 'Vulpix',
         type: ['Fire'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '38',
@@ -109,7 +102,7 @@ export const pokemon26_50 = [
         name: 'Ninetales',
         type: ['Fire'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['37']
       },
       {
@@ -118,7 +111,6 @@ export const pokemon26_50 = [
         name: 'Jigglypuff',
         type: ['Normal', 'Fairy'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['174'],
       },
       {
@@ -127,7 +119,7 @@ export const pokemon26_50 = [
         name: 'Wigglytuff',
         type: ['Normal', 'Fairy'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['174', '39'],
       },
       {
@@ -135,8 +127,7 @@ export const pokemon26_50 = [
         dexNum: '0041',
         name: 'Zubat',
         type: ['Poison', 'Flying'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '42',
@@ -144,7 +135,6 @@ export const pokemon26_50 = [
         name: 'Golbat',
         type: ['Poison', 'Flying'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['41']
       },
       {
@@ -152,8 +142,7 @@ export const pokemon26_50 = [
         dexNum: '0043',
         name: 'Oddish',
         type: ['Grass', 'Poison'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '44',
@@ -161,7 +150,6 @@ export const pokemon26_50 = [
         name: 'Gloom',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: false,
         preEvo: ['43']
       },
       {
@@ -170,7 +158,7 @@ export const pokemon26_50 = [
         name: 'Vileplume',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['42', '43'],
       },
       {
@@ -178,8 +166,7 @@ export const pokemon26_50 = [
         dexNum: '0046',
         name: 'Paras',
         type: ['Bug', 'Grass'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '47',
@@ -187,7 +174,7 @@ export const pokemon26_50 = [
         name: 'Parasect',
         type: ['Bug', 'Grass'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['46'],
       },
       {
@@ -195,8 +182,7 @@ export const pokemon26_50 = [
         dexNum: '0048',
         name: 'Venonat',
         type: ['Bug', 'Poison'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
       {
         id: '49',
@@ -204,7 +190,7 @@ export const pokemon26_50 = [
         name: 'Venomoth',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG'],
-        finalStage: true,
+        finalStage: ['FRLG'],
         preEvo: ['48'],
       },
       {
@@ -212,7 +198,6 @@ export const pokemon26_50 = [
         dexNum: '0050',
         name: 'Diglett',
         type: ['Ground'],
-        availableIn: ['FRLG'],
-        finalStage: false
+        availableIn: ['FRLG']
       },
 ]
