@@ -8,20 +8,23 @@ import GenGrid from './components/GenGrid'
 import TeamGrid from './components/TeamGrid'
 
 function App() {
-  const [available, setAvailabe] = useState([])
+  const [available, setAvailable] = useState([])
+
   function newRegion (name, start, end, color){
     return {name, start, end, color}  
   }
 
-  try {
+  useEffect(() => {
     logic.retrieveFinalStagesFromGame('FRLG')
       .then(finalStages => {
-        setAvailabe(finalStages)
+        console.log('Final Stages: ', finalStages)
+        setAvailable(finalStages)
       })
-      .catch (error => alert(error))
-  } catch (error) {
-    alert(error)
-  }
+      .catch(error => {
+        console.error('Error fetching final stages: ', error)
+        alert(error)
+      })
+  }, [])
   
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
@@ -39,13 +42,6 @@ function App() {
   return (
     <>
       <div className='center'>
-        {!available && available.map(pokemon => {
-            return (<p>{pokemon.name}</p>)
-          }          
-        )}
-
-        <p>HOLA</p>
-
         {regions.map(region => {
           return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name} key={region.name}/>)
         })}

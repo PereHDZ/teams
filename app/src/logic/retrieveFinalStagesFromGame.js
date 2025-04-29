@@ -2,11 +2,7 @@ function retrieveFinalStagesFromGame (game) {
     //validation
 
     //logic
-    return fetch(`${import.meta.env.VITE_API_URL}/pokemons/finalStages/${game}`, {
-        headers: {
-            'Authorization': `Bearer ${sessionStorage.token}`
-        }
-    })
+    return fetch(`${import.meta.env.VITE_API_URL}/pokemons/finalStages/${game}`)
     .then (res => {
         if (res.status === 200) return res.json()
 

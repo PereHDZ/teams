@@ -1,11 +1,11 @@
-import {Pokemon} from '../data/models/index.ts'
-import {PokemonType} from '../data/types/index.ts'
+import {Pokemon} from '../data/models'
+import {PokemonType} from '../data/types'
 
 async function retrieveFinalStagesFromGame(game:string) : Promise<PokemonType[]> {
     try {
         const finalStages = await Pokemon.find({ 
-            finalStage: game,
-            availableIn: game
+            finalStage: { $in: [game] },
+            availableIn: { $in: [game] }
         }).lean().exec();
         
         return finalStages.map(({ id, dexNum, name, type, availableIn, finalStage, preEvo}) => ({
