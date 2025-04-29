@@ -2,10 +2,10 @@ type PokemonType = {
     id: string,
     dexNum: string,
     name: string,
-    type: [string],
-    availableIn: [string],
-    finalStage?: [String],
-    preEvo?: [string],
+    type: string[],
+    availableIn: string[],
+    finalStage?: string[],
+    preEvo?: string[],
 }
 
 export default PokemonType
