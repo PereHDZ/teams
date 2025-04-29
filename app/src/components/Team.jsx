@@ -1,33 +1,43 @@
 import './Team.css'
 
 function Team () {
+
     return <>
         <div className='teams'>
-            <div className='team'>
+            <button className='team-button'>
                 <img src='public\type_icons\Grass_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+                <span className='tooltip'>Select a Grass Type</span>
+            </button>     
 
-            <div className='team'>
-                <img src='public\type_icons\Fire_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+            <button className='team-button'>
+                <img src='public\type_icons\Fire_icon_Sleep.png' alt='Fire Type'/>
+                <span className='tooltip'>Select a Fire Type</span>
+            </button>
 
-                        <div className='team'>
-                <img src='public\type_icons\Water_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+            <button className='team-button'>
+                <img src='public\type_icons\Water_icon_Sleep.png' alt='Water Type'/>
+                <span className='tooltip'>Select a Water Type</span>
+            </button>
             
-            <div className='team'>
-                <img src='public\type_icons\Electric_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+            <button className='team-button'>
+                <img src='public\type_icons\Electric_icon_Sleep.png' alt='Electric Type'/>
+                <span className='tooltip'>Select an Electric Type</span>
+            </button>
             
-            <div className='team'>
-                <img src='public\type_icons\Flying_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+            <button className='team-button'>
+                <img src='public\type_icons\Flying_icon_Sleep.png' alt='Ground Type'/>
+                <span className='tooltip'>Select a Flying Type</span>
+            </button>
             
-            <div className='team'>
-                <img src='public\type_icons\Ground_icon_Sleep.png' alt='Grass Type'/>
-            </div>
+            <button className='team-button'>
+                <img src='public\type_icons\Ground_icon_Sleep.png' alt='Miscellaneous'/>
+                <span className='tooltip'>Select a Ground Type</span>
+            </button>
             
-            <div className='team'>Misc.</div>
+            <button className='team-button'>
+                Misc.
+                <span className='tooltip'>Select a Miscellaneous Pokémon</span>
+            </button>
         </div>
     </>
 }

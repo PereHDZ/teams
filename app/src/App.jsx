@@ -41,13 +41,17 @@ function App() {
 
   return (
     <>
+      <div className='pokemon-selector'>
+        <h1>Hola</h1>
+      </div>     
+
       <div className='center'>
         {regions.map(region => {
           return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name} key={region.name}/>)
         })}
 
         <TeamGrid/>
-      </div>     
+      </div>
     </>
   )
 }

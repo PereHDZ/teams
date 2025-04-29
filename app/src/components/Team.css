@@ -4,13 +4,37 @@
     gap: 5px;
 }
 
-.team {
+.team-button {
+    position: relative;
     border: 1px solid #ccc;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+.team-button .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.team-button:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 
 img {
