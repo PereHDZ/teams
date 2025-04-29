@@ -1,10 +1,26 @@
+import logic from './logic'
+
+import { useEffect, useState } from 'react'
+
 import './App.css'
+
 import GenGrid from './components/GenGrid'
 import TeamGrid from './components/TeamGrid'
 
 function App() {
+  const [available, setAvailabe] = useState([])
   function newRegion (name, start, end, color){
-    return {name, start, end, color}
+    return {name, start, end, color}  
+  }
+
+  try {
+    logic.retrieveFinalStagesFromGame('FRLG')
+      .then(finalStages => {
+        setAvailabe(finalStages)
+      })
+      .catch (error => alert(error))
+  } catch (error) {
+    alert(error)
   }
   
   const regions = [
@@ -23,8 +39,14 @@ function App() {
   return (
     <>
       <div className='center'>
+        {!available && available.map(pokemon => {
+          return (<p>{pokemon.name}</p>)
+        }
+          
+        )}
+
         {regions.map(region => {
-          return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name}/>)
+          return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name} key={region.name}/>)
         })}
 
         <TeamGrid/>

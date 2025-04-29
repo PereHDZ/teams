@@ -12,7 +12,6 @@ function GenGrid ({end, start, color, name}) {
             <div className="grid">
                 {items.map((item) => (
                     <div key={item} className='sprite-cell' style={{backgroundColor: color}}>
-                        {console.log(item)}
                         <img
                             src={`public/national/image_${item}.jpg`}
                             alt={`Pokémon ${item}`}

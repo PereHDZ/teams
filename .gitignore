@@ -25,3 +25,6 @@ dist-ssr
 
 app/public/national/
 app/public/type_icons/
+
+api/.env
+app/.env
