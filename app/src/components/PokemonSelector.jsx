@@ -15,8 +15,12 @@ function PokemonSelector({ type, game }) {
         }
     },[game])
 
-    const filteredByType = availableFinalStages.filter(pokemon => pokemon.type.includes(type))
+    console.log('type: ', type)
+    console.log('game: ', game)
 
+    const filteredByType = availableFinalStages.filter(pokemon => pokemon.type.includes(type))
+    console.log(filteredByType)
+    
     return <>
         <div className='pokemon-selector'>
             <h1>Selecting a {type} Pokémon for {game}</h1>

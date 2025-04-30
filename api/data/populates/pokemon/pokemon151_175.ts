@@ -4,202 +4,196 @@ export const pokemon151_175 = [
         dexNum: '0151',
         name: 'Mew',
         type: ['Psychic'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG']
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS']
       },
-    //   {
-    //     id: '127',
-    //     dexNum: '0127',
-    //     name: 'Pinsir',
-    //     type: ['Bug'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //   },
-    //   {
-    //     id: '128',
-    //     dexNum: '0128',
-    //     name: 'Tauros',
-    //     type: ['Normal'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '129',
-    //     dexNum: '0129',
-    //     name: 'Magikarp',
-    //     type: ['Water'],
-    //     availableIn: ['FRLG']
-    //   },
-    //   {
-    //     id: '130',
-    //     dexNum: '0130',
-    //     name: 'Gyarados',
-    //     type: ['Water', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['129'],
-    //   },
-    //   {
-    //     id: '131',
-    //     dexNum: '0131',
-    //     name: 'Lapras',
-    //     type: ['Water', 'Ice'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '132',
-    //     dexNum: '0132',
-    //     name: 'Ditto',
-    //     type: ['Normal'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '133',
-    //     dexNum: '0133',
-    //     name: 'Eevee',
-    //     type: ['Normal'],
-    //     availableIn: ['FRLG']
-    //   },
-    //   {
-    //     id: '134',
-    //     dexNum: '0134',
-    //     name: 'Vaporeon',
-    //     type: ['Water'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['133'],
-    //   },
-    //   {
-    //     id: '135',
-    //     dexNum: '0135',
-    //     name: 'Jolteon',
-    //     type: ['Electric'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['133']
-    //   },
-    //   {
-    //     id: '136',
-    //     dexNum: '0136',
-    //     name: 'Flareon',
-    //     type: ['Fire'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['133'],
-    //   },
-    //   {
-    //     id: '134',
-    //     dexNum: '0134',
-    //     name: 'Porygon',
-    //     type: ['Normal'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '135',
-    //     dexNum: '0135',
-    //     name: 'Omanyte',
-    //     type: ['Rock', 'Water'],
-    //     availableIn: ['FRLG'],
-    //   },
-    //   {
-    //     id: '136',
-    //     dexNum: '0136',
-    //     name: 'Omastar',
-    //     type: ['Rock', 'Water'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['135'],
-    //   },
-    //   {
-    //     id: '137',
-    //     dexNum: '0137',
-    //     name: 'Kabuto',
-    //     type: ['Rock', 'Water'],
-    //     availableIn: ['FRLG']
-    //   },
-    //   {
-    //     id: '138',
-    //     dexNum: '0138',
-    //     name: 'Kabutops',
-    //     type: ['Rock', 'Water'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['137'],
-    //   },
-    //   {
-    //     id: '139',
-    //     dexNum: '0139',
-    //     name: 'Aerodactyl',
-    //     type: ['Rock', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '143',
-    //     dexNum: '0143',
-    //     name: 'Snorlax',
-    //     type: ['Normal'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['446'],
-    //   },
-    //   {
-    //     id: '144',
-    //     dexNum: '0144',
-    //     name: 'Articuno',
-    //     type: ['Ice', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '145',
-    //     dexNum: '0120',
-    //     name: 'Zapdos',
-    //     type: ['Electric', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '147',
-    //     dexNum: '0147',
-    //     name: 'Moltres',
-    //     type: ['Fire', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
-    //   {
-    //     id: '148',
-    //     dexNum: '0148',
-    //     name: 'Dratini',
-    //     type: ['Dragon'],
-    //     availableIn: ['FRLG']
-    //   },
-    //   {
-    //     id: '149',
-    //     dexNum: '0149',
-    //     name: 'Dragonair',
-    //     type: ['Dragon'],
-    //     availableIn: ['FRLG'],
-    //     preEvo: ['148'],
-    //   },
-    //   {
-    //     id: '149',
-    //     dexNum: '0149',
-    //     name: 'Dragonite',
-    //     type: ['Dragon', 'Flying'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG'],
-    //     preEvo: ['148', '149'],
-    //   },
-    //   {
-    //     id: '150',
-    //     dexNum: '0150',
-    //     name: 'Mewtwo',
-    //     type: ['Psychic'],
-    //     availableIn: ['FRLG'],
-    //     finalStage: ['FRLG']
-    //   },
+      {
+        id: '152',
+        dexNum: '0152',
+        name: 'Chickorita',
+        type: ['Grass'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '153',
+        dexNum: '0153',
+        name: 'Bayleef',
+        type: ['Grass'],
+        availableIn: ['HGSS'],
+        preEvo: ['152'],
+      },
+      {
+        id: '154',
+        dexNum: '0154',
+        name: 'Meganium',
+        type: ['Grass'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['152', '153'],
+      },
+      {
+        id: '155',
+        dexNum: '0155',
+        name: 'Cyndaquil',
+        type: ['Fire'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '156',
+        dexNum: '0156',
+        name: 'Quilava',
+        type: ['Fire'],
+        availableIn: ['HGSS'],
+        preEvo: ['155'],
+      },
+      {
+        id: '157',
+        dexNum: '0157',
+        name: 'Typhlosion',
+        type: ['Fire'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['155', '156'],
+      },
+      {
+        id: '158',
+        dexNum: '0158',
+        name: 'Totodile',
+        type: ['Water'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '159',
+        dexNum: '0159',
+        name: 'Croconaw',
+        type: ['Water'],
+        availableIn: ['HGSS'],
+        preEvo: ['158'],
+      },
+      {
+        id: '160',
+        dexNum: '0160',
+        name: 'Jolteon',
+        type: ['Feraligatr'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['157', '158']
+      },
+      {
+        id: '161',
+        dexNum: '0161',
+        name: 'Sentret',
+        type: ['Normal'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '162',
+        dexNum: '0162',
+        name: 'Furret',
+        type: ['Normal'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['161']
+      },
+      {
+        id: '163',
+        dexNum: '0163',
+        name: 'Hoothoot',
+        type: ['Normal', 'Flying'],
+        availableIn: ['HGSS'],
+      },
+      {
+        id: '164',
+        dexNum: '0164',
+        name: 'Noctowl',
+        type: ['Normal', 'Flying'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['163'],
+      },
+      {
+        id: '165',
+        dexNum: '0165',
+        name: 'Ledyba',
+        type: ['Bug', 'Flying'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '166',
+        dexNum: '0166',
+        name: 'Ledian',
+        type: ['Bug', 'Flying'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['165'],
+      },
+      {
+        id: '167',
+        dexNum: '0167',
+        name: 'Spinarak',
+        type: ['Bug', 'Poison'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '168',
+        dexNum: '0168',
+        name: 'Ariados',
+        type: ['Bug', 'Poison'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['167'],
+      },
+      {
+        id: '169',
+        dexNum: '0169',
+        name: 'Crobat',
+        type: ['Poison', 'Flying'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['41', '42'],
+      },
+      {
+        id: '170',
+        dexNum: '0170',
+        name: 'Chinchou',
+        type: ['Water', 'Electric'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '171',
+        dexNum: '0171',
+        name: 'Lanturn',
+        type: ['Water', 'Electric'],
+        availableIn: ['HGSS'],
+        finalStage: ['HGSS'],
+        preEvo: ['170'],
+      },
+      {
+        id: '172',
+        dexNum: '0172',
+        name: 'Pichu',
+        type: ['Electric'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '173',
+        dexNum: '0173',
+        name: 'Cleffa',
+        type: ['Fairy'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '174',
+        dexNum: '0174',
+        name: 'Igglybuff',
+        type: ['Normal', 'Fairy'],
+        availableIn: ['HGSS']
+      },
+      {
+        id: '175',
+        dexNum: '0175',
+        name: 'Togepi',
+        type: ['Fairy'],
+        availableIn: ['HGSS']
+      },
 ]

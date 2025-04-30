@@ -4,8 +4,8 @@ export const pokemon101_125 = [
         dexNum: '0101',
         name: 'Electrode',
         type: ['Electric'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['100']
       },
       {
@@ -13,15 +13,15 @@ export const pokemon101_125 = [
         dexNum: '0102',
         name: 'Exeggcute',
         type: ['Grass', 'Psychic'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '103',
         dexNum: '0103',
         name: 'Exeggutor',
         type: ['Grass', 'Psychic'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['102'],
       },
       {
@@ -29,15 +29,15 @@ export const pokemon101_125 = [
         dexNum: '0104',
         name: 'Cubone',
         type: ['Ground'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '105',
         dexNum: '0105',
         name: 'Marowak',
         type: ['Ground'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['104'],
       },
       {
@@ -45,8 +45,8 @@ export const pokemon101_125 = [
         dexNum: '0106',
         name: 'Hitmonlee',
         type: ['Fighting'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['236'],
       },
       {
@@ -54,8 +54,8 @@ export const pokemon101_125 = [
         dexNum: '0107',
         name: 'Hitmonchan',
         type: ['Fighting'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['236']
       },
       {
@@ -63,23 +63,23 @@ export const pokemon101_125 = [
         dexNum: '0108',
         name: 'Lickitung',
         type: ['Normal'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG']
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS']
       },
       {
         id: '109',
         dexNum: '0109',
         name: 'Koffing',
         type: ['Poison'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '110',
         dexNum: '0110',
         name: 'Weezing',
         type: ['Poison'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['109']
       },
       {
@@ -87,15 +87,15 @@ export const pokemon101_125 = [
         dexNum: '0111',
         name: 'Rhyhorn',
         type: ['Ground', 'Rock'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '112',
         dexNum: '0112',
         name: 'Rhydon',
         type: ['Ground', 'Rock'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['111'],
       },
       {
@@ -103,7 +103,7 @@ export const pokemon101_125 = [
         dexNum: '0113',
         name: 'Chansey',
         type: ['Normal'],
-        availableIn: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
         finalStage: ['FRLG'],
         preEvo: ['440'],
       },
@@ -112,30 +112,30 @@ export const pokemon101_125 = [
         dexNum: '0114',
         name: 'Tangela',
         type: ['Grass'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG']
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS']
       },
       {
         id: '115',
         dexNum: '0115',
         name: 'Kangaskhan',
         type: ['Normal'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG']
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS']
       },
       {
         id: '116',
         dexNum: '0116',
         name: 'Horsea',
         type: ['Water'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '117',
         dexNum: '0117',
         name: 'Seadra',
         type: ['Water'],
-        availableIn: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
         finalStage: ['FRLG'],
         preEvo: ['116'],
       },
@@ -144,15 +144,15 @@ export const pokemon101_125 = [
         dexNum: '0118',
         name: 'Goldeen',
         type: ['Water'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '119',
         dexNum: '0119',
         name: 'Seaking',
         type: ['Water'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['118'],
       },
       {
@@ -160,15 +160,15 @@ export const pokemon101_125 = [
         dexNum: '0120',
         name: 'Staryu',
         type: ['Water'],
-        availableIn: ['FRLG']
+        availableIn: ['FRLG', 'HGSS']
       },
       {
         id: '121',
         dexNum: '0121',
         name: 'Starmie',
         type: ['Water', 'Psychic'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['120'],
       },
       {
@@ -176,8 +176,8 @@ export const pokemon101_125 = [
         dexNum: '0122',
         name: 'Mr. Mime',
         type: ['Psychic', 'Fairy'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['439'],
       },
       {
@@ -185,7 +185,7 @@ export const pokemon101_125 = [
         dexNum: '0123',
         name: 'Scyther',
         type: ['Bug', 'Flying'],
-        availableIn: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
         finalStage: ['FRLG'],
       },
       {
@@ -193,8 +193,8 @@ export const pokemon101_125 = [
         dexNum: '0124',
         name: 'Jynx',
         type: ['Ice', 'Psychic'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['238'],
       },
       {
@@ -202,8 +202,8 @@ export const pokemon101_125 = [
         dexNum: '0125',
         name: 'Electabuzz',
         type: ['Electric'],
-        availableIn: ['FRLG'],
-        finalStage: ['FRLG'],
+        availableIn: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS'],
         preEvo: ['239'],
       },
 ]
