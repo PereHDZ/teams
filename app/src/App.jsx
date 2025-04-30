@@ -6,25 +6,22 @@ import './App.css'
 
 import GenGrid from './components/GenGrid'
 import TeamGrid from './components/TeamGrid'
+import PokemonSelector from './components/PokemonSelector'
 
 function App() {
-  const [available, setAvailable] = useState([])
+  const [selectorVisible, setSelectorVisible ] = useState(false)
+  const [selectedType, setSelectedType ] = useState(null)
+  const [selectedGame, setSelectedGame ] = useState(null)
+
+  function handleShowSelector(type, game) {
+    setSelectedType(type)
+    setSelectedGame(game)
+    setSelectorVisible(true)
+  }
 
   function newRegion (name, start, end, color){
     return {name, start, end, color}  
   }
-
-  useEffect(() => {
-    logic.retrieveFinalStagesFromGame('FRLG')
-      .then(finalStages => {
-        console.log('Final Stages: ', finalStages)
-        setAvailable(finalStages)
-      })
-      .catch(error => {
-        console.error('Error fetching final stages: ', error)
-        alert(error)
-      })
-  }, [])
   
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
@@ -41,16 +38,23 @@ function App() {
 
   return (
     <>
-      {/* <div className='pokemon-selector'>
-        <h1>Hola</h1>
-      </div>      */}
+      {selectorVisible && (
+        <PokemonSelector 
+          type = {selectedType} 
+          game = {selectedGame} />
+      )}
 
       <div className='center'>
         {regions.map(region => {
-          return (<GenGrid start={region.start} end={region.end} color={region.color} name={region.name} key={region.name}/>)
+          return (<GenGrid 
+            start={region.start} 
+            end={region.end} 
+            color={region.color} 
+            name={region.name} 
+            key={region.name}/>)
         })}
 
-        <TeamGrid/>
+        <TeamGrid onShowSelector = { handleShowSelector }/>
       </div>
     </>
   )

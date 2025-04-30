@@ -1,10 +1,13 @@
 import './Team.css'
 
-function Team () {
+function Team ({ game, onSelect }) {
+    function handleTeamMemberSelect(type) {
+        onSelect(type, game)
+    }
 
     return <>
         <div className='teams'>
-            <button className='team-button'>
+            <button className='team-button' onClick={() => handleTeamMemberSelect('Grass')}>
                 <img src='public\type_icons\Grass_icon_Sleep.png' alt='Grass Type'/>
                 <span className='tooltip'>Select a Grass Type</span>
             </button>     
