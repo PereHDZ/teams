@@ -1,7 +1,24 @@
+import { useEffect, useState } from 'react'
 import './GenGrid.css'
+import logic from '../logic'
 
 function GenGrid ({end, start, color, name}) {
-    const items = Array.from({ length: end - start + 1 }, (_, index) => start + index)
+    const [allBaseForms, setAllBaseForms] = useState([])
+
+    useEffect(() => {
+        try {
+            logic.retrieveBaseForms()
+                .then(setAllBaseForms)
+                .catch(error => alert(error))
+        } catch (error) {
+            alert(error)
+        }
+    }, [])
+
+    const filteredBaseForms = allBaseForms.filter(baseForm => {
+        const numId = Number(baseForm.id)
+        return numId >= start && numId <= end
+    })
 
     return <>
         <div className='grid-wrapper'>
@@ -10,11 +27,11 @@ function GenGrid ({end, start, color, name}) {
             </div>
 
             <div className="grid">
-                {items.map((item) => (
-                    <div key={item} className='sprite-cell' style={{backgroundColor: color}}>
+                {filteredBaseForms.map((baseForm) => (
+                    <div key={baseForm.id} className='sprite-cell' style={{backgroundColor: color}}>
                         <img
-                            src={`public/national/image_${item}.jpg`}
-                            alt={`Pokémon ${item}`}
+                            src={`public/national/image_${baseForm.id}.jpg`}
+                            alt={`Pokémon ${baseForm.name}`}
                             className='sprite-img'
                         />
                     </div>

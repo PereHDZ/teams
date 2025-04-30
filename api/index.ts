@@ -17,6 +17,7 @@ mongoose.connect(MONGODB_URL)
 
         api.use(cors())
         api.use(express.json())
+        
 
         api.get('/pokemons/finalStages/:game', async (req, res) => {
             const { game } = req.params;
@@ -30,7 +31,23 @@ mongoose.connect(MONGODB_URL)
                 console.error('Error occurred:', error.message);
                 res.status(500).json({ error: error.message });
             }
-        });
+        })
+
+
+        api.get('/pokemons/baseForms', async (req, res) => {
+            const { game } = req.params;
+            console.log(`Received request for game: ${game}`);
+        
+            try {
+                const finalStages = await logic.retrieveBaseForms();
+                console.log('Sending response:', finalStages);
+                res.json(finalStages);
+            } catch (error: any) {
+                console.error('Error occurred:', error.message);
+                res.status(500).json({ error: error.message });
+            }
+        })
+
 
         api.listen(PORT, () => {
             console.log(`API listening on port ${PORT}`);

@@ -1,7 +1,9 @@
 import retrieveFinalStagesFromGame from "./retrieveFinalStagesByGame";
+import retrieveBaseForms from "./retrieveBaseForms"
 
 const logic = {
-    retrieveFinalStagesFromGame
+    retrieveFinalStagesFromGame,
+    retrieveBaseForms
 }
 
 export default logic
