@@ -5,6 +5,7 @@ type PokemonType = {
     type: string[],
     availableIn: string[],
     baseForm: boolean,
+    form?: string,
     finalStage?: string[],
     preEvo?: string[],
 }

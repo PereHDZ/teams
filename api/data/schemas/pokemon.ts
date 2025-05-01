@@ -27,6 +27,10 @@ const pokemon = new Schema ({
         type: Boolean,
         required: true
     },
+    form: {
+        type: String,
+        required:false
+    },
     finalStage: {
         type: [String],
         required: false

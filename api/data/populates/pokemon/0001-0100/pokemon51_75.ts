@@ -194,7 +194,7 @@ export const pokemon51_75 = [
         dexNum: '0072',
         name: 'Tentacool',
         type: ['Water', 'Poison'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
         baseForm: true
     },
       {
@@ -202,9 +202,9 @@ export const pokemon51_75 = [
         dexNum: '0073',
         name: 'Tentacruel',
         type: ['Water', 'Poison'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
         preEvo: ['72'],
       },
       {

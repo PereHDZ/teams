@@ -68,7 +68,7 @@ export const pokemon326_350 = [
     dexNum: '0333',
     name: 'Swablu',
     type: ['Normal', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -76,9 +76,9 @@ export const pokemon326_350 = [
     dexNum: '0334',
     name: 'Altaria',
     type: ['Dragon', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum'],
     preEvo: ['333']
   },
   {
@@ -122,7 +122,7 @@ export const pokemon326_350 = [
     dexNum: '0339',
     name: 'Barboach',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -130,9 +130,9 @@ export const pokemon326_350 = [
     dexNum: '0340',
     name: 'Whiscash',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum'],
     preEvo: ['339']
   },
   {
@@ -212,7 +212,7 @@ export const pokemon326_350 = [
     dexNum: '0349',
     name: 'Feebas',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -220,9 +220,9 @@ export const pokemon326_350 = [
     dexNum: '0350',
     name: 'Milotic',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum'],
     preEvo: ['349']
   },
 ]

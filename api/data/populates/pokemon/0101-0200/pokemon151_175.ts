@@ -112,7 +112,7 @@ export const pokemon151_175 = [
     dexNum: '0163',
     name: 'Hoothoot',
     type: ['Normal', 'Flying'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
   {
@@ -120,9 +120,9 @@ export const pokemon151_175 = [
     dexNum: '0164',
     name: 'Noctowl',
     type: ['Normal', 'Flying'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'Platinum'],
     preEvo: ['163'],
   },
   {
@@ -194,7 +194,7 @@ export const pokemon151_175 = [
     dexNum: '0172',
     name: 'Pichu',
     type: ['Electric'],
-    availableIn: ['HGSS', 'Emerald'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -202,7 +202,7 @@ export const pokemon151_175 = [
     dexNum: '0173',
     name: 'Cleffa',
     type: ['Fairy'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
   {
@@ -218,7 +218,7 @@ export const pokemon151_175 = [
     dexNum: '0175',
     name: 'Togepi',
     type: ['Fairy'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
 ]

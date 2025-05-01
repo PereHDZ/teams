@@ -40,7 +40,7 @@ export const pokemon351_375 = [
     dexNum: '0355',
     name: 'Duskull',
     type: ['Ghost'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon351_375 = [
     dexNum: '0356',
     name: 'Dusclops',
     type: ['Ghost'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['355']
@@ -58,18 +58,18 @@ export const pokemon351_375 = [
     dexNum: '0357',
     name: 'Tropius',
     type: ['Grass', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'Platinum']
   },
   {
     id: '358',
     dexNum: '0358',
     name: 'Chimecho',
     type: ['Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum'],
     preEvo: ['433']
   },
   {
@@ -77,9 +77,9 @@ export const pokemon351_375 = [
     dexNum: '0359',
     name: 'Absol',
     type: ['Dark'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'Platinum']
   },
   {
     id: '360',
@@ -94,7 +94,7 @@ export const pokemon351_375 = [
     dexNum: '0361',
     name: 'Snorunt',
     type: ['Ice'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -102,7 +102,7 @@ export const pokemon351_375 = [
     dexNum: '0362',
     name: 'Glalie',
     type: ['Ice'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['361']

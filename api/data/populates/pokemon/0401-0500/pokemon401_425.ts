@@ -1,200 +1,288 @@
 export const pokemon401_425 = [
-    {
-        id: '401',
-        dexNum: '0401',
-        name: 'Kircketot',
-        type: ['Bug'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '402',
-        dexNum: '0402',
-        name: 'Kricketune',
-        type: ['Bug'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['Platinum']
-      },
-      {
-        id: '403',
-        dexNum: '0403',
-        name: 'Shinx',
-        type: ['Electric'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '404',
-        dexNum: '0404',
-        name: 'Luxio',
-        type: ['Electric'],
-        availableIn: ['Platinum'],
-        preEvo: ['403']
-      },
-      {
-        id: '405',
-        dexNum: '0405',
-        name: 'Luxray',
-        type: ['Electric'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['403', '404']
-      },
-      {
-        id: '406',
-        dexNum: '0406',
-        name: 'Budew',
-        type: ['Grass', 'Poison'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '407',
-        dexNum: '0407',
-        name: 'Roserade',
-        type: ['Grass', 'Poison'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['406', '315']
-      },
-      {
-        id: '408',
-        dexNum: '0408',
-        name: 'Cranidos',
-        type: ['Rock'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '409',
-        dexNum: '0409',
-        name: 'Rampardos',
-        type: ['Rock'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum']
-      },
-      {
-        id: '410',
-        dexNum: '0410',
-        name: 'Shieldon',
-        type: ['Rock', 'Steel'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '411',
-        dexNum: '0411',
-        name: 'Bastiodon',
-        type: ['Rock', 'Steel'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum']
-      },
-      {
-        id: '412',
-        dexNum: '0412',
-        name: 'Turtwig',
-        type: ['Grass'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '388',
-        dexNum: '0388',
-        name: 'Grotle',
-        type: ['Grass'],
-        availableIn: ['Platinum'],
-        preEvo: ['387']
-      },
-      {
-        id: '389',
-        dexNum: '0389',
-        name: 'Torterra',
-        type: ['Grass', 'Ground'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['387', '388']
-      },
-      {
-        id: '390',
-        dexNum: '0390',
-        name: 'Chimchar',
-        type: ['Fire'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '391',
-        dexNum: '0391',
-        name: 'Monferno',
-        type: ['Fire', 'Fighting'],
-        availableIn: ['Fie', 'Fighting'],
-        preEvo: ['390']
-      },
-      {
-        id: '392',
-        dexNum: '0392',
-        name: 'Infernape',
-        type: ['Fire', 'Fighting'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['390', '391']
-      },
-      {
-        id: '393',
-        dexNum: '0393',
-        name: 'Piplup',
-        type: ['Water'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '394',
-        dexNum: '0394',
-        name: 'Prinplup',
-        type: ['Water'],
-        availableIn: ['Platinum'],
-        preEvo: ['393']
-      },
-      {
-        id: '395',
-        dexNum: '0395',
-        name: 'Empoleon',
-        type: ['Water', 'Steel'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['393', '394']
-      },
-      {
-        id: '396',
-        dexNum: '0396',
-        name: 'Starly',
-        type: ['Normal', 'Flying'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '397',
-        dexNum: '0397',
-        name: 'Staravia',
-        type: ['Normal', 'Flying'],
-        availableIn: ['Platinum'],
-        preEvo: ['396']
-      },
-      {
-        id: '398',
-        dexNum: '0398',
-        name: 'Staraptor',
-        type: ['Normal', 'Flying'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['396', '397']
-      },
-      {
-        id: '399',
-        dexNum: '0399',
-        name: 'Bidoof',
-        type: ['Water'],
-        availableIn: ['Platinum']
-      },
-      {
-        id: '400',
-        dexNum: '0400',
-        name: 'Bibarel',
-        type: ['Normal', 'Water'],
-        availableIn: ['Platinum'],
-        finalStage: ['Platinum'],
-        preEvo: ['399']
-      },
+  {
+    id: '401',
+    dexNum: '0401',
+    name: 'Kircketot',
+    type: ['Bug'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '402',
+    dexNum: '0402',
+    name: 'Kricketune',
+    type: ['Bug'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['Platinum']
+  },
+  {
+    id: '403',
+    dexNum: '0403',
+    name: 'Shinx',
+    type: ['Electric'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '404',
+    dexNum: '0404',
+    name: 'Luxio',
+    type: ['Electric'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    preEvo: ['403']
+  },
+  {
+    id: '405',
+    dexNum: '0405',
+    name: 'Luxray',
+    type: ['Electric'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['403', '404']
+  },
+  {
+    id: '406',
+    dexNum: '0406',
+    name: 'Budew',
+    type: ['Grass', 'Poison'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '407',
+    dexNum: '0407',
+    name: 'Roserade',
+    type: ['Grass', 'Poison'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['406', '315']
+  },
+  {
+    id: '408',
+    dexNum: '0408',
+    name: 'Cranidos',
+    type: ['Rock'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '409',
+    dexNum: '0409',
+    name: 'Rampardos',
+    type: ['Rock'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum']
+  },
+  {
+    id: '410',
+    dexNum: '0410',
+    name: 'Shieldon',
+    type: ['Rock', 'Steel'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '411',
+    dexNum: '0411',
+    name: 'Bastiodon',
+    type: ['Rock', 'Steel'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum']
+  },
+  {
+    id: '412',
+    dexNum: '0412',
+    name: 'Burmy',
+    type: ['Bug'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    form: 'Plant Cloak'
+  },
+  {
+    id: '412A',
+    dexNum: '0412',
+    name: 'Burmy',
+    type: ['Bug'],
+    availableIn: ['Platinum'],
+    baseForm: false,
+    form: 'Sandy Cloak'
+  },
+  {
+    id: '412B',
+    dexNum: '0412',
+    name: 'Burmy',
+    type: ['Bug'],
+    availableIn: ['Platinum'],
+    baseForm: false,
+    form: 'Trash Cloak'
+  },
+  {
+    id: '413',
+    dexNum: '0413',
+    name: 'Wormadam',
+    type: ['Bug', 'Grass'],
+    availableIn: ['Platinum'],
+    finalStage: ['Platinum'],
+    baseForm: true,
+    form: 'Plant Cloak',
+    preEvo: ['412']
+  },
+  {
+    id: '413A',
+    dexNum: '0413',
+    name: 'Wormadam',
+    type: ['Bug', 'Ground'],
+    availableIn: ['Platinum'],
+    finalStage: ['Platinum'],
+    baseForm: false,
+    form: 'Sandy Cloak',
+    preEvo: ['412A']
+  },
+  {
+    id: '413B',
+    dexNum: '0413',
+    name: 'Wormadam',
+    type: ['Bug', 'Steel'],
+    availableIn: ['Platinum'],
+    finalStage: ['Platinum'],
+    baseForm: false,
+    form: 'Trash Cloak',
+    preEvo: ['412B']
+  },
+  {
+    id: '414',
+    dexNum: '0414',
+    name: 'Mothim',
+    type: ['Bug', 'Flying'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['412', '412A', '412B']
+  },
+  {
+    id: '415',
+    dexNum: '0415',
+    name: 'Combee',
+    type: ['Bug', 'Flying'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '416',
+    dexNum: '0416',
+    name: 'Vespiquen',
+    type: ['Bug', 'Flying'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['415']
+  },
+  {
+    id: '417',
+    dexNum: '0417',
+    name: 'Pachirisu',
+    type: ['Electric'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum']
+  },
+  {
+    id: '418',
+    dexNum: '0418',
+    name: 'Buizel',
+    type: ['Water'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '419',
+    dexNum: '0419',
+    name: 'Floatzel',
+    type: ['Water'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    preEvo: ['418']
+  },
+  {
+    id: '420',
+    dexNum: '0420',
+    name: 'Cherubi',
+    type: ['Grass'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
+  {
+    id: '421',
+    dexNum: '0421',
+    name: 'Cherrim',
+    type: ['Grass'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum']
+  },
+  {
+    id: '422',
+    dexNum: '0422',
+    name: 'Shellos',
+    type: ['Water'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    form: 'West Sea'
+  },
+  {
+    id: '422A',
+    dexNum: '0422',
+    name: 'Shellos',
+    type: ['Water'],
+    availableIn: ['Platinum'],
+    baseForm: false,
+    form: 'East Sea'
+  },
+  {
+    id: '423',
+    dexNum: '0423',
+    name: 'Gastrodon',
+    type: ['Water', 'Ground'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    form: 'West Sea',
+    finalStage: ['Platinum'],
+    preEvo: ['422']
+  },
+  {
+    id: '423A',
+    dexNum: '0423',
+    name: 'Gastrodon',
+    type: ['Water', 'Ground'],
+    availableIn: ['Platinum'],
+    baseForm: false,
+    form: 'East Sea',
+    finalStage: ['Platinum'],
+    preEvo: ['422A']
+  },
+  {
+    id: '424',
+    dexNum: '0424',
+    name: 'Ambipom',
+    type: ['Normal'],
+    availableIn: ['Platinum'],
+    baseForm: true,
+    finalStage: ['Platinum'],
+    preEvo: ['190']
+  },
+  {
+    id: '425',
+    dexNum: '0425',
+    name: 'Drifloon',
+    type: ['Ghost', 'Flying'],
+    availableIn: ['Platinum'],
+    baseForm: true
+  },
 ]

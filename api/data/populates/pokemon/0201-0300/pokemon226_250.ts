@@ -4,9 +4,9 @@ export const pokemon226_250 = [
     dexNum: '0226',
     name: 'Mantine',
     type: ['Water', 'Flying'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'Platinum'],
     preEvo: ['458']
   },
   {
@@ -23,7 +23,7 @@ export const pokemon226_250 = [
     dexNum: '0228',
     name: 'Houndour',
     type: ['Dark', 'Frie'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
   {
@@ -31,9 +31,9 @@ export const pokemon226_250 = [
     dexNum: '0229',
     name: 'Houndoom',
     type: ['Dark', 'Fire'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'Platinum'],
     preEvo: ['229']
   },
   {
@@ -69,7 +69,7 @@ export const pokemon226_250 = [
     dexNum: '0233',
     name: 'Porygon2',
     type: ['Normal'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true,
     finalStage: ['HGSS'],
     preEvo: ['137']
@@ -123,7 +123,7 @@ export const pokemon226_250 = [
     dexNum: '0239',
     name: 'Elekid',
     type: ['Electric'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
   {
@@ -131,7 +131,7 @@ export const pokemon226_250 = [
     dexNum: '0240',
     name: 'Magby',
     type: ['Fire'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true
   },
   {
@@ -148,9 +148,9 @@ export const pokemon226_250 = [
     dexNum: '0242',
     name: 'Blissey',
     type: ['Normal'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'Platinum'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'Platinum'],
     preEvo: ['440', '113']
   },
   {

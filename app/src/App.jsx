@@ -28,7 +28,7 @@ function App() {
     newRegion('Johto', 152, 251, '#f2d367'),
     newRegion('Hoenn', 252, 386, '#009551'),
     newRegion('Sinnoh', 387, 493, '#72a2ce'),
-    newRegion('Unova', 493, 649, '#a2aab3'),
+    newRegion('Unova', 494, 649, '#a2aab3'),
     newRegion('Kalos', 650, 721, '#e7bde2'),
     newRegion('Alola', 722, 809, '#e6b065'),
     newRegion('Galar', 810, 898, '#b588d6'),

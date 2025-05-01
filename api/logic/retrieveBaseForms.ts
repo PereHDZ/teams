@@ -7,13 +7,14 @@ async function retrieveBaseForms() : Promise<PokemonType[]> {
             baseForm: true
         }).lean().exec();
         
-        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, finalStage, preEvo}) => ({
+        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, form, finalStage, preEvo}) => ({
             id,
             dexNum,
             name,
             type,
             availableIn,
             baseForm,
+            form,
             finalStage,
             preEvo
         }));

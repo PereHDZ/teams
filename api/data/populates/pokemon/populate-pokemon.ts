@@ -5,7 +5,7 @@ import { Pokemon } from "../../models"
 import allPokemon from '.'
 
 for (const pokemon of allPokemon) {
-    if (pokemon.baseForm === undefined) {
+    if (pokemon.name === undefined) {
       console.warn(`Missing baseForm for Pokémon ID ${pokemon.id} - ${pokemon.name}`);
     }
   }

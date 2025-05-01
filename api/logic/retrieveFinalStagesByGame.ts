@@ -8,12 +8,14 @@ async function retrieveFinalStagesFromGame(game:string) : Promise<PokemonType[]>
             availableIn: { $in: [game] }
         }).lean().exec();
         
-        return finalStages.map(({ id, dexNum, name, type, availableIn, finalStage, preEvo}) => ({
+        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, form, finalStage, preEvo}) => ({
             id,
             dexNum,
             name,
             type,
             availableIn,
+            baseForm,
+            form,
             finalStage,
             preEvo
         }));

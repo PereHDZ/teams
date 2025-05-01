@@ -59,7 +59,7 @@ export const pokemon301_325 = [
     dexNum: '0307',
     name: 'Meditite',
     type: ['Fighting', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true
   },
   {
@@ -67,9 +67,9 @@ export const pokemon301_325 = [
     dexNum: '0308',
     name: 'Medicham',
     type: ['Fighting', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'Platinum'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum'],
     preEvo: ['307']
   },
   {
