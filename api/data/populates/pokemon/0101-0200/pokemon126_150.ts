@@ -13,8 +13,8 @@ export const pokemon126_150 = [
         dexNum: '0127',
         name: 'Pinsir',
         type: ['Bug'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
       },
       {
         id: '128',
@@ -29,15 +29,15 @@ export const pokemon126_150 = [
         dexNum: '0129',
         name: 'Magikarp',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '130',
         dexNum: '0130',
         name: 'Gyarados',
         type: ['Water', 'Flying'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['129'],
       },
       {

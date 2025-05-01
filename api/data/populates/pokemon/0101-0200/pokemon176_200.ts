@@ -13,15 +13,15 @@ export const pokemon176_200 = [
         dexNum: '0177',
         name: 'Natu',
         type: ['Psychic', 'Flying'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '178',
         dexNum: '0178',
         name: 'Xatu',
         type: ['Psychic', 'Flying'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['177'],
       },
       {
@@ -53,8 +53,8 @@ export const pokemon176_200 = [
         dexNum: '0182',
         name: 'Bellossom',
         type: ['Grass'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['43', '44'],
       },
       {
@@ -62,7 +62,7 @@ export const pokemon176_200 = [
         dexNum: '0183',
         name: 'Marill',
         type: ['Water', 'Fairy'],
-        availableIn: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
         preEvo: ['298']
       },
       {
@@ -70,8 +70,8 @@ export const pokemon176_200 = [
         dexNum: '0184',
         name: 'Azumarill',
         type: ['Water', 'Fairy'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['298', '183'],
       },
       {

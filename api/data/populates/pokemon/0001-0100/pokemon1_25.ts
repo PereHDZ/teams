@@ -195,7 +195,7 @@ export const pokemon1_25 = [
         dexNum: '0025',
         name: 'Pikachu',
         type: ['Electric'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['172'],
       },
 ]

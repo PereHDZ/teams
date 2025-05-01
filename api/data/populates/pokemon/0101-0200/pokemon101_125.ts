@@ -4,8 +4,8 @@ export const pokemon101_125 = [
         dexNum: '0101',
         name: 'Electrode',
         type: ['Electric'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['100']
       },
       {
@@ -71,15 +71,15 @@ export const pokemon101_125 = [
         dexNum: '0109',
         name: 'Koffing',
         type: ['Poison'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '110',
         dexNum: '0110',
         name: 'Weezing',
         type: ['Poison'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['109']
       },
       {
@@ -87,15 +87,15 @@ export const pokemon101_125 = [
         dexNum: '0111',
         name: 'Rhyhorn',
         type: ['Ground', 'Rock'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '112',
         dexNum: '0112',
         name: 'Rhydon',
         type: ['Ground', 'Rock'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['111'],
       },
       {
@@ -128,14 +128,14 @@ export const pokemon101_125 = [
         dexNum: '0116',
         name: 'Horsea',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '117',
         dexNum: '0117',
         name: 'Seadra',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
         finalStage: ['FRLG'],
         preEvo: ['116'],
       },
@@ -144,15 +144,15 @@ export const pokemon101_125 = [
         dexNum: '0118',
         name: 'Goldeen',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '119',
         dexNum: '0119',
         name: 'Seaking',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['118'],
       },
       {
@@ -160,15 +160,15 @@ export const pokemon101_125 = [
         dexNum: '0120',
         name: 'Staryu',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '121',
         dexNum: '0121',
         name: 'Starmie',
         type: ['Water', 'Psychic'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['120'],
       },
       {

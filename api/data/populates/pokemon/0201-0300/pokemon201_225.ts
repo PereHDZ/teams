@@ -12,8 +12,8 @@ export const pokemon201_225 = [
         dexNum: '0202',
         name: 'Wobbuffet',
         type: ['Psychic'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['360']
       },
       {
@@ -21,8 +21,8 @@ export const pokemon201_225 = [
         dexNum: '0203',
         name: 'Griafarig',
         type: ['Normal', 'Psychic'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS']
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald']
       },
       {
         id: '204',
@@ -111,8 +111,8 @@ export const pokemon201_225 = [
         dexNum: '0214',
         name: 'Heracross',
         type: ['Bug', 'Fighting'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS']
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald']
       },
       {
         id: '215',
@@ -143,15 +143,15 @@ export const pokemon201_225 = [
         dexNum: '0218',
         name: 'Slugma',
         type: ['Fire'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '219',
         dexNum: '0219',
         name: 'Magcargo',
         type: ['Fire', 'Rock'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['218']
       },
       {
@@ -175,8 +175,8 @@ export const pokemon201_225 = [
         dexNum: '0222',
         name: 'Corsola',
         type: ['Water', 'Rock'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS']
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald']
       },
       {
         id: '223',

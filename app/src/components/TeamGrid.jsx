@@ -32,7 +32,7 @@ function TeamGrid ( { onShowSelector }) {
                 <div className='games'>
                     {leiaGames.map(game => {
                         return (
-                            <div className='game' style={{backgroundColor: '#5996c5'}}>
+                            <div className='game' style={{backgroundColor: '#f16a81'}}>
                                 <h2>{game}</h2>
                                 <Team game = {game} onSelect = { onShowSelector } />
                             </div>

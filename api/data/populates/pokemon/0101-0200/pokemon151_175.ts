@@ -148,8 +148,8 @@ export const pokemon151_175 = [
         dexNum: '0169',
         name: 'Crobat',
         type: ['Poison', 'Flying'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['41', '42'],
       },
       {
@@ -157,15 +157,15 @@ export const pokemon151_175 = [
         dexNum: '0170',
         name: 'Chinchou',
         type: ['Water', 'Electric'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '171',
         dexNum: '0171',
         name: 'Lanturn',
         type: ['Water', 'Electric'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['170'],
       },
       {
@@ -173,7 +173,7 @@ export const pokemon151_175 = [
         dexNum: '0172',
         name: 'Pichu',
         type: ['Electric'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '173',
@@ -187,7 +187,7 @@ export const pokemon151_175 = [
         dexNum: '0174',
         name: 'Igglybuff',
         type: ['Normal', 'Fairy'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '175',

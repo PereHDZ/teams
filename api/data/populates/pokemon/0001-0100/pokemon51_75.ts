@@ -29,15 +29,15 @@ export const pokemon51_75 = [
         dexNum: '0054',
         name: 'Psyduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '55',
         dexNum: '0055',
         name: 'Golduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['54'],
       },
       {
@@ -101,14 +101,14 @@ export const pokemon51_75 = [
         dexNum: '0063',
         name: 'Abra',
         type: ['Psychic'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '64',
         dexNum: '0064',
         name: 'Kadabra',
         type: ['Psychic'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerlad'],
         preEvo: ['63'],
       },
       {
@@ -116,8 +116,8 @@ export const pokemon51_75 = [
         dexNum: '0065',
         name: 'Alakazam',
         type: ['Psychic'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['63', '64'],
       },
       {
@@ -125,14 +125,14 @@ export const pokemon51_75 = [
         dexNum: '0066',
         name: 'Machop',
         type: ['Fighting'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '67',
         dexNum: '67',
         name: 'Machoke',
         type: ['Fighting'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['66']
       },
       {
@@ -140,8 +140,8 @@ export const pokemon51_75 = [
         dexNum: '0068',
         name: 'Machamp',
         type: ['Fighting'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['67', '68'],
       },
       {
@@ -173,15 +173,15 @@ export const pokemon51_75 = [
         dexNum: '0072',
         name: 'Tentacool',
         type: ['Water', 'Poison'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '73',
         dexNum: '0073',
         name: 'Tentacruel',
         type: ['Water', 'Poison'],
-        availableIn: ['FRLG', 'HGSS'],
-        finalStage: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['72'],
       },
       {
@@ -189,14 +189,14 @@ export const pokemon51_75 = [
         dexNum: '0074',
         name: 'Geodude',
         type: ['Rock', 'Ground'],
-        availableIn: ['FRLG', 'HGSS']
+        availableIn: ['FRLG', 'HGSS', 'Emerald']
       },
       {
         id: '75',
         dexNum: '0075',
         name: 'Graveler',
         type: ['Rock', 'Ground'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald'],
         preEvo: ['74']
       },
 ]

@@ -13,8 +13,8 @@ export const pokemon226_250 = [
         dexNum: '0227',
         name: 'Skarmory',
         type: ['Steel', 'Flying'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS']
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald']
       },
       {
         id: '228',
@@ -37,8 +37,8 @@ export const pokemon226_250 = [
         dexNum: '0230',
         name: 'Kingdra',
         type: ['Water', 'Dragon'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['116', '117'],
       },
       {
@@ -46,15 +46,15 @@ export const pokemon226_250 = [
         dexNum: '0231',
         name: 'Phanpy',
         type: ['Ground'],
-        availableIn: ['HGSS']
+        availableIn: ['HGSS', 'Emerald']
       },
       {
         id: '232',
         dexNum: '0232',
         name: 'Donphan',
         type: ['Ground'],
-        availableIn: ['HGSS'],
-        finalStage: ['HGSS'],
+        availableIn: ['HGSS', 'Emerald'],
+        finalStage: ['HGSS', 'Emerald'],
         preEvo: ['231']
       },
       {
