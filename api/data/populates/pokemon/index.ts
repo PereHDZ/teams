@@ -15,6 +15,8 @@ import { pokemon326_350 } from "./0301-0400/pokemon326_350"
 import { pokemon351_375 } from "./0301-0400/pokemon351_375"
 import { pokemon376_400 } from "./0301-0400/pokemon376_400"
 
+
+
 export default [
     ...pokemon1_25, 
     ...pokemon26_50,

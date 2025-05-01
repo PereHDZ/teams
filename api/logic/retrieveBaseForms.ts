@@ -4,15 +4,16 @@ import {PokemonType} from '../data/types'
 async function retrieveBaseForms() : Promise<PokemonType[]> {
     try {
         const finalStages = await Pokemon.find({ 
-            id: { $regex: /^[0-9]+$/ }
+            baseForm: true
         }).lean().exec();
         
-        return finalStages.map(({ id, dexNum, name, type, availableIn, finalStage, preEvo}) => ({
+        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, finalStage, preEvo}) => ({
             id,
             dexNum,
             name,
             type,
             availableIn,
+            baseForm,
             finalStage,
             preEvo
         }));

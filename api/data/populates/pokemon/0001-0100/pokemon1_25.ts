@@ -5,13 +5,16 @@ export const pokemon1_25 = [
         name: 'Bulbasaur',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true
       },
+
       {
         id: '2',
         dexNum: '0002',
         name: 'Ivysaur',
-        type: ['Grass', 'Poison'],
+        type: ['Grass', 'Poison'], 
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['1'],
       },
       {
@@ -20,6 +23,7 @@ export const pokemon1_25 = [
         name: 'Venusaur',
         type: ['Grass', 'Poison'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['1','2'],
       },
@@ -27,7 +31,9 @@ export const pokemon1_25 = [
         id: '4',
         dexNum: '0004',
         name: 'Charmander',
-        type: ['Fire', 'HGSS']
+        type: ['Fire'],
+        avalableIn: ['FRLG', 'HGSS'],
+        baseForm: true
       },
       {
         id: '5',
@@ -35,6 +41,7 @@ export const pokemon1_25 = [
         name: 'Charmeleon',
         type: ['Fire', 'HGSS'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['4'],
       },
       {
@@ -43,6 +50,7 @@ export const pokemon1_25 = [
         name: 'Charizard',
         type: ['Fire', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['4', '5'],
       },
@@ -52,13 +60,15 @@ export const pokemon1_25 = [
         name: 'Squirtle',
         type: ['Water'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '8',
         dexNum: '0008',
         name: 'Wartortle',
         type: ['Water'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['7'],
       },
       {
@@ -67,6 +77,7 @@ export const pokemon1_25 = [
         name: 'Blastoise',
         type: ['Water'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['7', '8'],
       },
@@ -76,13 +87,15 @@ export const pokemon1_25 = [
         name: 'Caterpie',
         type: ['Bug'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '11',
         dexNum: '0011',
         name: 'Metapod',
         type: ['Bug'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['10'],
       },
       {
@@ -91,6 +104,7 @@ export const pokemon1_25 = [
         name: 'Butterfree',
         type: ['Bug', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['10', '11'],
       },
@@ -100,13 +114,15 @@ export const pokemon1_25 = [
         name: 'Weedle',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '14',
         dexNum: '0014',
         name: 'Kakuna',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['13'],
       },
       {
@@ -115,6 +131,7 @@ export const pokemon1_25 = [
         name: 'Beedrill',
         type: ['Bug', 'Poison'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG'],
         preEvo: ['13', '14'],
       },
@@ -124,13 +141,15 @@ export const pokemon1_25 = [
         name: 'Pidgey',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '17',
         dexNum: '0017',
         name: 'Pidgeotto',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         preEvo: ['16']
       },
       {
@@ -139,6 +158,7 @@ export const pokemon1_25 = [
         name: 'Pidgeot',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['16', '17'],
       },
@@ -148,13 +168,15 @@ export const pokemon1_25 = [
         name: 'Rattata',
         type: ['Normal'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '20',
         dexNum: '0020',
         name: 'Raticate',
         type: ['Normal'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['19'],
       },
@@ -164,13 +186,15 @@ export const pokemon1_25 = [
         name: 'Spearow',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '22',
         dexNum: '0022',
         name: 'Fearow',
         type: ['Normal', 'Flying'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['21'],
       },
@@ -180,13 +204,15 @@ export const pokemon1_25 = [
         name: 'Ekans',
         type: ['Poison'],
         availableIn: ['FRLG', 'HGSS'],
-      },
+      baseForm: true,},
+
       {
         id: '24',
         dexNum: '0024',
         name: 'Arbok',
         type: ['Poison'],
         availableIn: ['FRLG', 'HGSS'],
+        baseForm: true,
         finalStage: ['FRLG', 'HGSS'],
         preEvo: ['23'],
       },
@@ -196,6 +222,7 @@ export const pokemon1_25 = [
         name: 'Pikachu',
         type: ['Electric'],
         availableIn: ['FRLG', 'HGSS', 'Emerald'],
+        baseForm: true,
         preEvo: ['172'],
       },
 ]
