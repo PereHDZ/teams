@@ -103,7 +103,7 @@ export const pokemon401_425 = [
     type: ['Bug'],
     availableIn: ['Platinum'],
     baseForm: true,
-    form: 'Plant Cloak'
+    form: 'Burmy Plant Cloak'
   },
   {
     id: '412A',
@@ -112,7 +112,7 @@ export const pokemon401_425 = [
     type: ['Bug'],
     availableIn: ['Platinum'],
     baseForm: false,
-    form: 'Sandy Cloak'
+    form: 'Burmy Sandy Cloak'
   },
   {
     id: '412B',
@@ -121,7 +121,7 @@ export const pokemon401_425 = [
     type: ['Bug'],
     availableIn: ['Platinum'],
     baseForm: false,
-    form: 'Trash Cloak'
+    form: 'Burmy Trash Cloak'
   },
   {
     id: '413',
@@ -131,7 +131,7 @@ export const pokemon401_425 = [
     availableIn: ['Platinum'],
     finalStage: ['Platinum'],
     baseForm: true,
-    form: 'Plant Cloak',
+    form: 'Wormadam Plant Cloak',
     preEvo: ['412']
   },
   {
@@ -142,7 +142,7 @@ export const pokemon401_425 = [
     availableIn: ['Platinum'],
     finalStage: ['Platinum'],
     baseForm: false,
-    form: 'Sandy Cloak',
+    form: 'Wormadam Sandy Cloak',
     preEvo: ['412A']
   },
   {
@@ -153,7 +153,7 @@ export const pokemon401_425 = [
     availableIn: ['Platinum'],
     finalStage: ['Platinum'],
     baseForm: false,
-    form: 'Trash Cloak',
+    form: 'Wormadam Trash Cloak',
     preEvo: ['412B']
   },
   {

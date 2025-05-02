@@ -12,8 +12,9 @@
 
   .pokemon-picker {
     background-color: white;
-    width: 95%;
-    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    min-height: 90%;
     border-radius: 8px;
     margin: 10px 0px 10px 0px;
   }

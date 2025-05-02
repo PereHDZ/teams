@@ -1,0 +1,8 @@
+.selector-cell {
+    width: 100px;
+    height: 100px;
+}
+
+.big-sprite {
+    max-width: 100px;
+}
