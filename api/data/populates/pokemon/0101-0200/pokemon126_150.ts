@@ -4,7 +4,7 @@ export const pokemon126_150 = [
     dexNum: '0126',
     name: 'Magmar',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS'],
     preEvo: ['240']
@@ -14,9 +14,9 @@ export const pokemon126_150 = [
     dexNum: '0127',
     name: 'Pinsir',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
   },
   {
     id: '128',
@@ -50,25 +50,25 @@ export const pokemon126_150 = [
     dexNum: '0131',
     name: 'Lapras',
     type: ['Water', 'Ice'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS']
+    finalStage: ['FRLG', 'HGSS', 'B2W2']
   },
   {
     id: '132',
     dexNum: '0132',
     name: 'Ditto',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS']
+    finalStage: ['FRLG', 'HGSS', 'B2W2']
   },
   {
     id: '133',
     dexNum: '0133',
     name: 'Eevee',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -76,9 +76,9 @@ export const pokemon126_150 = [
     dexNum: '0134',
     name: 'Vaporeon',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     preEvo: ['133'],
   },
   {
@@ -86,9 +86,9 @@ export const pokemon126_150 = [
     dexNum: '0135',
     name: 'Jolteon',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     preEvo: ['133']
   },
   {
@@ -96,9 +96,9 @@ export const pokemon126_150 = [
     dexNum: '0136',
     name: 'Flareon',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     preEvo: ['133'],
   },
   {

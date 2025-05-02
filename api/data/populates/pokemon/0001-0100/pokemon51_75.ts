@@ -32,7 +32,7 @@ export const pokemon51_75 = [
         dexNum: '0054',
         name: 'Psyduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
         baseForm: true
       },
       {
@@ -40,9 +40,9 @@ export const pokemon51_75 = [
         dexNum: '0055',
         name: 'Golduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
         preEvo: ['54'],
       },
       {
@@ -68,7 +68,7 @@ export const pokemon51_75 = [
         dexNum: '0058',
         name: 'Growlithe',
         type: ['Fire'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'B2W2'],
         baseForm: true
       },
       {
@@ -76,9 +76,9 @@ export const pokemon51_75 = [
         dexNum: '0058',
         name: 'Arcanine',
         type: ['Fire'],
-        availableIn: ['FRLG', 'HGSS'],
+        availableIn: ['FRLG', 'HGSS', 'B2W2'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS'],
+        finalStage: ['FRLG', 'HGSS', 'B2W2'],
         preEvo: ['58'],
       },
       {

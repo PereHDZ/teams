@@ -49,7 +49,7 @@ export const pokemon401_425 = [
     dexNum: '0406',
     name: 'Budew',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -57,9 +57,9 @@ export const pokemon401_425 = [
     dexNum: '0407',
     name: 'Roserade',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'B2W2'],
     preEvo: ['406', '315']
   },
   {
@@ -198,7 +198,7 @@ export const pokemon401_425 = [
     dexNum: '0418',
     name: 'Buizel',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -206,8 +206,9 @@ export const pokemon401_425 = [
     dexNum: '0419',
     name: 'Floatzel',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'B2W2'],
     baseForm: true,
+    finalStage: ['Platinum', 'B2W2'],
     preEvo: ['418']
   },
   {
@@ -234,7 +235,7 @@ export const pokemon401_425 = [
     type: ['Water'],
     availableIn: ['Platinum'],
     baseForm: true,
-    form: 'West Sea'
+    form: 'Shellos West Sea'
   },
   {
     id: '422A',
@@ -243,7 +244,7 @@ export const pokemon401_425 = [
     type: ['Water'],
     availableIn: ['Platinum'],
     baseForm: false,
-    form: 'East Sea'
+    form: 'Shellos East Sea'  
   },
   {
     id: '423',
@@ -252,7 +253,7 @@ export const pokemon401_425 = [
     type: ['Water', 'Ground'],
     availableIn: ['Platinum'],
     baseForm: true,
-    form: 'West Sea',
+    form: 'Gastrodon West Sea',
     finalStage: ['Platinum'],
     preEvo: ['422']
   },
@@ -263,7 +264,7 @@ export const pokemon401_425 = [
     type: ['Water', 'Ground'],
     availableIn: ['Platinum'],
     baseForm: false,
-    form: 'East Sea',
+    form: 'Gastrodon East Sea',
     finalStage: ['Platinum'],
     preEvo: ['422A']
   },
@@ -282,7 +283,7 @@ export const pokemon401_425 = [
     dexNum: '0425',
     name: 'Drifloon',
     type: ['Ghost', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'B2W2'],
     baseForm: true
   },
 ]

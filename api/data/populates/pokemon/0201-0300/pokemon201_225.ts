@@ -50,16 +50,16 @@ export const pokemon201_225 = [
     dexNum: '0206',
     name: 'Dunsparce',
     type: ['Normal'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS']
+    finalStage: ['HGSS', 'B2W2']
   },
   {
     id: '207',
     dexNum: '0207',
     name: 'Gligar',
     type: ['Ground', 'Flying'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['HGSS']
   },
@@ -68,9 +68,9 @@ export const pokemon201_225 = [
     dexNum: '0208',
     name: 'Steelix',
     type: ['Ground', 'Steel'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2'],
     preEvo: ['95']
   },
   {
@@ -115,25 +115,25 @@ export const pokemon201_225 = [
     dexNum: '0213',
     name: 'Shuckle',
     type: ['Bug', 'Rock'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS']
+    finalStage: ['HGSS', 'B2W2']
   },
   {
     id: '214',
     dexNum: '0214',
     name: 'Heracross',
     type: ['Bug', 'Fighting'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'Platinum']
+    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2']
   },
   {
     id: '215',
     dexNum: '0215',
     name: 'Sneasel',
     type: ['Dark', 'Ice'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['HGSS']
   },
@@ -178,7 +178,7 @@ export const pokemon201_225 = [
     dexNum: '0220',
     name: 'Swunib',
     type: ['Ice', 'Ground'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -186,7 +186,7 @@ export const pokemon201_225 = [
     dexNum: '0221',
     name: 'Piloswine',
     type: ['Ice', 'Ground'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['HGSS'],
     preEvo: ['220'],
@@ -196,16 +196,16 @@ export const pokemon201_225 = [
     dexNum: '0222',
     name: 'Corsola',
     type: ['Water', 'Rock'],
-    availableIn: ['HGSS', 'Emerald'],
+    availableIn: ['HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald']
+    finalStage: ['HGSS', 'Emerald', 'B2W2']
   },
   {
     id: '223',
     dexNum: '0223',
     name: 'Remoraid',
     type: ['Water'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -213,9 +213,9 @@ export const pokemon201_225 = [
     dexNum: '0224',
     name: 'Octillery',
     type: ['Water'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2'],
     preEvo: ['223']
   },
   {
@@ -223,8 +223,8 @@ export const pokemon201_225 = [
     dexNum: '0225',
     name: 'Delibird',
     type: ['Ice', 'Flying'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS']
+    finalStage: ['HGSS', 'B2W2']
   },
 ]

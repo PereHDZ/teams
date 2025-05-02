@@ -4,9 +4,9 @@ export const pokemon426_450 = [
       dexNum: '0426',
       name: 'Drifblim',
       type: ['Ghost', 'Flying'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true,
-      finalStage: ['Platinum'],
+      finalStage: ['Platinum', 'B2W2'],
       preEvo: ['425']
     },
     {
@@ -14,7 +14,7 @@ export const pokemon426_450 = [
       dexNum: '0427',
       name: 'Buneary',
       type: ['Normal'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true
     },
     {
@@ -22,9 +22,9 @@ export const pokemon426_450 = [
       dexNum: '0428',
       name: 'Lopunny',
       type: ['Normal'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true,
-      finalStage: ['Platinum'],
+      finalStage: ['Platinum', 'B2W2'],
       preEvo: ['427']
     },
     {
@@ -96,7 +96,7 @@ export const pokemon426_450 = [
       dexNum: '0436',
       name: 'Bronzor',
       type: ['Steel', 'Psychic'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true
     },
     {
@@ -104,9 +104,9 @@ export const pokemon426_450 = [
       dexNum: '0437',
       name: 'Bronzong',
       type: ['Steel', 'Psychic'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true,
-      finalStage: ['Platinum'],
+      finalStage: ['Platinum', 'B2W2'],
       preEvo: ['436']
     },
     {
@@ -191,7 +191,7 @@ export const pokemon426_450 = [
       dexNum: '0447',
       name: 'Riolu',
       type: ['Fighting'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true
     },
     {
@@ -199,9 +199,9 @@ export const pokemon426_450 = [
       dexNum: '0448',
       name: 'Lucario',
       type: ['Fighting', 'Steel'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'B2W2'],
       baseForm: true,
-      finalStage: ['Platinum'],
+      finalStage: ['Platinum', 'B2W2'],
       preEvo: ['447']
     },
     {

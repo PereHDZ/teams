@@ -4,9 +4,9 @@ export const pokemon326_350 = [
     dexNum: '0326',
     name: 'Grumpig',
     type: ['Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'B2W2'],
     preEvo: ['325']
   },
   {
@@ -23,7 +23,7 @@ export const pokemon326_350 = [
     dexNum: '0328',
     name: 'Trapinch',
     type: ['Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -31,7 +31,7 @@ export const pokemon326_350 = [
     dexNum: '0329',
     name: 'Vibrava',
     type: ['Ground', 'Dragon'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['328']
   },
@@ -40,9 +40,9 @@ export const pokemon326_350 = [
     dexNum: '0330',
     name: 'Flygon',
     type: ['Ground', 'Dragon'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['328', '329']
   },
   {
@@ -68,7 +68,7 @@ export const pokemon326_350 = [
     dexNum: '0333',
     name: 'Swablu',
     type: ['Normal', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -76,9 +76,9 @@ export const pokemon326_350 = [
     dexNum: '0334',
     name: 'Altaria',
     type: ['Dragon', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'B2W2'],
     preEvo: ['333']
   },
   {
@@ -86,36 +86,36 @@ export const pokemon326_350 = [
     dexNum: '0335',
     name: 'Zangoose',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'B2W2']
   },
   {
     id: '336',
     dexNum: '0336',
     name: 'Seviper',
     type: ['Poison'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'B2W2']
   },
   {
     id: '337',
     dexNum: '0337',
     name: 'Lunatone',
     type: ['Rock', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'B2W2']
   },
   {
     id: '338',
     dexNum: '0338',
     name: 'Solrock',
     type: ['Rock', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'B2W2']
   },
   {
     id: '339',
@@ -140,7 +140,7 @@ export const pokemon326_350 = [
     dexNum: '0341',
     name: 'Corphish',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -148,9 +148,9 @@ export const pokemon326_350 = [
     dexNum: '0342',
     name: 'Crawdaunt',
     type: ['Water', 'Dark'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['341']
   },
   {
@@ -158,7 +158,7 @@ export const pokemon326_350 = [
     dexNum: '0343',
     name: 'Baltoy',
     type: ['Ground', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -166,9 +166,9 @@ export const pokemon326_350 = [
     dexNum: '0344',
     name: 'Claydol',
     type: ['Ground', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['343']
   },
   {

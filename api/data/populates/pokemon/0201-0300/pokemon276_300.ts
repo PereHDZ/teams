@@ -22,7 +22,7 @@ export const pokemon276_300 = [
     dexNum: '0278',
     name: 'Wingull',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon276_300 = [
     dexNum: '0279',
     name: 'Pelipper',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'B2W2'],
     preEvo: ['278']
   },
   {
@@ -103,7 +103,7 @@ export const pokemon276_300 = [
     dexNum: '0287',
     name: 'Slakoth',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -111,7 +111,7 @@ export const pokemon276_300 = [
     dexNum: '0288',
     name: 'Vigoroth',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['287']
   },
@@ -120,9 +120,9 @@ export const pokemon276_300 = [
     dexNum: '0289',
     name: 'Slaking',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'B2W2'],
     preEvo: ['287', '288']
   },
   {
@@ -203,7 +203,7 @@ export const pokemon276_300 = [
     dexNum: '0298',
     name: 'Azurill',
     type: ['Normal', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -211,7 +211,7 @@ export const pokemon276_300 = [
     dexNum: '0299',
     name: 'Nosepass',
     type: ['Rock'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['Emerald']
   },
@@ -220,7 +220,7 @@ export const pokemon276_300 = [
     dexNum: '0300',
     name: 'Skitty',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
 ]

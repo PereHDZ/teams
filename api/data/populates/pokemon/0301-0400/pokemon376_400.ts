@@ -4,9 +4,9 @@ export const pokemon376_400 = [
     dexNum: '0376',
     name: 'Metagross',
     type: ['Steel', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'B2W2'],
     preEvo: ['374', '375']
   },
   {

@@ -70,7 +70,7 @@ export const pokemon101_125 = [
     dexNum: '0108',
     name: 'Lickitung',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS']
   },
@@ -79,7 +79,7 @@ export const pokemon101_125 = [
     dexNum: '0109',
     name: 'Koffing',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -87,9 +87,9 @@ export const pokemon101_125 = [
     dexNum: '0110',
     name: 'Weezing',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['109']
   },
   {
@@ -125,7 +125,7 @@ export const pokemon101_125 = [
     dexNum: '0114',
     name: 'Tangela',
     type: ['Grass'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS']
   },
@@ -179,7 +179,7 @@ export const pokemon101_125 = [
     dexNum: '0120',
     name: 'Staryu',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -187,9 +187,9 @@ export const pokemon101_125 = [
     dexNum: '0121',
     name: 'Starmie',
     type: ['Water', 'Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['120'],
   },
   {
@@ -226,7 +226,7 @@ export const pokemon101_125 = [
     dexNum: '0125',
     name: 'Electabuzz',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS'],
     preEvo: ['239'],

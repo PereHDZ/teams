@@ -166,7 +166,7 @@ export const pokemon1_25 = [
     dexNum: '0019',
     name: 'Rattata',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true
   },
   {
@@ -174,9 +174,9 @@ export const pokemon1_25 = [
     dexNum: '0020',
     name: 'Raticate',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'B2W2'],
     preEvo: ['19'],
   },
   {

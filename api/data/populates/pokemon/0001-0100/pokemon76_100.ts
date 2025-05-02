@@ -50,7 +50,7 @@ export const pokemon76_100 = [
     dexNum: '0081',
     name: 'Magnemite',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -58,7 +58,7 @@ export const pokemon76_100 = [
     dexNum: '0082',
     name: 'Magneton',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['81']
@@ -95,7 +95,7 @@ export const pokemon76_100 = [
     dexNum: '0086',
     name: 'Seel',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true
   },
   {
@@ -103,9 +103,9 @@ export const pokemon76_100 = [
     dexNum: '0087',
     name: 'Dewgong',
     type: ['Water', 'Ice'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'B2W2'],
     preEvo: ['86'],
   },
   {
@@ -113,7 +113,7 @@ export const pokemon76_100 = [
     dexNum: '0088',
     name: 'Grimer',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -121,9 +121,9 @@ export const pokemon76_100 = [
     dexNum: '0089',
     name: 'Muk',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['88'],
   },
   {
@@ -176,7 +176,7 @@ export const pokemon76_100 = [
     dexNum: '0095',
     name: 'Onix',
     type: ['Rock', 'Ground'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'Bw2W'],
     baseForm: true,
     finalStage: ['FRLG']
   },

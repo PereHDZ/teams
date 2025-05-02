@@ -14,7 +14,7 @@ export const pokemon26_50 = [
     dexNum: '0027',
     name: 'Sandshrew',
     type: ['Ground'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -22,9 +22,9 @@ export const pokemon26_50 = [
     dexNum: '0028',
     name: 'Sandslash',
     type: ['Ground'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['27'],
   },
   {
@@ -86,7 +86,7 @@ export const pokemon26_50 = [
     dexNum: '0035',
     name: 'Clefairy',
     type: ['Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
     preEvo: ['173']
   },
@@ -95,9 +95,9 @@ export const pokemon26_50 = [
     dexNum: '0036',
     name: 'Clefable',
     type: ['Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
     preEvo: ['173', '35'],
   },
   {
@@ -105,7 +105,7 @@ export const pokemon26_50 = [
     dexNum: '0037',
     name: 'Vulpix',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2 '],
     baseForm: true
   },
   {
@@ -113,9 +113,9 @@ export const pokemon26_50 = [
     dexNum: '0038',
     name: 'Ninetales',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['37']
   },
   {
@@ -123,7 +123,7 @@ export const pokemon26_50 = [
     dexNum: '0039',
     name: 'Jigglypuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['174'],
   },
@@ -132,9 +132,9 @@ export const pokemon26_50 = [
     dexNum: '0040',
     name: 'Wigglytuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     preEvo: ['174', '39'],
   },
   {
@@ -142,7 +142,7 @@ export const pokemon26_50 = [
     dexNum: '0041',
     name: 'Zubat',
     type: ['Poison', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -150,7 +150,7 @@ export const pokemon26_50 = [
     dexNum: '42',
     name: 'Golbat',
     type: ['Poison', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['FRLG'],
     preEvo: ['41']

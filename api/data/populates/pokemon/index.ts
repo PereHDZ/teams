@@ -18,6 +18,12 @@ import { pokemon401_425 } from "./0401-0500/pokemon401_425"
 import { pokemon426_450 } from "./0401-0500/pokemon426_450"
 import { pokemon451_475 } from "./0401-0500/pokemon451_475"
 import { pokemon476_500 } from "./0401-0500/pokemon476_500"
+import { pokemon501_525 } from "./0501-0600/pokemon501-525"
+import { pokemon526_550 } from "./0501-0600/pokemon526_550"
+import { pokemon551_575 } from "./0501-0600/pokemon551_575"
+import { pokemon576_600 } from "./0501-0600/pokemon576_600"
+import { pokemon601_625 } from "./0601-0700/pokemon601_700"
+import { pokemon626_650 } from "./0601-0700/pokemon626_650"
 
 export default [
     ...pokemon1_25, 
@@ -39,5 +45,11 @@ export default [
     ...pokemon401_425,
     ...pokemon426_450,
     ...pokemon451_475,
-    ...pokemon476_500
+    ...pokemon476_500,
+    ...pokemon501_525,
+    ...pokemon526_550,
+    ...pokemon551_575,
+    ...pokemon576_600,
+    ...pokemon601_625,
+    ...pokemon626_650
 ]

@@ -4,9 +4,9 @@ export const pokemon301_325 = [
     dexNum: '0301',
     name: 'Delcatty',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'B2W2'],
     preEvo: ['300']
   },
   {
@@ -32,7 +32,7 @@ export const pokemon301_325 = [
     dexNum: '0304',
     name: 'Aron',
     type: ['Steel', 'Rock'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -40,7 +40,7 @@ export const pokemon301_325 = [
     dexNum: '0305',
     name: 'Lairon',
     type: ['Steel', 'Rock'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['304']
   },
@@ -49,9 +49,9 @@ export const pokemon301_325 = [
     dexNum: '0306',
     name: 'Aggron',
     type: ['Steel', 'Rock'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['304', '305']
   },
   {
@@ -131,7 +131,7 @@ export const pokemon301_325 = [
     dexNum: '0315',
     name: 'Roselia',
     type: ['Grass', 'Poison'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['406']
@@ -177,7 +177,7 @@ export const pokemon301_325 = [
     dexNum: '0320',
     name: 'Wailmer',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -185,9 +185,9 @@ export const pokemon301_325 = [
     dexNum: '0321',
     name: 'Wailord',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['320']
   },
   {
@@ -195,7 +195,7 @@ export const pokemon301_325 = [
     dexNum: '0322',
     name: 'Numel',
     type: ['Fire', 'Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -203,9 +203,9 @@ export const pokemon301_325 = [
     dexNum: '0323',
     name: 'Camerupt',
     type: ['Fire', 'Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['322']
   },
   {
@@ -222,7 +222,7 @@ export const pokemon301_325 = [
     dexNum: '0325',
     name: 'Spoink',
     type: ['Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
 ]

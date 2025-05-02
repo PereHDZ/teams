@@ -4,9 +4,9 @@ export const pokemon351_375 = [
     dexNum: '0351',
     name: 'Castfrom',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalSatge: ['Emerald']
+    finalSatge: ['Emerald', 'B2W2']
   },
   {
     id: '352',
@@ -22,7 +22,7 @@ export const pokemon351_375 = [
     dexNum: '0353',
     name: 'Shuppet',
     type: ['Ghost'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon351_375 = [
     dexNum: '0354',
     name: 'Banette',
     type: ['Ghost'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['353']
   },
   {
@@ -58,9 +58,9 @@ export const pokemon351_375 = [
     dexNum: '0357',
     name: 'Tropius',
     type: ['Grass', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum']
+    finalStage: ['Emerald', 'Platinum', 'B2W2']
   },
   {
     id: '358',
@@ -77,9 +77,9 @@ export const pokemon351_375 = [
     dexNum: '0359',
     name: 'Absol',
     type: ['Dark'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum']
+    finalStage: ['Emerald', 'Platinum', 'B2W2']
   },
   {
     id: '360',
@@ -112,7 +112,7 @@ export const pokemon351_375 = [
     dexNum: '0363',
     name: 'Spheal',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -120,7 +120,7 @@ export const pokemon351_375 = [
     dexNum: '0364',
     name: 'Sealeo',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['363']
   },
@@ -129,9 +129,9 @@ export const pokemon351_375 = [
     dexNum: '0365',
     name: 'Walrein',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'B2W2'],
     preEvo: ['363', '364']
   },
   {
@@ -212,7 +212,7 @@ export const pokemon351_375 = [
     dexNum: '0374',
     name: 'Beldum',
     type: ['Steel', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true
   },
   {
@@ -220,7 +220,7 @@ export const pokemon351_375 = [
     dexNum: '0375',
     name: 'Metang',
     type: ['Steel', 'Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'B2W2'],
     baseForm: true,
     preEvo: ['374']
   },

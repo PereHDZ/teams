@@ -166,9 +166,9 @@ export const pokemon151_175 = [
     dexNum: '0169',
     name: 'Crobat',
     type: ['Poison', 'Flying'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'Platinum'],
+    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2'],
     preEvo: ['41', '42'],
   },
   {
@@ -202,7 +202,7 @@ export const pokemon151_175 = [
     dexNum: '0173',
     name: 'Cleffa',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2'],
     baseForm: true
   },
   {
@@ -210,7 +210,7 @@ export const pokemon151_175 = [
     dexNum: '0174',
     name: 'Igglybuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['HGSS', 'Emerald'],
+    availableIn: ['HGSS', 'Emerald', 'B2W2'],
     baseForm: true
   },
   {

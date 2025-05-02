@@ -15,8 +15,10 @@
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     min-height: 90%;
+    max-height: 90vh;
     border-radius: 8px;
     margin: 10px 0px 10px 0px;
+    overflow-y: auto;
   }
 
   form {

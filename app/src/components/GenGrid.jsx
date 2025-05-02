@@ -30,7 +30,7 @@ function GenGrid ({end, start, color, name}) {
                 {filteredBaseForms.map((baseForm) => (
                     <div key={baseForm.id} className='sprite-cell' style={{backgroundColor: color}}>
                         <img
-                            src={`public/national/image_${baseForm.id}.jpg`}
+                            src={`/national/image_${baseForm.id}.jpg`}
                             alt={`Pokémon ${baseForm.name}`}
                             className='sprite-img'
                         />
