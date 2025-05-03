@@ -1,9 +1,11 @@
 import retrieveFinalStagesFromGame from "./retrieveFinalStagesByGame";
 import retrieveBaseForms from "./retrieveBaseForms"
+import retrievePokemonById from "./retrievePokemonById";
 
 const logic = {
     retrieveFinalStagesFromGame,
-    retrieveBaseForms
+    retrieveBaseForms,
+    retrievePokemonById
 }
 
 export default logic

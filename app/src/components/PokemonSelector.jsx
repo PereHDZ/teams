@@ -4,7 +4,10 @@ import logic from '../logic'
 import SelectGrid from './SelectGrid'
 
 function PokemonSelector({ type, game }) {
-    const [availableFinalStages, setAvailableFinalStages] = useState([]) 
+    const [availableFinalStages, setAvailableFinalStages] = useState([])
+    const [activeFinalStage, setActiveFinalStage] = useState(null)
+
+    const filteredByType = type ? availableFinalStages.filter(pokemon => pokemon.type.includes(type)) : availableFinalStages
 
     useEffect(() => {
         try{
@@ -15,18 +18,17 @@ function PokemonSelector({ type, game }) {
             alert(error)
         }
     },[game])
-
-    const filteredByType = type ? availableFinalStages.filter(pokemon => pokemon.type.includes(type)) : availableFinalStages
-    console.log(filteredByType)
+    
+    console.log('Active Final Stage: ', activeFinalStage)
     
     return <>
         <div className='pokemon-selector'>
             <form>
                 <div className='pokemon-picker'>
-                    <SelectGrid finalStages={filteredByType} />
+                    <SelectGrid finalStages={filteredByType} setActiveFinalStage={setActiveFinalStage}/>
                 </div>
 
-                <h3>Pick a Pokémon</h3>
+                {!!activeFinalStage ? <h3>{activeFinalStage}</h3> : <h3>Pick a Pokémon</h3>}
             </form>
         </div>
     </>
