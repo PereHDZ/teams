@@ -6,7 +6,7 @@ async function retrievePokemonById(id:string) : Promise<PokemonType> {
         const pokemon = await Pokemon.findOne({ id }).lean().exec()
 
         if (!pokemon) {
-            throw new Error(`Pokémon wit id ${id} not found`)
+            throw new Error(`Pokémon with id ${id} not found`)
         }
 
         return pokemon as PokemonType

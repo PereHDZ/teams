@@ -182,7 +182,7 @@ export const pokemon576_600 = [
       baseForm: false,
       form: 'Female Jellicent',
       finalStage: ['BW', 'B2W2'],
-      preEvo: ['592B']
+      preEvo: ['592A']
     },
     {
       id: '594',

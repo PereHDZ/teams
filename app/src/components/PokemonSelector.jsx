@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './PokemonSelector.css'
 import logic from '../logic'
 import SelectGrid from './SelectGrid'
+import PreEvoCheckbox from './PreEvoCheckbox'
 
 function PokemonSelector({ type, game }) {
     const [availableFinalStages, setAvailableFinalStages] = useState([])
@@ -28,7 +29,7 @@ function PokemonSelector({ type, game }) {
                     <SelectGrid finalStages={filteredByType} setActiveFinalStage={setActiveFinalStage}/>
                 </div>
 
-                {!!activeFinalStage ? <h3>{activeFinalStage}</h3> : <h3>Pick a Pokémon</h3>}
+                {!!activeFinalStage ? <PreEvoCheckbox id={activeFinalStage}/> : <h3>Pick a Pokémon</h3>}    
             </form>
         </div>
     </>
