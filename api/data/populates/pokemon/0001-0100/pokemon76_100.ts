@@ -32,7 +32,7 @@ export const pokemon76_100 = [
     dexNum: '0079',
     name: 'Slowpoke',
     type: ['Water', 'Psychic', 'HGSS', 'XY'],
-    availableIn: ['FRLG'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {

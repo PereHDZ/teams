@@ -10,16 +10,19 @@
     z-index: 9999;
   }
 
+  .close-button {
+    align-self: flex-start;
+    margin: 5px;
+  }
+
   .pokemon-picker {
     background-color: white;
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    min-height: 90%;
-    max-height: 90vh;
+    flex-grow: 1;
+    overflow: auto;
     border-radius: 8px;
-    margin: 10px 0px 10px 0px;
-    overflow-y: auto;
+    margin: 0px 10px 10px 10px;
     padding: 10px;
+    box-sizing: border-box;
   }
 
   form {
@@ -27,8 +30,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
+    width: fit-content;
     height: 90vh;
     border-radius: 8px;
     border: 1px solid #ccc;
+  }
+
+  .submit-button {
+    margin: 5px;
   }

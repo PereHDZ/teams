@@ -31,14 +31,14 @@ export const pokemon1_25 = [
     dexNum: '0004',
     name: 'Charmander',
     type: ['Fire'],
-    avalableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
     id: '5',
     dexNum: '0005',
     name: 'Charmeleon',
-    type: ['Fire', 'HGSS', 'XY'],
+    type: ['Fire'],
     availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['4'],

@@ -94,7 +94,7 @@ export const pokemon501_525 = [
       dexNum: '0511',
       name: 'Pansage',
       type: ['Grass'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -130,7 +130,7 @@ export const pokemon501_525 = [
       dexNum: '0515',
       name: 'Panpour',
       type: ['Water'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {

@@ -94,9 +94,8 @@ export const pokemon526_550 = [
       dexNum: '0536',
       name: 'Palpitoad',
       type: ['Water', 'Ground'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
       preEvo: ['535']
     },
     {
@@ -204,7 +203,7 @@ export const pokemon526_550 = [
       dexNum: '0548',
       name: 'Petilil',
       type: ['Grass'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {

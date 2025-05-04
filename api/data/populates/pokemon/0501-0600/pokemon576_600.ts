@@ -31,7 +31,7 @@ export const pokemon576_600 = [
       dexNum: '0579',
       name: 'Reuniclus',
       type: ['Psychic'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['577', '578']
@@ -41,7 +41,7 @@ export const pokemon576_600 = [
       dexNum: '0580',
       name: 'Ducklett',
       type: ['Water', 'Flying'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -86,7 +86,7 @@ export const pokemon576_600 = [
       dexNum: '0585',
       name: 'Deerling',
       type: ['Normal', 'Grass'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {

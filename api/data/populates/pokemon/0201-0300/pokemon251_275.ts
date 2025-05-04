@@ -87,7 +87,7 @@ export const pokemon251_275 = [
     availableIn: ['Emerald'],
     baseForm: true,
     finalStage: ['Emerald'],
-    perEvo: ['258', '259']
+    preEvo: ['258', '259']
   },
   {
     id: '261',

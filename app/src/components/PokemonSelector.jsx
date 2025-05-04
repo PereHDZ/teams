@@ -4,9 +4,10 @@ import logic from '../logic'
 import SelectGrid from './SelectGrid'
 import PreEvoCheckbox from './PreEvoCheckbox'
 
-function PokemonSelector({ type, game }) {
+function PokemonSelector({ type, game, onClose }) {
     const [availableFinalStages, setAvailableFinalStages] = useState([])
     const [activeFinalStage, setActiveFinalStage] = useState(null)
+    const [selectedPreEvos, setSelectedPreEvos] = useState([])
 
     const filteredByType = type ? availableFinalStages.filter(pokemon => pokemon.type.includes(type)) : availableFinalStages
 
@@ -19,17 +20,41 @@ function PokemonSelector({ type, game }) {
             alert(error)
         }
     },[game])
-    
-    console.log('Active Final Stage: ', activeFinalStage)
+
+    const handleSubmit = (e) => {
+        const selectedPokemon = [...selectedPreEvos, activeFinalStage]
+        e.preventDefault()
+        console.log(selectedPokemon)
+        onClose()
+    }
     
     return <>
         <div className='pokemon-selector'>
-            <form>
+            <form onSubmit={handleSubmit}>
+                <img 
+                    src='\icons\x-circle.svg'
+                    onClick={() => {
+                        setActiveFinalStage([])
+                        setActiveFinalStage(null)
+                        onClose()}
+                    }                        
+                    alt='Close'
+                    className='close-button'
+                />
                 <div className='pokemon-picker'>
                     <SelectGrid finalStages={filteredByType} setActiveFinalStage={setActiveFinalStage}/>
                 </div>
 
-                {!!activeFinalStage ? <PreEvoCheckbox id={activeFinalStage}/> : <h3>Pick a Pokémon</h3>}    
+                <div style={{ marginBottom: '10px' }}>
+                    {!!activeFinalStage 
+                        ? <PreEvoCheckbox 
+                            id={activeFinalStage} 
+                            game={game}
+                            onSelectionChange={setSelectedPreEvos}/> 
+                        : <h3>Pick a Pokémon</h3>}
+                </div>
+
+                {!!activeFinalStage && <button className='submit-button'>Submit this Pokémon</button> }
             </form>
         </div>
     </>

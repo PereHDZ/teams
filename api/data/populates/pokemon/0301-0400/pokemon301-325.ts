@@ -141,14 +141,14 @@ export const pokemon301_325 = [
     dexNum: '0316',
     name: 'Gulpin',
     type: ['Poison'],
-    avalableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
     id: '317',
     dexNum: '0317',
     name: 'Swalot',
-    type: ['Poison'],
+    type: ['Poison'], 
     availableIn: ['Emerald', 'XY'],
     baseForm: true,
     finalStage: ['Emerald', 'XY'],

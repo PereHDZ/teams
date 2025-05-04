@@ -146,7 +146,7 @@ export const pokemon451_475 = [
       availableIn: ['Platinum', 'B2W2'],
       baseForm: true,
       finalStage: ['Platinum', 'B2W2'],
-      preEvo: ['239', ]
+      preEvo: ['239', '125']
     },
     {
       id: '467',
@@ -226,7 +226,7 @@ export const pokemon451_475 = [
       availableIn: ['Platinum'],
       baseForm: true,
       finalStage: ['Platinum'],
-      preEvo: ['137', '223']
+      preEvo: ['137', '233']
     },
     {
       id: '475',

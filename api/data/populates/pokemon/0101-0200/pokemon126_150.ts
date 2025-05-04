@@ -126,7 +126,7 @@ export const pokemon126_150 = [
     availableIn: ['FRLG', 'HGSS'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS'],
-    preEvo: ['135'],
+    preEvo: ['138'],
   },
   {
     id: '140',
@@ -144,7 +144,7 @@ export const pokemon126_150 = [
     availableIn: ['FRLG', 'HGSS'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS'],
-    preEvo: ['137'],
+    preEvo: ['140'],
   },
   {
     id: '142',
@@ -217,7 +217,7 @@ export const pokemon126_150 = [
     availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'XY'],
-    preEvo: ['148', '149'],
+    preEvo: ['147', '148'],
   },
   {
     id: '150',

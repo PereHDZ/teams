@@ -266,7 +266,7 @@ export const pokemon476_500 = [
     dexNum: '0498',
     name: 'Tepig',
     type: ['Fire'],
-    availableIn: ['Bw', 'B2W2'],
+    availableIn: ['BW', 'B2W2'],
     baseForm: true
   },
   {

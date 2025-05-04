@@ -1,9 +1,12 @@
+import './PreEvoCheckbox.css'
+
 import { useEffect, useState } from "react"
 import logic from "../logic"
 
-function PreEvoCheckbox({ id }) {
+function PreEvoCheckbox({ id, game, onSelectionChange }) {
     const [finalStagePokemon, setFinalStagePokemon] = useState(null)
     const [preEvos, setPreEvos] = useState([])
+    const [selectedIds, setSelectedIds] = useState([])
 
     useEffect(() => {
         try {
@@ -15,8 +18,6 @@ function PreEvoCheckbox({ id }) {
         }
     }, [id])
 
-    console.log('final stage pokemon: ', finalStagePokemon)
-
     useEffect(() => {
         if (!finalStagePokemon || !finalStagePokemon.preEvo) return;
     
@@ -26,8 +27,11 @@ function PreEvoCheckbox({ id }) {
                     logic.retrievePokemonById(preEvoId)
                 );
     
-                const results = await Promise.all(promises);
-                setPreEvos(results);
+                const results = await Promise.all(promises)
+                const filteredPreEvos = results.filter(preEvo => preEvo.availableIn.includes(game))
+                console.log('Filtered pre-evolutions: ', filteredPreEvos)
+                setPreEvos(filteredPreEvos);
+
             } catch (error) {
                 alert(error);
             }
@@ -36,9 +40,20 @@ function PreEvoCheckbox({ id }) {
         fetchPreEvos();
     }, [finalStagePokemon]);
 
-    console.log('PreEvos: ', preEvos)
+    useEffect(() => {
+        onSelectionChange?.(selectedIds)
+    }, [selectedIds])
 
-    if (!!finalStagePokemon && finalStagePokemon.preEvo.length > 0){
+    const handleChange = (e) => {
+        const value = e.target.value
+        const checked = e.target.checked
+
+        setSelectedIds(prev => 
+            checked ? [...prev, value] : prev.filter(id => id !== value)
+        )
+    }
+
+    if (!!finalStagePokemon && !!preEvos && preEvos.length > 0){
         return (
             <fieldset>
                 <legend>Which pre-stages did you use?</legend>
@@ -50,8 +65,12 @@ function PreEvoCheckbox({ id }) {
 
                     return (
                         <label key={preEvo.id}>
-                            <input type="checkbox" value={preEvo.id}/>
-                            <img src={url} alt={preEvo.name}/>
+                            <input 
+                                type="checkbox" 
+                                value={preEvo.id}
+                                onChange={handleChange}
+                                defaultChecked={selectedIds.includes(preEvo.id)}/>
+                            <img src={url} alt={preEvo.name} className='checkbox-img'/>
                         </label>    
                     )
                 })}

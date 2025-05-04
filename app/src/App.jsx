@@ -13,16 +13,7 @@ function App() {
   const [selectedType, setSelectedType ] = useState(null)
   const [selectedGame, setSelectedGame ] = useState(null)
 
-  function handleShowSelector(type, game) {
-    setSelectedType(type)
-    setSelectedGame(game)
-    setSelectorVisible(true)
-  }
-
-  function newRegion (name, start, end, color){
-    return {name, start, end, color}  
-  }
-  
+    
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
     newRegion('Johto', 152, 251, '#f2d367'),
@@ -36,12 +27,29 @@ function App() {
     newRegion('Paldea', 906, 1025, '#7c0d0d')
   ]
 
+  function handleShowSelector(type, game) {
+    setSelectedType(type)
+    setSelectedGame(game)
+    setSelectorVisible(true)
+  }
+
+  function newRegion (name, start, end, color){
+    return {name, start, end, color}  
+  }
+
+  function handleCloseSelector () {
+    setSelectedType(null)
+    setSelectedGame(null)
+    setSelectorVisible(false)
+  }
+
   return (
     <>
       {selectorVisible && (
         <PokemonSelector 
           type = {selectedType} 
-          game = {selectedGame} />
+          game = {selectedGame} 
+          onClose = {handleCloseSelector}/>
       )}
 
       <div className='center'>

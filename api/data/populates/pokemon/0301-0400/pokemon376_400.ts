@@ -139,7 +139,7 @@ export const pokemon376_400 = [
     dexNum: '0391',
     name: 'Monferno',
     type: ['Fire', 'Fighting'],
-    availableIn: ['Fie', 'Fighting'],
+    availableIn: ['Platinum'],
     baseForm: true,
     preEvo: ['390']
   },

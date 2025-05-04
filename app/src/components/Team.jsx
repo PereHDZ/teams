@@ -12,7 +12,7 @@ function Team ({ game, onSelect }) {
             {teamSlots.map(slot => {
                 return (
                 <button className='team-button' onClick={() => handleTeamMemberSelect(slot)}>
-                    <img src={`/type_icons/${slot}_icon_Sleep.png`} alt='Grass Type'/>
+                    <img src={`/type_icons/${slot}_icon_Sleep.png`} alt='Grass Type' className='team-img'/>
                     <span className='tooltip'>{`Select a ${slot} Type`}</span>
                 </button>
                 )

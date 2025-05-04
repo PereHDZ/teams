@@ -34,7 +34,7 @@ export const pokemon226_250 = [
     availableIn: ['HGSS', 'Platinum', 'XY'],
     baseForm: true,
     finalStage: ['HGSS', 'Platinum', 'XY'],
-    preEvo: ['229']
+    preEvo: ['228']
   },
   {
     id: '230',

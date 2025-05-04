@@ -15,7 +15,7 @@ export const pokemon401_425 = [
     availableIn: ['Platinum'],
     baseForm: true,
     finalStage: ['Platinum'],
-    preEvo: ['Platinum']
+    preEvo: ['401']
   },
   {
     id: '403',

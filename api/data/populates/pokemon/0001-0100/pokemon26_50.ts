@@ -180,7 +180,7 @@ export const pokemon26_50 = [
     availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald', 'XY'],
-    preEvo: ['42', '43'],
+    preEvo: ['43', '44'],
   },
   {
     id: '46',

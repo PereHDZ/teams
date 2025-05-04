@@ -13,25 +13,27 @@ function SelectGrid ({ finalStages, setActiveFinalStage }){
     }
 
     return <>
-        {finalStages.map((finalStage, index) => {
-            const url = finalStage.baseForm ? `/national/image_${finalStage.id}.jpg` : `/variants/${finalStage.form}.png`
+        <div className='selector-grid'>
+            {finalStages.map((finalStage, index) => {
+                const url = finalStage.baseForm ? `/national/image_${finalStage.id}.jpg` : `/variants/${finalStage.form}.png`
 
-            return (
-                <div 
-                    key={finalStage.id} 
-                    className={`selector-cell ${activeIndex === index ? 'active' : ''}`} 
-                    onClick={() => {
-                        toggleActive(index)
+                return (
+                    <div 
+                        key={finalStage.id} 
+                        className={`selector-cell ${activeIndex === index ? 'active' : ''}`} 
+                        onClick={() => {
+                            toggleActive(index)
 
-                        activeIndex === index ? handleFinalStageClick(null) : handleFinalStageClick(finalStage.id)
-                        }}>
-                    <img 
-                        src={url}
-                        alt={`Pokémon ${finalStage.name}`} 
-                        className='big-sprite'/>
-                </div>
-            )
-        })}
+                            activeIndex === index ? handleFinalStageClick(null) : handleFinalStageClick(finalStage.id)
+                            }}>
+                        <img 
+                            src={url}
+                            alt={`Pokémon ${finalStage.name}`} 
+                            className='big-sprite'/>
+                    </div>                
+                )
+            })}
+        </div>
    </>
 }
 

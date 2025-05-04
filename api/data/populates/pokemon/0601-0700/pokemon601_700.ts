@@ -7,7 +7,7 @@ export const pokemon601_625 = [
       availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2'],
-      preEvo: ['598', '599']
+      preEvo: ['599', '600']
     },
     {
       id: '602',
@@ -31,7 +31,7 @@ export const pokemon601_625 = [
       dexNum: '0604',
       name: 'Eelektross',
       type: ['Electric'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2'],
       preEvo: ['602', '603']
@@ -41,7 +41,7 @@ export const pokemon601_625 = [
       dexNum: '0605',
       name: 'Elgyem',
       type: ['Psychic'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {
@@ -86,7 +86,7 @@ export const pokemon601_625 = [
       dexNum: '0610',
       name: 'Axew',
       type: ['Dragon'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -185,7 +185,7 @@ export const pokemon601_625 = [
       dexNum: '0621',
       name: 'Druddigon',
       type: ['Dragon'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY']
     },
@@ -223,6 +223,6 @@ export const pokemon601_625 = [
     availableIn: ['BW', 'B2W2', 'XY'],
     baseForm: true,
     finalStage: ['BW', 'B2W2', 'XY'],
-    preEvo: ['599']
+    preEvo: ['624']
     },
   ]

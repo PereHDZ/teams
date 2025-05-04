@@ -121,7 +121,7 @@ export const pokemon551_575 = [
       dexNum: '0564',
       name: 'Tirtouga',
       type: ['Water', 'Rock'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {
@@ -193,7 +193,7 @@ export const pokemon551_575 = [
       dexNum: '0572',
       name: 'Minccino',
       type: ['Normal'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {
