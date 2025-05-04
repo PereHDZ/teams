@@ -49,7 +49,7 @@ export const pokemon401_425 = [
     dexNum: '0406',
     name: 'Budew',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -57,9 +57,9 @@ export const pokemon401_425 = [
     dexNum: '0407',
     name: 'Roserade',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2'],
+    finalStage: ['Platinum', 'B2W2', 'XY'],
     preEvo: ['406', '315']
   },
   {
@@ -101,7 +101,7 @@ export const pokemon401_425 = [
     dexNum: '0412',
     name: 'Burmy',
     type: ['Bug'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
     form: 'Burmy Plant Cloak'
   },
@@ -110,7 +110,7 @@ export const pokemon401_425 = [
     dexNum: '0412',
     name: 'Burmy',
     type: ['Bug'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: false,
     form: 'Burmy Sandy Cloak'
   },
@@ -119,7 +119,7 @@ export const pokemon401_425 = [
     dexNum: '0412',
     name: 'Burmy',
     type: ['Bug'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: false,
     form: 'Burmy Trash Cloak'
   },
@@ -128,8 +128,8 @@ export const pokemon401_425 = [
     dexNum: '0413',
     name: 'Wormadam',
     type: ['Bug', 'Grass'],
-    availableIn: ['Platinum'],
-    finalStage: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY'],
     baseForm: true,
     form: 'Wormadam Plant Cloak',
     preEvo: ['412']
@@ -139,8 +139,8 @@ export const pokemon401_425 = [
     dexNum: '0413',
     name: 'Wormadam',
     type: ['Bug', 'Ground'],
-    availableIn: ['Platinum'],
-    finalStage: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY'],
     baseForm: false,
     form: 'Wormadam Sandy Cloak',
     preEvo: ['412A']
@@ -150,8 +150,8 @@ export const pokemon401_425 = [
     dexNum: '0413',
     name: 'Wormadam',
     type: ['Bug', 'Steel'],
-    availableIn: ['Platinum'],
-    finalStage: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY'],
     baseForm: false,
     form: 'Wormadam Trash Cloak',
     preEvo: ['412B']
@@ -161,9 +161,9 @@ export const pokemon401_425 = [
     dexNum: '0414',
     name: 'Mothim',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'XY'],
     preEvo: ['412', '412A', '412B']
   },
   {
@@ -171,7 +171,7 @@ export const pokemon401_425 = [
     dexNum: '0415',
     name: 'Combee',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -179,9 +179,9 @@ export const pokemon401_425 = [
     dexNum: '0416',
     name: 'Vespiquen',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'XY'],
     preEvo: ['415']
   },
   {
@@ -189,16 +189,16 @@ export const pokemon401_425 = [
     dexNum: '0417',
     name: 'Pachirisu',
     type: ['Electric'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'XY']
   },
   {
     id: '418',
     dexNum: '0418',
     name: 'Buizel',
     type: ['Water'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -206,9 +206,9 @@ export const pokemon401_425 = [
     dexNum: '0419',
     name: 'Floatzel',
     type: ['Water'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2'],
+    finalStage: ['Platinum', 'B2W2', 'XY'],
     preEvo: ['418']
   },
   {
@@ -283,7 +283,7 @@ export const pokemon401_425 = [
     dexNum: '0425',
     name: 'Drifloon',
     type: ['Ghost', 'Flying'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
 ]

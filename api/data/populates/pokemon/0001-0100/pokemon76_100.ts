@@ -4,9 +4,9 @@ export const pokemon76_100 = [
     dexNum: '0076',
     name: 'Golem',
     type: ['Rock', 'Ground'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     preEvo: ['74', '75']
   },
   {
@@ -31,7 +31,7 @@ export const pokemon76_100 = [
     id: '79',
     dexNum: '0079',
     name: 'Slowpoke',
-    type: ['Water', 'Psychic', 'HGSS'],
+    type: ['Water', 'Psychic', 'HGSS', 'XY'],
     availableIn: ['FRLG'],
     baseForm: true
   },
@@ -40,9 +40,9 @@ export const pokemon76_100 = [
     dexNum: '0080',
     name: 'Slowbro',
     type: ['Water',  'Psychic'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['79'],
   },
   {
@@ -50,7 +50,7 @@ export const pokemon76_100 = [
     dexNum: '0081',
     name: 'Magnemite',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -58,7 +58,7 @@ export const pokemon76_100 = [
     dexNum: '0082',
     name: 'Magneton',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['81']
@@ -68,16 +68,16 @@ export const pokemon76_100 = [
     dexNum: '0083',
     name: "Farfetch'd",
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS']
+    finalStage: ['FRLG', 'HGSS', 'XY']
   },
   {
     id: '84',
     dexNum: '0084',
     name: 'Doduo',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -85,9 +85,9 @@ export const pokemon76_100 = [
     dexNum: '0085',
     name: 'Dodrio',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     preEvo: ['84']
   },
   {
@@ -131,7 +131,7 @@ export const pokemon76_100 = [
     dexNum: '0090',
     name: 'Shellder',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -139,9 +139,9 @@ export const pokemon76_100 = [
     dexNum: '0091',
     name: 'Cloyster',
     type: ['Water', 'Ice'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['90'],
   },
   {
@@ -149,7 +149,7 @@ export const pokemon76_100 = [
     dexNum: '0092',
     name: 'Gastly',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -157,7 +157,7 @@ export const pokemon76_100 = [
     dexNum: '0093',
     name: 'Haunter',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     baseForm: true,
     preEvo: ['92'],
   },
@@ -166,9 +166,9 @@ export const pokemon76_100 = [
     dexNum: '0094',
     name: 'Gengar',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     preEvo: ['92', '93'],
   },
   {
@@ -176,7 +176,7 @@ export const pokemon76_100 = [
     dexNum: '0095',
     name: 'Onix',
     type: ['Rock', 'Ground'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'Bw2W'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'Bw2W', 'XY'],
     baseForm: true,
     finalStage: ['FRLG']
   },
@@ -221,7 +221,7 @@ export const pokemon76_100 = [
     dexNum: '0100',
     name: 'Voltorb',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true
   },
 ]

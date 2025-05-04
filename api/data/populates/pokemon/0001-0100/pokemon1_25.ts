@@ -4,7 +4,7 @@ export const pokemon1_25 = [
     dexNum: '0001',
     name: 'Bulbasaur',
     type: ['Grass', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -12,7 +12,7 @@ export const pokemon1_25 = [
     dexNum: '0002',
     name: 'Ivysaur',
     type: ['Grass', 'Poison'], 
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['1'],
   },
@@ -21,9 +21,9 @@ export const pokemon1_25 = [
     dexNum: '0003',
     name: 'Venusaur',
     type: ['Grass', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['1','2'],
   },
   {
@@ -31,15 +31,15 @@ export const pokemon1_25 = [
     dexNum: '0004',
     name: 'Charmander',
     type: ['Fire'],
-    avalableIn: ['FRLG', 'HGSS'],
+    avalableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
     id: '5',
     dexNum: '0005',
     name: 'Charmeleon',
-    type: ['Fire', 'HGSS'],
-    availableIn: ['FRLG', 'HGSS'],
+    type: ['Fire', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['4'],
   },
@@ -48,9 +48,9 @@ export const pokemon1_25 = [
     dexNum: '0006',
     name: 'Charizard',
     type: ['Fire', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['4', '5'],
   },
   {
@@ -58,7 +58,7 @@ export const pokemon1_25 = [
     dexNum: '0007',
     name: 'Squirtle',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -66,7 +66,7 @@ export const pokemon1_25 = [
     dexNum: '0008',
     name: 'Wartortle',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['7'],
   },
@@ -75,9 +75,9 @@ export const pokemon1_25 = [
     dexNum: '0009',
     name: 'Blastoise',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['7', '8'],
   },
   {
@@ -85,7 +85,7 @@ export const pokemon1_25 = [
     dexNum: '0010',
     name: 'Caterpie',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -93,7 +93,7 @@ export const pokemon1_25 = [
     dexNum: '0011',
     name: 'Metapod',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['10'],
   },
@@ -102,9 +102,9 @@ export const pokemon1_25 = [
     dexNum: '0012',
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['10', '11'],
   },
   {
@@ -112,7 +112,7 @@ export const pokemon1_25 = [
     dexNum: '0013',
     name: 'Weedle',
     type: ['Bug', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -120,7 +120,7 @@ export const pokemon1_25 = [
     dexNum: '0014',
     name: 'Kakuna',
     type: ['Bug', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['13'],
   },
@@ -129,9 +129,9 @@ export const pokemon1_25 = [
     dexNum: '0015',
     name: 'Beedrill',
     type: ['Bug', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['13', '14'],
   },
   {
@@ -139,7 +139,7 @@ export const pokemon1_25 = [
     dexNum: '0016',
     name: 'Pidgey',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -147,7 +147,7 @@ export const pokemon1_25 = [
     dexNum: '0017',
     name: 'Pidgeotto',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     preEvo: ['16']
   },
@@ -156,9 +156,9 @@ export const pokemon1_25 = [
     dexNum: '0018',
     name: 'Pidgeot',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['16', '17'],
   },
   {
@@ -184,7 +184,7 @@ export const pokemon1_25 = [
     dexNum: '0021',
     name: 'Spearow',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -192,9 +192,9 @@ export const pokemon1_25 = [
     dexNum: '0022',
     name: 'Fearow',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['21'],
   },
   {
@@ -202,7 +202,7 @@ export const pokemon1_25 = [
     dexNum: '0023',
     name: 'Ekans',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -210,9 +210,9 @@ export const pokemon1_25 = [
     dexNum: '0024',
     name: 'Arbok',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['23'],
   },
   {
@@ -220,7 +220,7 @@ export const pokemon1_25 = [
     dexNum: '0025',
     name: 'Pikachu',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true,
     preEvo: ['172'],
   },

@@ -185,7 +185,7 @@ export const pokemon376_400 = [
     dexNum: '0396',
     name: 'Starly',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -193,7 +193,7 @@ export const pokemon376_400 = [
     dexNum: '0397',
     name: 'Staravia',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
     preEvo: ['396']
   },
@@ -202,9 +202,9 @@ export const pokemon376_400 = [
     dexNum: '0398',
     name: 'Staraptor',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'XY'],
     preEvo: ['396', '397']
   },
   {
@@ -212,7 +212,7 @@ export const pokemon376_400 = [
     dexNum: '0399',
     name: 'Bidoof',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -220,9 +220,9 @@ export const pokemon376_400 = [
     dexNum: '0400',
     name: 'Bibarel',
     type: ['Normal', 'Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'XY'],
     preEvo: ['399']
   },
 ]

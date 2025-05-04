@@ -4,7 +4,7 @@ export const pokemon551_575 = [
       dexNum: '0551',
       name: 'Sandile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -12,7 +12,7 @@ export const pokemon551_575 = [
       dexNum: '0552',
       name: 'Krokorok',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
       preEvo: ['551']
     },
@@ -21,9 +21,9 @@ export const pokemon551_575 = [
       dexNum: '0553',
       name: 'Krookodile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['551', '552']
     },
     {
@@ -58,7 +58,7 @@ export const pokemon551_575 = [
       dexNum: '0557',
       name: 'Dwebble',
       type: ['Bug', 'Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -66,9 +66,9 @@ export const pokemon551_575 = [
       dexNum: '0558',
       name: 'Crustle',
       type: ['Bug', 'Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['557']
     },
     {
@@ -76,7 +76,7 @@ export const pokemon551_575 = [
       dexNum: '0559',
       name: 'Scraggy',
       type: ['Dark', 'Fighting'],
-      availableIn: ['BW','B2W2'],
+      availableIn: ['BW','B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -84,9 +84,9 @@ export const pokemon551_575 = [
       dexNum: '0560',
       name: 'Scrafty',
       type: ['Dark', 'Fighting'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['559']
     },
     {
@@ -94,9 +94,9 @@ export const pokemon551_575 = [
       dexNum: '0561',
       name: 'Sigilyph',
       type: ['Psychic', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'XY']
     },
     {
       id: '562',
@@ -157,7 +157,7 @@ export const pokemon551_575 = [
       dexNum: '0568',
       name: 'Trubbish',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -165,9 +165,9 @@ export const pokemon551_575 = [
       dexNum: '0569',
       name: 'Garbodor',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['568'],
     },
     {
@@ -175,7 +175,7 @@ export const pokemon551_575 = [
       dexNum: '0570',
       name: 'Zorua',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -183,9 +183,9 @@ export const pokemon551_575 = [
       dexNum: '0571',
       name: 'Zoroark',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['570']
     },
     {
@@ -211,7 +211,7 @@ export const pokemon551_575 = [
       dexNum: '0574',
       name: 'Gothita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -219,7 +219,7 @@ export const pokemon551_575 = [
       dexNum: '0575',
       name: 'Gothorita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
       preEvo: ['574']
     },

@@ -4,9 +4,9 @@ export const pokemon476_500 = [
     dexNum: '0476',
     name: 'Probopass',
     type: ['Rock', 'Steel'],
-    availableIn: ['Platinum', 'B2W2'],
+    availableIn: ['Platinum', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2'],
+    finalStage: ['Platinum', 'B2W2', 'XY'],
     preEvo: ['299']
   },
   {
@@ -34,9 +34,9 @@ export const pokemon476_500 = [
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Ghost'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'XY']
   },
   {
     id: '479A',

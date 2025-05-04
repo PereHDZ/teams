@@ -31,7 +31,7 @@ export const pokemon501_525 = [
       dexNum: '0504',
       name: 'Patrat',
       type: ['Normal'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -39,9 +39,9 @@ export const pokemon501_525 = [
       dexNum: '0505',
       name: 'Watchog',
       type: ['Normal'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2'],
+      finalStage: ['Bw', 'B2W2', 'XY'],
       preEvo: ['504']
     },
     {
@@ -76,7 +76,7 @@ export const pokemon501_525 = [
       dexNum: '0509',
       name: 'Purrloin',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -84,9 +84,9 @@ export const pokemon501_525 = [
       dexNum: '0510',
       name: 'Liepard',
       type: ['Dark'],
-      availableIn: ['BW','B2W2'],
+      availableIn: ['BW','B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW','B2W2'],
+      finalStage: ['BW','B2W2', 'XY'],
       preEvo: ['509']
     },
     {
@@ -94,7 +94,7 @@ export const pokemon501_525 = [
       dexNum: '0511',
       name: 'Pansage',
       type: ['Grass'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -102,9 +102,9 @@ export const pokemon501_525 = [
       dexNum: '0512',
       name: 'Simisage',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['511']
     },
     {
@@ -112,7 +112,7 @@ export const pokemon501_525 = [
       dexNum: '0513',
       name: 'Pansear',
       type: ['Fire'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -120,9 +120,9 @@ export const pokemon501_525 = [
       dexNum: '0514',
       name: 'Simisear',
       type: ['Fire'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['513']
     },
     {
@@ -130,7 +130,7 @@ export const pokemon501_525 = [
       dexNum: '0515',
       name: 'Panpour',
       type: ['Water'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -138,9 +138,9 @@ export const pokemon501_525 = [
       dexNum: '0516',
       name: 'Simipour',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['515']
     },
     {
@@ -211,7 +211,7 @@ export const pokemon501_525 = [
       dexNum: '0524',
       name: 'Roggenrola',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -219,7 +219,7 @@ export const pokemon501_525 = [
       dexNum: '0525',
       name: 'Boldore',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
       preEvo: ['524']
     },

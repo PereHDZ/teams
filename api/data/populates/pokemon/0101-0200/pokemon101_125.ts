@@ -4,9 +4,9 @@ export const pokemon101_125 = [
     dexNum: '0101',
     name: 'Electrode',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     preEvo: ['100']
   },
   {
@@ -14,7 +14,7 @@ export const pokemon101_125 = [
     dexNum: '0102',
     name: 'Exeggcute',
     type: ['Grass', 'Psychic'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -22,9 +22,9 @@ export const pokemon101_125 = [
     dexNum: '0103',
     name: 'Exeggutor',
     type: ['Grass', 'Psychic'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['102'],
   },
   {
@@ -32,7 +32,7 @@ export const pokemon101_125 = [
     dexNum: '0104',
     name: 'Cubone',
     type: ['Ground'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
   },
   {
@@ -40,9 +40,9 @@ export const pokemon101_125 = [
     dexNum: '0105',
     name: 'Marowak',
     type: ['Ground'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['104'],
   },
   {
@@ -70,7 +70,7 @@ export const pokemon101_125 = [
     dexNum: '0108',
     name: 'Lickitung',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS']
   },
@@ -97,7 +97,7 @@ export const pokemon101_125 = [
     dexNum: '0111',
     name: 'Rhyhorn',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -105,7 +105,7 @@ export const pokemon101_125 = [
     dexNum: '0112',
     name: 'Rhydon',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['111'],
@@ -134,16 +134,16 @@ export const pokemon101_125 = [
     dexNum: '0115',
     name: 'Kangaskhan',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS']
+    finalStage: ['FRLG', 'HGSS', 'XY']
   },
   {
     id: '116',
     dexNum: '0116',
     name: 'Horsea',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -151,7 +151,7 @@ export const pokemon101_125 = [
     dexNum: '0117',
     name: 'Seadra',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
     baseForm: true,
     finalStage: ['FRLG'],
     preEvo: ['116'],
@@ -161,7 +161,7 @@ export const pokemon101_125 = [
     dexNum: '0118',
     name: 'Goldeen',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -169,9 +169,9 @@ export const pokemon101_125 = [
     dexNum: '0119',
     name: 'Seaking',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
     preEvo: ['118'],
   },
   {
@@ -179,7 +179,7 @@ export const pokemon101_125 = [
     dexNum: '0120',
     name: 'Staryu',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -187,9 +187,9 @@ export const pokemon101_125 = [
     dexNum: '0121',
     name: 'Starmie',
     type: ['Water', 'Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
     preEvo: ['120'],
   },
   {
@@ -197,9 +197,9 @@ export const pokemon101_125 = [
     dexNum: '0122',
     name: 'Mr. Mime',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     preEvo: ['439'],
   },
   {
@@ -207,7 +207,7 @@ export const pokemon101_125 = [
     dexNum: '0123',
     name: 'Scyther',
     type: ['Bug', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY'],
     baseForm: true,
     finalStage: ['FRLG'],
   },
@@ -216,9 +216,9 @@ export const pokemon101_125 = [
     dexNum: '0124',
     name: 'Jynx',
     type: ['Ice', 'Psychic'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'XY'],
     preEvo: ['238'],
   },
   {

@@ -13,16 +13,16 @@ export const pokemon351_375 = [
     dexNum: '0352',
     name: 'Kecleon',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'XY']
   },
   {
     id: '353',
     dexNum: '0353',
     name: 'Shuppet',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon351_375 = [
     dexNum: '0354',
     name: 'Banette',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2'],
+    finalStage: ['Emerald', 'B2W2', 'XY'],
     preEvo: ['353']
   },
   {
@@ -67,9 +67,9 @@ export const pokemon351_375 = [
     dexNum: '0358',
     name: 'Chimecho',
     type: ['Psychic'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'XY'],
     preEvo: ['433']
   },
   {
@@ -86,7 +86,7 @@ export const pokemon351_375 = [
     dexNum: '0360',
     name: 'Wynaut',
     type: ['Psychic'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -139,7 +139,7 @@ export const pokemon351_375 = [
     dexNum: '0366',
     name: 'Clamperl',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -147,9 +147,9 @@ export const pokemon351_375 = [
     dexNum: '0367',
     name: 'Huntail',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['366']
   },
   {
@@ -157,9 +157,9 @@ export const pokemon351_375 = [
     dexNum: '0368',
     name: 'Gorebyss',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['366']
   },
   {
@@ -167,25 +167,25 @@ export const pokemon351_375 = [
     dexNum: '0369',
     name: 'Relicanth',
     type: ['Water', 'Rock'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'XY']
   },
   {
     id: '370',
     dexNum: '0370',
     name: 'Luvdisc',
     type: ['Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald']
+    finalStage: ['Emerald', 'XY']
   },
   {
     id: '371',
     dexNum: '0371',
     name: 'Bagon',
     type: ['Dragon'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -193,7 +193,7 @@ export const pokemon351_375 = [
     dexNum: '0372',
     name: 'Shelgon',
     type: ['Dragon'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
     preEvo: ['371']
   },
@@ -202,9 +202,9 @@ export const pokemon351_375 = [
     dexNum: '0373',
     name: 'Salamence',
     type: ['Dragon', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['371', '372']
   },
   {

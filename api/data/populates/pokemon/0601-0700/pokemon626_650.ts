@@ -49,25 +49,25 @@ export const pokemon626_650 = [
       dexNum: '0631',
       name: 'Heatmor',
       type: ['Fire'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'XY']
     },
     {
       id: '632',
       dexNum: '0632',
       name: 'Durant',
       type: ['Bug', 'Steel'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'XY']
     },
     {
       id: '633',
       dexNum: '0633',
       name: 'Deino',
       type: ['Dark', 'Dragon'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -75,7 +75,7 @@ export const pokemon626_650 = [
       dexNum: '0634',
       name: 'Zweilous',
       type: ['Dark', 'Dragon'],
-      availableIn: ['BW','B2W2'],
+      availableIn: ['BW','B2W2', 'XY'],
       baseForm: true,
       preEvo: ['633']
     },
@@ -84,9 +84,9 @@ export const pokemon626_650 = [
       dexNum: '0635',
       name: 'Hydreigon',
       type: ['Dark', 'Dragon'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['633', '634']
     },
     {

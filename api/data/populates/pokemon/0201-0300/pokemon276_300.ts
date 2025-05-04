@@ -4,7 +4,7 @@ export const pokemon276_300 = [
     dexNum: '0276',
     name: 'Taillow',
     type: ['Normal', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -12,9 +12,9 @@ export const pokemon276_300 = [
     dexNum: '0277',
     name: 'Swellow',
     type: ['Normal', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['276']
   },
   {
@@ -22,7 +22,7 @@ export const pokemon276_300 = [
     dexNum: '0278',
     name: 'Wingull',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon276_300 = [
     dexNum: '0279',
     name: 'Pelipper',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'B2W2'],
+    finalStage: ['Emerald', 'Platinum', 'B2W2', 'XY'],
     preEvo: ['278']
   },
   {
@@ -40,7 +40,7 @@ export const pokemon276_300 = [
     dexNum: '0280',
     name: 'Ralts',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'XY'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon276_300 = [
     dexNum: '0281',
     name: 'Kirlia',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'XY'],
     baseForm: true,
     preEvo: ['280']
   },
@@ -57,9 +57,9 @@ export const pokemon276_300 = [
     dexNum: '0282',
     name: 'Gardevoir',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'XY'],
     preEvo: ['280', '281']
   },
   {
@@ -67,7 +67,7 @@ export const pokemon276_300 = [
     dexNum: '0283',
     name: 'Surskit',
     type: ['Bug', 'Water'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -75,9 +75,9 @@ export const pokemon276_300 = [
     dexNum: '0284',
     name: 'Masquerain',
     type: ['Bug', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['283']
   },
   {
@@ -130,7 +130,7 @@ export const pokemon276_300 = [
     dexNum: '0290',
     name: 'Nincada',
     type: ['Bug', 'Ground'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -138,9 +138,9 @@ export const pokemon276_300 = [
     dexNum: '0291',
     name: 'Ninjask',
     type: ['Bug', 'Flying'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['290']
   },
   {
@@ -148,9 +148,9 @@ export const pokemon276_300 = [
     dexNum: '0292',
     name: 'Shedinja',
     type: ['Bug', 'Ghost'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['290']
   },
   {
@@ -158,7 +158,7 @@ export const pokemon276_300 = [
     dexNum: '0293',
     name: 'Whismur',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -166,7 +166,7 @@ export const pokemon276_300 = [
     dexNum: '0294',
     name: 'Loudred',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
     preEvo: ['293']
   },
@@ -175,9 +175,9 @@ export const pokemon276_300 = [
     dexNum: '0295',
     name: 'Exploud',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['293', '294']
   },
   {
@@ -185,7 +185,7 @@ export const pokemon276_300 = [
     dexNum: '0296',
     name: 'Makuhita',
     type: ['Fighting'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -193,9 +193,9 @@ export const pokemon276_300 = [
     dexNum: '0297',
     name: 'Hariyama',
     type: ['Fighting'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'XY'],
     preEvo: ['296']
   },
   {
@@ -203,7 +203,7 @@ export const pokemon276_300 = [
     dexNum: '0298',
     name: 'Azurill',
     type: ['Normal', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true
   },
   {
@@ -211,7 +211,7 @@ export const pokemon276_300 = [
     dexNum: '0299',
     name: 'Nosepass',
     type: ['Rock'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
     baseForm: true,
     finalStage: ['Emerald']
   },
@@ -220,7 +220,7 @@ export const pokemon276_300 = [
     dexNum: '0300',
     name: 'Skitty',
     type: ['Normal'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'XY'],
     baseForm: true
   },
 ]

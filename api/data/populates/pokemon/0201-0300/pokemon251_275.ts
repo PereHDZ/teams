@@ -94,7 +94,7 @@ export const pokemon251_275 = [
     dexNum: '0261',
     name: 'Poochyena',
     type: ['Dark'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -102,9 +102,9 @@ export const pokemon251_275 = [
     dexNum: '0262',
     name: 'Mightyena',
     type: ['Dark'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'XY'],
     preEvo: ['261']
   },
   {
@@ -112,7 +112,7 @@ export const pokemon251_275 = [
     dexNum: '0263',
     name: 'Zigzagoon',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -120,9 +120,9 @@ export const pokemon251_275 = [
     dexNum: '0264',
     name: 'Linoone',
     type: ['Normal'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'XY'],
     preEvo: ['263']
   },
   {
@@ -176,7 +176,7 @@ export const pokemon251_275 = [
     dexNum: '0270',
     name: 'Lotad',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true
   },
   {
@@ -184,7 +184,7 @@ export const pokemon251_275 = [
     dexNum: '0271',
     name: 'Lombre',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
     preEvo: ['270']
   },
@@ -193,9 +193,9 @@ export const pokemon251_275 = [
     dexNum: '0272',
     name: 'Ludicolo',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'XY'],
     baseForm: true,
-    finalSatge: ['Emerald'],
+    finalSatge: ['Emerald', 'XY'],
     preEvo: ['270', '271']
   },
   {
