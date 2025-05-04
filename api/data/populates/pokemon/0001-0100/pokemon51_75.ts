@@ -72,8 +72,8 @@ export const pokemon51_75 = [
         baseForm: true
       },
       {
-        id: '58',
-        dexNum: '0058',
+        id: '59',
+        dexNum: '0059',
         name: 'Arcanine',
         type: ['Fire'],
         availableIn: ['FRLG', 'HGSS', 'B2W2'],

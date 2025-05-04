@@ -226,14 +226,12 @@ export const pokemon626_650 = [
       baseForm: true,
       finalStage: ['BW', 'B2W2']
     },
-    // {
-    // id: '625',
-    // dexNum: '0625',
-    // name: 'Bisharp',
-    // type: ['Steel'],
-    // availableIn: ['BW', 'B2W2'],
-    // baseForm: true,
-    // finalStage: ['BW', 'B2W2'],
-    // preEvo: ['599']
-    // },
+    {
+    id: '650',
+    dexNum: '0650',
+    name: 'Chespin',
+    type: ['Grass'],
+    availableIn: ['XY'],
+    baseForm: true
+    },
   ]
