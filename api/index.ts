@@ -81,6 +81,18 @@ mongoose.connect(MONGODB_URL)
             }
         })
 
+        api.patch('/teams/:game', async (req, res) => {
+            const { game } = req.params
+            const { type, pokemonId } = req.body
+        
+            try {
+                await logic.updateTeam(game, type, pokemonId)
+                res.sendStatus(200)
+            } catch (error: any) {
+                res.status(500).send(error.message)
+            }
+        })
+
 
         api.listen(PORT, () => {
             console.log(`API listening on port ${PORT}`);

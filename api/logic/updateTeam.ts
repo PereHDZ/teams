@@ -1,18 +1,14 @@
-// import {Pokemon} from '../data/models'
-// import {PokemonType} from '../data/types'
+import {Team} from '../data/models'
 
-// async function updateTeam(game:string) : Promise<void> {
-//     try {
-//         const pokemon = await Pokemon.findOne({ id }).lean().exec()
+async function updateTeam(game: string, type: string, id: string) : Promise<void> {
+    try {
+        await Team.updateOne(
+            {game: game},
+            { $set: { [type]: id }}
+        )
+    } catch (error: any) {
+        throw new Error(error.message)  
+    }
+}
 
-//         if (!pokemon) {
-//             throw new Error(`Pokémon with id ${id} not found`)
-//         }
-
-//         return pokemon as PokemonType
-//     } catch (error: any) {
-//         throw new Error(error.message)
-//     }
-// }
-
-// export default retrievePokemonById
+export default updateTeam

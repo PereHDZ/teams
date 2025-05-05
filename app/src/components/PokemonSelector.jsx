@@ -21,10 +21,20 @@ function PokemonSelector({ type, game, onClose, onSubmit }) {
         }
     },[game])
 
-    const handleSubmit = (e) => {
-        onSubmit(activeFinalStage, selectedPreEvos)
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        onClose()
+
+        if (!activeFinalStage) {
+            alert('Please select a Pokémon before submitting')
+            return
+        }
+
+        try {
+            await logic.updateTeam(game, type.toLowerCase(), activeFinalStage)
+            onClose()
+        } catch (error) {
+            alert(error.message)
+        }
     }
     
     return <>

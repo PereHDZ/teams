@@ -41,6 +41,8 @@ function TeamGrid ( { onShowSelector }) {
         teamsByTrainer[trainer].teams.push(team)
     })
 
+    console.log(allTeams)
+
     return <>
         <div className='team-grid'>
             {Object.entries(teamsByTrainer).map(([trainerName, trainerData]) => {
