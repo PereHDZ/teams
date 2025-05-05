@@ -4,7 +4,7 @@ import logic from '../logic'
 import SelectGrid from './SelectGrid'
 import PreEvoCheckbox from './PreEvoCheckbox'
 
-function PokemonSelector({ type, game, onClose }) {
+function PokemonSelector({ type, game, onClose, onSubmit }) {
     const [availableFinalStages, setAvailableFinalStages] = useState([])
     const [activeFinalStage, setActiveFinalStage] = useState(null)
     const [selectedPreEvos, setSelectedPreEvos] = useState([])
@@ -22,9 +22,8 @@ function PokemonSelector({ type, game, onClose }) {
     },[game])
 
     const handleSubmit = (e) => {
-        const selectedPokemon = [...selectedPreEvos, activeFinalStage]
+        onSubmit(activeFinalStage, selectedPreEvos)
         e.preventDefault()
-        console.log(selectedPokemon)
         onClose()
     }
     

@@ -1,3 +1,4 @@
 import pokemon from "./pokemon"
+import team from "./team"
 
-export {pokemon}
+export {pokemon, team}

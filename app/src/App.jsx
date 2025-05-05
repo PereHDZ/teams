@@ -43,13 +43,19 @@ function App() {
     setSelectorVisible(false)
   }
 
+  function handleSubmitted (finalStage, preEvos) {
+    console.log('Final Stage: ', finalStage)
+    console.log(preEvos)
+  }
+
   return (
     <>
       {selectorVisible && (
         <PokemonSelector 
           type = {selectedType} 
           game = {selectedGame} 
-          onClose = {handleCloseSelector}/>
+          onClose = {handleCloseSelector}
+          onSubmit = {handleSubmitted}/>
       )}
 
       <div className='center'>
