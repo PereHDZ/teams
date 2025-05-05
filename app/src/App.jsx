@@ -12,6 +12,7 @@ function App() {
   const [selectorVisible, setSelectorVisible ] = useState(false)
   const [selectedType, setSelectedType ] = useState(null)
   const [selectedGame, setSelectedGame ] = useState(null)
+  const [allTeams, setAllTeams] = useState([])
 
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
@@ -25,6 +26,20 @@ function App() {
     newRegion('Hisui', 899, 905, '#7c530d'),
     newRegion('Paldea', 906, 1025, '#7c0d0d')
   ]
+
+  const fetchTeams = async () => {
+    try {
+        const teams = await logic.retrieveTeams()
+        setAllTeams(teams)
+    } catch (error) {
+        alert(error)
+    }
+  }
+
+  useEffect(() => {
+      fetchTeams()
+  }, [])
+
 
   function handleShowSelector(type, game) {
     setSelectedType(type)
@@ -40,11 +55,7 @@ function App() {
     setSelectedType(null)
     setSelectedGame(null)
     setSelectorVisible(false)
-  }
-
-  function handleSubmitted (finalStage, preEvos) {
-    console.log('Final Stage: ', finalStage)
-    console.log(preEvos)
+    fetchTeams()
   }
 
   return (
@@ -54,7 +65,7 @@ function App() {
           type = {selectedType} 
           game = {selectedGame} 
           onClose = {handleCloseSelector}
-          onSubmit = {handleSubmitted}/>
+        />
       )}
 
       <div className='center'>
@@ -67,7 +78,7 @@ function App() {
             key={region.name}/>)
         })}
 
-        <TeamGrid onShowSelector = { handleShowSelector }/>
+        <TeamGrid onShowSelector = { handleShowSelector } allTeams={ allTeams }/>
       </div>
     </>
   )

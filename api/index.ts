@@ -70,7 +70,9 @@ mongoose.connect(MONGODB_URL)
         })
 
         api.get('/teams/:game', async (req, res) => {
-            const game = req.params
+            const game = req.params.game
+
+            console.log('index.ts game: ', game)
 
             try {
                 const team = await logic.retrieveTeamByGame(game)
@@ -83,6 +85,7 @@ mongoose.connect(MONGODB_URL)
 
         api.patch('/teams/:game', async (req, res) => {
             const { game } = req.params
+            console.log('game index.ts: ', game)
             const { type, pokemonId } = req.body
         
             try {

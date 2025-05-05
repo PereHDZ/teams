@@ -3,6 +3,7 @@ import { TeamType } from '../data/types'
 
 async function retrieveTeamByGame(game:string) : Promise<TeamType> {
     try {
+        console.log('retrieveTeamByGame game: ', game)
         const team = await Team.findOne({ game }).lean().exec()
 
         if (!team) {

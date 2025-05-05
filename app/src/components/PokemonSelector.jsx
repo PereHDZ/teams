@@ -4,12 +4,32 @@ import logic from '../logic'
 import SelectGrid from './SelectGrid'
 import PreEvoCheckbox from './PreEvoCheckbox'
 
-function PokemonSelector({ type, game, onClose, onSubmit }) {
+function PokemonSelector({ type, game, onClose }) {
     const [availableFinalStages, setAvailableFinalStages] = useState([])
     const [activeFinalStage, setActiveFinalStage] = useState(null)
     const [selectedPreEvos, setSelectedPreEvos] = useState([])
+    const [team, setTeam] = useState({})
 
-    const filteredByType = type ? availableFinalStages.filter(pokemon => pokemon.type.includes(type)) : availableFinalStages
+    const usedIds = Object.values(team).filter(Boolean) 
+
+    const filteredByType = type && type !== 'Misc'
+    ? availableFinalStages
+        .filter(pokemon => pokemon.type.includes(type))
+    : availableFinalStages
+
+    const filteredById = filteredByType.filter(pokemon => {
+        return !usedIds.includes(pokemon.id) || pokemon.id === activeFinalStage
+    })
+
+    useEffect(() => {
+        try {
+            logic.retrieveTeamByGame(game)
+                .then(setTeam)
+                .catch(error => alert(error))
+        } catch (error) {
+            alert(error)
+        }
+    }, [game])
 
     useEffect(() => {
         try{
@@ -35,7 +55,7 @@ function PokemonSelector({ type, game, onClose, onSubmit }) {
         } catch (error) {
             alert(error.message)
         }
-    }
+    }  
     
     return <>
         <div className='pokemon-selector'>
@@ -44,14 +64,13 @@ function PokemonSelector({ type, game, onClose, onSubmit }) {
                     src='\icons\x-circle.svg'
                     onClick={() => {
                         setActiveFinalStage([])
-                        setActiveFinalStage(null)
                         onClose()}
                     }                        
                     alt='Close'
                     className='close-button'
                 />
                 <div className='pokemon-picker'>
-                    <SelectGrid finalStages={filteredByType} setActiveFinalStage={setActiveFinalStage}/>
+                    <SelectGrid finalStages={filteredById} setActiveFinalStage={setActiveFinalStage}/>
                 </div>
 
                 <div style={{ marginBottom: '10px' }}>

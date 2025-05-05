@@ -1,11 +1,7 @@
 import './TeamGrid.css'
 import Team from './Team'
-import { useEffect, useState } from 'react'
-import logic from '../logic'
 
-function TeamGrid ( { onShowSelector }) {
-    const [allTeams, setAllTeams] = useState([])
-
+function TeamGrid ( { onShowSelector, allTeams }) {
     const trainerColors = {
         pere: '#025da6',
         leia: '#ea1a3e'
@@ -14,17 +10,6 @@ function TeamGrid ( { onShowSelector }) {
         pere: '#5996c5',
         leia: '#f16a81'
     }
-
-    useEffect(() => {
-        try {
-            logic.retrieveTeams()
-                .then(setAllTeams)
-                .catch(error => alert(error))
-        } catch (error) {
-            alert(error)
-        }
-    }, [])
-
     const teamsByTrainer = {}
 
     allTeams.forEach(team => {
@@ -60,7 +45,7 @@ function TeamGrid ( { onShowSelector }) {
                                         key={team.game}
                                         style={{ backgroundColor: trainerData.gameColor}}>
                                         <h2>{team.game}</h2>
-                                        <Team team={team} onSelect={onShowSelector} />
+                                        <Team team={team} onSelect={(type, game) => onShowSelector(type, game)} />
                                     </div>
                                 )
                             })}
