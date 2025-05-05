@@ -29,7 +29,6 @@ function PreEvoCheckbox({ id, game, onSelectionChange }) {
     
                 const results = await Promise.all(promises)
                 const filteredPreEvos = results.filter(preEvo => preEvo.availableIn.includes(game))
-                console.log('Filtered pre-evolutions: ', filteredPreEvos)
                 setPreEvos(filteredPreEvos)
 
             } catch (error) {

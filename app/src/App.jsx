@@ -13,7 +13,6 @@ function App() {
   const [selectedType, setSelectedType ] = useState(null)
   const [selectedGame, setSelectedGame ] = useState(null)
 
-    
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
     newRegion('Johto', 152, 251, '#f2d367'),

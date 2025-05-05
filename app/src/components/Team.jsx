@@ -1,28 +1,28 @@
 import './Team.css'
 
-function Team ({ game, onSelect }) {
+function Team ({ team, onSelect }) {
     function handleTeamMemberSelect(type) {
-        onSelect(type, game)
+        onSelect(type, team.game)
     }
 
-    const teamSlots = ['Grass', 'Fire', 'Water', 'Electric', 'Flying', 'Ground']
+    const types = ['grass', 'fire', 'water', 'electric', 'flying', 'ground', 'misc']
 
     return <>
-        <div className='teams'>
-            {teamSlots.map(slot => {
+        {!!team && 
+            <div className='teams'>
+            {types.map(type => {
+                const url = !!team[type]
+                    ? 'ay'
+                    : `/type_icons/${type.charAt(0).toUpperCase() + type.slice(1)}_icon_Sleep.png`
                 return (
-                <button className='team-button' onClick={() => handleTeamMemberSelect(slot)}>
-                    <img src={`/type_icons/${slot}_icon_Sleep.png`} alt='Grass Type' className='team-img'/>
-                    <span className='tooltip'>{`Select a ${slot} Type`}</span>
-                </button>
+                    <button className='team-button' onClick={() => handleTeamMemberSelect(type.charAt(0).toUpperCase() + type.slice(1))}>
+                        <img src={url} alt={`${type} Type`} className='team-img'/>
+                        <span className='tooltip'>{`Select a ${type} Type`}</span>
+                    </button>
                 )
             })}
-
-            <button className='team-button' onClick={() => handleTeamMemberSelect(undefined)}>
-                Misc.
-                <span className='tooltip'>Select a Miscellaneous Pokémon</span>
-            </button>
         </div>
+        }
     </>
 }
 

@@ -57,6 +57,31 @@ mongoose.connect(MONGODB_URL)
         })
 
 
+
+
+        api.get('/teams', async (req, res) => {
+            try {
+                const teams = await logic.retrieveTeams()
+                res.json(teams)
+            } catch (error : any) {
+                console.error('Error ocurred', error.message)
+                res.status(500).json({ error: error.message })
+            }
+        })
+
+        api.get('/teams/:game', async (req, res) => {
+            const game = req.params
+
+            try {
+                const team = await logic.retrieveTeamByGame(game)
+                res.json(team)
+            } catch (error: any) {
+                console.error('Error ocurred', error.message)
+                res.status(500).json({ error: error.message})
+            }
+        })
+
+
         api.listen(PORT, () => {
             console.log(`API listening on port ${PORT}`);
         });
