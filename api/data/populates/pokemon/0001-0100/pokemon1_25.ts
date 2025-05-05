@@ -31,7 +31,7 @@ export const pokemon1_25 = [
     dexNum: '0004',
     name: 'Charmander',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -39,7 +39,7 @@ export const pokemon1_25 = [
     dexNum: '0005',
     name: 'Charmeleon',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh'],
     baseForm: true,
     preEvo: ['4'],
   },
@@ -48,9 +48,9 @@ export const pokemon1_25 = [
     dexNum: '0006',
     name: 'Charizard',
     type: ['Fire', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'SwSh'],
     preEvo: ['4', '5'],
   },
   {
@@ -85,7 +85,7 @@ export const pokemon1_25 = [
     dexNum: '0010',
     name: 'Caterpie',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -93,7 +93,7 @@ export const pokemon1_25 = [
     dexNum: '0011',
     name: 'Metapod',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
     preEvo: ['10'],
   },
@@ -102,9 +102,9 @@ export const pokemon1_25 = [
     dexNum: '0012',
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
     preEvo: ['10', '11'],
   },
   {
@@ -240,7 +240,7 @@ export const pokemon1_25 = [
     dexNum: '0025',
     name: 'Pikachu',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
     preEvo: ['172'],
   },

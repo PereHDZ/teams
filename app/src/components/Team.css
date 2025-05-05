@@ -7,7 +7,7 @@
 .team-button {
     position: relative;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,5 +38,5 @@
 }
 
 .team-img {
-    max-width: 30px
+    max-width: 50px
 }

@@ -32,7 +32,7 @@ export const pokemon126_150 = [
     dexNum: '0129',
     name: 'Magikarp',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -40,9 +40,9 @@ export const pokemon126_150 = [
     dexNum: '0130',
     name: 'Gyarados',
     type: ['Water', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     preEvo: ['129'],
   },
   {
@@ -50,25 +50,25 @@ export const pokemon126_150 = [
     dexNum: '0131',
     name: 'Lapras',
     type: ['Water', 'Ice'],
-    availableIn: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM']
+    finalStage: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM', 'SwSh']
   },
   {
     id: '132',
     dexNum: '0132',
     name: 'Ditto',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM']
+    finalStage: ['FRLG', 'HGSS', 'B2W2', 'XY', 'USUM', 'SwSh']
   },
   {
     id: '133',
     dexNum: '0133',
     name: 'Eevee',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -76,9 +76,9 @@ export const pokemon126_150 = [
     dexNum: '0134',
     name: 'Vaporeon',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['133'],
   },
   {
@@ -86,9 +86,9 @@ export const pokemon126_150 = [
     dexNum: '0135',
     name: 'Jolteon',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['133']
   },
   {
@@ -96,9 +96,9 @@ export const pokemon126_150 = [
     dexNum: '0136',
     name: 'Flareon',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['133'],
   },
   {
@@ -160,9 +160,9 @@ export const pokemon126_150 = [
     dexNum: '0143',
     name: 'Snorlax',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh'],
     preEvo: ['446'],
   },
   {

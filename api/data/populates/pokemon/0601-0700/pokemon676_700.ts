@@ -13,7 +13,7 @@ export const pokemon676_700 = [
       dexNum: '0677',
       name: 'Espurr',
       type: ['Psychic'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -21,10 +21,10 @@ export const pokemon676_700 = [
       dexNum: '0678',
       name: 'Meowstic',
       type: ['Psychic'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
       form: 'Male Meowstic',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['677']
     },
     {
@@ -32,10 +32,10 @@ export const pokemon676_700 = [
       dexNum: '0678A',
       name: 'Meowstic',
       type: ['Psychic'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: false,
       form: 'Female Meowstic',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['677']
     },
     {
@@ -43,7 +43,7 @@ export const pokemon676_700 = [
       dexNum: '0679',
       name: 'Honedge',
       type: ['Steel', 'Ghost'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -51,7 +51,7 @@ export const pokemon676_700 = [
       dexNum: '0680',
       name: 'Doublade',
       type: ['Steel', 'Ghost'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
       preEvo: ['669']
     },
@@ -60,9 +60,9 @@ export const pokemon676_700 = [
       dexNum: '0681',
       name: 'Aegislash',
       type: ['Steel', 'Ghost'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['679', '680']
     },
     {
@@ -70,7 +70,7 @@ export const pokemon676_700 = [
       dexNum: '0682',
       name: 'Spritzee',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -78,9 +78,9 @@ export const pokemon676_700 = [
       dexNum: '0683',
       name: 'Aromatisse',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['682']
     },
     {
@@ -88,7 +88,7 @@ export const pokemon676_700 = [
       dexNum: '0684',
       name: 'Swirlix',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -96,9 +96,9 @@ export const pokemon676_700 = [
       dexNum: '0685',
       name: 'Slurpuff',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['684']
     },
     {
@@ -106,7 +106,7 @@ export const pokemon676_700 = [
       dexNum: '0686',
       name: 'Inkay',
       type: ['Dark', 'Psychic'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -114,9 +114,9 @@ export const pokemon676_700 = [
       dexNum: '0687',
       name: 'Malamar',
       type: ['Dark', 'Psychic'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY', 'USUM'],
+      finalStage: ['XY', 'USUM', 'SwSh'],
       preEvo: ['686']
     },
     {
@@ -124,7 +124,7 @@ export const pokemon676_700 = [
       dexNum: '0688',
       name: 'Binacle',
       type: ['Rock', 'Water'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -132,9 +132,9 @@ export const pokemon676_700 = [
       dexNum: '0689',
       name: 'Barbaracle',
       type: ['Rock', 'Water'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['688']
     },
     {
@@ -178,7 +178,7 @@ export const pokemon676_700 = [
       dexNum: '0694',
       name: 'Helioptile',
       type: ['Electric', 'Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -186,9 +186,9 @@ export const pokemon676_700 = [
       dexNum: '0695',
       name: 'Heliolisk',
       type: ['Electric', 'Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['694']
     },
     {
@@ -232,9 +232,9 @@ export const pokemon676_700 = [
     dexNum: '0700',
     name: 'Sylveon',
     type: ['Fairy'],
-    availableIn: ['XY', 'USUM'],
+    availableIn: ['XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['XY', 'USUM'],
+    finalStage: ['XY', 'USUM', 'SwSh'],
     preEvo: ['133']
     },
   ]

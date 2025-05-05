@@ -76,7 +76,7 @@ export const pokemon501_525 = [
       dexNum: '0509',
       name: 'Purrloin',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -84,9 +84,9 @@ export const pokemon501_525 = [
       dexNum: '0510',
       name: 'Liepard',
       type: ['Dark'],
-      availableIn: ['BW','B2W2', 'XY'],
+      availableIn: ['BW','B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW','B2W2', 'XY'],
+      finalStage: ['BW','B2W2', 'XY', 'SwSh'],
       preEvo: ['509']
     },
     {
@@ -148,7 +148,7 @@ export const pokemon501_525 = [
       dexNum: '0517',
       name: 'Munna',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -156,9 +156,9 @@ export const pokemon501_525 = [
       dexNum: '0518',
       name: 'Musharna',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['517']
     },
     {
@@ -166,7 +166,7 @@ export const pokemon501_525 = [
       dexNum: '0519',
       name: 'Pidove',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -174,7 +174,7 @@ export const pokemon501_525 = [
       dexNum: '0520',
       name: 'Tranquill',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
       preEvo: ['519']
     },
@@ -183,9 +183,9 @@ export const pokemon501_525 = [
       dexNum: '0521',
       name: 'Unfezant',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2'],
+      finalStage: ['Bw', 'B2W2', 'SwSh'],
       preEvo: ['519', '520']
     },
     {
@@ -211,7 +211,7 @@ export const pokemon501_525 = [
       dexNum: '0524',
       name: 'Roggenrola',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -219,7 +219,7 @@ export const pokemon501_525 = [
       dexNum: '0525',
       name: 'Boldore',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
       preEvo: ['524']
     },

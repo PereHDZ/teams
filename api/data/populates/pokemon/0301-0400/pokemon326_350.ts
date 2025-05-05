@@ -23,7 +23,7 @@ export const pokemon326_350 = [
     dexNum: '0328',
     name: 'Trapinch',
     type: ['Ground'],
-    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -31,7 +31,7 @@ export const pokemon326_350 = [
     dexNum: '0329',
     name: 'Vibrava',
     type: ['Ground', 'Dragon'],
-    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
     preEvo: ['328']
   },
@@ -40,9 +40,9 @@ export const pokemon326_350 = [
     dexNum: '0330',
     name: 'Flygon',
     type: ['Ground', 'Dragon'],
-    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['328', '329']
   },
   {
@@ -104,25 +104,25 @@ export const pokemon326_350 = [
     dexNum: '0337',
     name: 'Lunatone',
     type: ['Rock', 'Psychic'],
-    availableIn: ['Emerald', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'XY']
+    finalStage: ['Emerald', 'B2W2', 'XY', 'SwSh']
   },
   {
     id: '338',
     dexNum: '0338',
     name: 'Solrock',
     type: ['Rock', 'Psychic'],
-    availableIn: ['Emerald', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'XY']
+    finalStage: ['Emerald', 'B2W2', 'XY', 'SwSh']
   },
   {
     id: '339',
     dexNum: '0339',
     name: 'Barboach',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -130,9 +130,9 @@ export const pokemon326_350 = [
     dexNum: '0340',
     name: 'Whiscash',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'XY', 'USUM'],
+    finalStage: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     preEvo: ['339']
   },
   {
@@ -140,7 +140,7 @@ export const pokemon326_350 = [
     dexNum: '0341',
     name: 'Corphish',
     type: ['Water'],
-    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -148,9 +148,9 @@ export const pokemon326_350 = [
     dexNum: '0342',
     name: 'Crawdaunt',
     type: ['Water', 'Dark'],
-    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['Emerald', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['341']
   },
   {
@@ -158,7 +158,7 @@ export const pokemon326_350 = [
     dexNum: '0343',
     name: 'Baltoy',
     type: ['Ground', 'Psychic'],
-    availableIn: ['Emerald', 'B2W2', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -166,9 +166,9 @@ export const pokemon326_350 = [
     dexNum: '0344',
     name: 'Claydol',
     type: ['Ground', 'Psychic'],
-    availableIn: ['Emerald', 'B2W2', 'USUM'],
+    availableIn: ['Emerald', 'B2W2', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'USUM'],
+    finalStage: ['Emerald', 'B2W2', 'USUM', 'SwSh'],
     preEvo: ['343']
   },
   {
@@ -212,7 +212,7 @@ export const pokemon326_350 = [
     dexNum: '0349',
     name: 'Feebas',
     type: ['Water'],
-    availableIn: ['Emerald', 'Platinum', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -220,9 +220,9 @@ export const pokemon326_350 = [
     dexNum: '0350',
     name: 'Milotic',
     type: ['Water'],
-    availableIn: ['Emerald', 'Platinum', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'USUM'],
+    finalStage: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     preEvo: ['349']
   },
 ]

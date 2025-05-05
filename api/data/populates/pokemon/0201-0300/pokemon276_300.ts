@@ -22,7 +22,7 @@ export const pokemon276_300 = [
     dexNum: '0278',
     name: 'Wingull',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon276_300 = [
     dexNum: '0279',
     name: 'Pelipper',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['278']
   },
   {
@@ -40,7 +40,7 @@ export const pokemon276_300 = [
     dexNum: '0280',
     name: 'Ralts',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon276_300 = [
     dexNum: '0281',
     name: 'Kirlia',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'SwSh'],
     baseForm: true,
     preEvo: ['280']
   },
@@ -57,9 +57,9 @@ export const pokemon276_300 = [
     dexNum: '0282',
     name: 'Gardevoir',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['Emerald', 'Platinum', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'XY'],
+    finalStage: ['Emerald', 'Platinum', 'XY', 'SwSh'],
     preEvo: ['280', '281']
   },
   {
@@ -130,7 +130,7 @@ export const pokemon276_300 = [
     dexNum: '0290',
     name: 'Nincada',
     type: ['Bug', 'Ground'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -138,9 +138,9 @@ export const pokemon276_300 = [
     dexNum: '0291',
     name: 'Ninjask',
     type: ['Bug', 'Flying'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY'],
+    finalStage: ['Emerald', 'XY', 'SwSh'],
     preEvo: ['290']
   },
   {
@@ -148,9 +148,9 @@ export const pokemon276_300 = [
     dexNum: '0292',
     name: 'Shedinja',
     type: ['Bug', 'Ghost'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY'],
+    finalStage: ['Emerald', 'XY', 'SwSh'],
     preEvo: ['290']
   },
   {

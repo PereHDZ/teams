@@ -4,9 +4,9 @@ export const pokemon526_550 = [
       dexNum: '0526',
       name: 'Gigalith',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       preEvo: ['524', '525']
     },
     {
@@ -14,7 +14,7 @@ export const pokemon526_550 = [
       dexNum: '0527',
       name: 'Woobat',
       type: ['Psychic', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -22,9 +22,9 @@ export const pokemon526_550 = [
       dexNum: '0528',
       name: 'Swoobat',
       type: ['Psychic', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['527']
     },
     {
@@ -32,7 +32,7 @@ export const pokemon526_550 = [
       dexNum: '0529',
       name: 'Drilbur',
       type: ['Ground'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -40,9 +40,9 @@ export const pokemon526_550 = [
       dexNum: '0530',
       name: 'Excadrill',
       type: ['Ground', 'Steel'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2'],
+      finalStage: ['Bw', 'B2W2', 'SwSh'],
       preEvo: ['529']
     },
     {
@@ -59,7 +59,7 @@ export const pokemon526_550 = [
       dexNum: '0532',
       name: 'Timburr',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -67,7 +67,7 @@ export const pokemon526_550 = [
       dexNum: '0533',
       name: 'Gurdurr',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
       preEvo: ['532']
     },
@@ -76,9 +76,9 @@ export const pokemon526_550 = [
       dexNum: '0534',
       name: 'Conkeldurr',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['532', '533']
     },
     {
@@ -86,7 +86,7 @@ export const pokemon526_550 = [
       dexNum: '0535',
       name: 'Tympole',
       type: ['Water'],
-      availableIn: ['BW','B2W2'],
+      availableIn: ['BW','B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -94,7 +94,7 @@ export const pokemon526_550 = [
       dexNum: '0536',
       name: 'Palpitoad',
       type: ['Water', 'Ground'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
       preEvo: ['535']
     },
@@ -103,9 +103,9 @@ export const pokemon526_550 = [
       dexNum: '0537',
       name: 'Seismitoad',
       type: ['Water', 'Ground'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['535', '536']
     },
     {
@@ -113,18 +113,18 @@ export const pokemon526_550 = [
       dexNum: '0538',
       name: 'Throh',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh']
     },
     {
       id: '539',
       dexNum: '0539',
       name: 'Sawk',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh']
     },
     {
       id: '540',
@@ -185,7 +185,7 @@ export const pokemon526_550 = [
       dexNum: '0546',
       name: 'Cottonee',
       type: ['Grass', 'Fairy'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -193,9 +193,9 @@ export const pokemon526_550 = [
       dexNum: '0547',
       name: 'Whimsicott',
       type: ['Grass', 'Fairy'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
       preEvo: ['546']
     },
     {
@@ -221,20 +221,20 @@ export const pokemon526_550 = [
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
       form: 'Red-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh']
     },
     {
       id: '550A',
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: false,
       form: 'Blue-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh']
     },
     // {
     //   id: '550B',

@@ -72,9 +72,9 @@ export const pokemon101_125 = [
     dexNum: '0106',
     name: 'Hitmonlee',
     type: ['Fighting'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'SwSh'],
     preEvo: ['236'],
   },
   {
@@ -82,9 +82,9 @@ export const pokemon101_125 = [
     dexNum: '0107',
     name: 'Hitmonchan',
     type: ['Fighting'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'SwSh'],
     preEvo: ['236']
   },
   {
@@ -101,7 +101,7 @@ export const pokemon101_125 = [
     dexNum: '0109',
     name: 'Koffing',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'SwSh'],
     baseForm: true
   },
   {
@@ -115,11 +115,22 @@ export const pokemon101_125 = [
     preEvo: ['109']
   },
   {
+    id: '110A',
+    dexNum: '0110',
+    name: 'Weezing',
+    type: ['Poison', 'Fairy'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Weezing',
+    finalStage: ['SwSh'],
+    preEvo: ['109']
+  },
+  {
     id: '111',
     dexNum: '0111',
     name: 'Rhyhorn',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -127,7 +138,7 @@ export const pokemon101_125 = [
     dexNum: '0112',
     name: 'Rhydon',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['111'],
@@ -183,7 +194,7 @@ export const pokemon101_125 = [
     dexNum: '0118',
     name: 'Goldeen',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -191,9 +202,9 @@ export const pokemon101_125 = [
     dexNum: '0119',
     name: 'Seaking',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
     preEvo: ['118'],
   },
   {
@@ -222,6 +233,16 @@ export const pokemon101_125 = [
     availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    preEvo: ['439'],
+  },
+  {
+    id: '122A',
+    dexNum: '0122',
+    name: 'Mr. Mime',
+    type: ['Ice', 'Psychic'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Mr. Mime',
     preEvo: ['439'],
   },
   {

@@ -4,9 +4,9 @@ export const pokemon576_600 = [
       dexNum: '0576',
       name: 'Gothitelle',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['574', '575']
     },
     {
@@ -14,7 +14,7 @@ export const pokemon576_600 = [
       dexNum: '0577',
       name: 'Solosis',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -22,7 +22,7 @@ export const pokemon576_600 = [
       dexNum: '0578',
       name: 'Duosion',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
       preEvo: ['577']
     },
@@ -31,9 +31,9 @@ export const pokemon576_600 = [
       dexNum: '0579',
       name: 'Reuniclus',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['577', '578']
     },
     {
@@ -59,7 +59,7 @@ export const pokemon576_600 = [
       dexNum: '0582',
       name: 'Vanillite',
       type: ['Ice'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -67,7 +67,7 @@ export const pokemon576_600 = [
       dexNum: '0583',
       name: 'Vanillish',
       type: ['Ice'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
       preEvo: ['582']
     },
@@ -76,9 +76,9 @@ export const pokemon576_600 = [
       dexNum: '0584',
       name: 'Vaniluxe',
       type: ['Ice'],
-      availableIn: ['BW','B2W2', 'XY', 'USUM'],
+      availableIn: ['BW','B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       preEvo: ['582', '583']
     },
     {
@@ -113,7 +113,7 @@ export const pokemon576_600 = [
       dexNum: '0588',
       name: 'Karrablast',
       type: ['Bug'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -121,9 +121,9 @@ export const pokemon576_600 = [
       dexNum: '0589',
       name: 'Escavalier',
       type: ['Bug', 'Steel'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['Bw', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['588']
     },
     {
@@ -149,7 +149,7 @@ export const pokemon576_600 = [
       dexNum: '0592',
       name: 'Frillish',
       type: ['Water', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
       form: 'Male Frillish'
     },
@@ -158,7 +158,7 @@ export const pokemon576_600 = [
       dexNum: '0592',
       name: 'Frillish',
       type: ['Water', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: false,
       form: 'Female Frillish'
     },
@@ -167,10 +167,10 @@ export const pokemon576_600 = [
       dexNum: '0593',
       name: 'Jellicent',
       type: ['Water', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
       form: 'Male Jellicent',
-      finalStage: ['BW', 'B2W2', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
       preEvo: ['592']
     },
     {
@@ -178,10 +178,10 @@ export const pokemon576_600 = [
       dexNum: '0593',
       name: 'Jellicent',
       type: ['Water', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: false,
       form: 'Female Jellicent',
-      finalStage: ['BW', 'B2W2', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
       preEvo: ['592A']
     },
     {
@@ -198,7 +198,7 @@ export const pokemon576_600 = [
       dexNum: '0595',
       name: 'Joltik',
       type: ['Bug', 'Electric'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -206,9 +206,9 @@ export const pokemon576_600 = [
       dexNum: '0596',
       name: 'Galvantula',
       type: ['Bug', 'Electric'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['595']
     },
     {
@@ -216,7 +216,7 @@ export const pokemon576_600 = [
       dexNum: '0597',
       name: 'Ferroseed',
       type: ['Grass', 'Steel'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -224,9 +224,9 @@ export const pokemon576_600 = [
       dexNum: '0598',
       name: 'Ferrothorn',
       type: ['Grass', 'Steel'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['597']
     },
     {
@@ -234,7 +234,7 @@ export const pokemon576_600 = [
       dexNum: '0599',
       name: 'Klink',
       type: ['Steel'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true
     },
     {
@@ -242,7 +242,7 @@ export const pokemon576_600 = [
     dexNum: '0600',
     name: 'klang',
     type: ['Steel'],
-    availableIn: ['BW', 'B2W2'],
+    availableIn: ['BW', 'B2W2', 'SwSh'],
     baseForm: true,
     preEvo: ['599']
     },

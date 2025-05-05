@@ -14,9 +14,9 @@ export const pokemon476_500 = [
     dexNum: '0477',
     name: 'Dusknoir',
     type: ['Ghost'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'SwSh'],
     preEvo: ['355', '356']
   },
   {
@@ -24,9 +24,9 @@ export const pokemon476_500 = [
     dexNum: '0478',
     name: 'Froslass',
     type: ['Ice', 'Ghost'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY', 'SwSh'],
     preEvo: ['361']
   },
   {
@@ -34,59 +34,59 @@ export const pokemon476_500 = [
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Ghost'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY']
+    finalStage: ['Platinum', 'XY', 'SwSh']
   },
   {
     id: '479A',
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Fire'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: false,
     form: 'Heat Rotom',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '479B',
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: false,
     form: 'Wash Rotom',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '479C',
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Ice'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: false,
     form: 'Frost Rotom',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '479D',
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: false,
     form: 'Fan Rotom',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '479E',
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: false,
     form: 'Mow Rotom',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '480',

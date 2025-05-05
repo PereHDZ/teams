@@ -4,9 +4,9 @@ export const pokemon226_250 = [
     dexNum: '0226',
     name: 'Mantine',
     type: ['Water', 'Flying'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['458']
   },
   {
@@ -97,7 +97,7 @@ export const pokemon226_250 = [
     dexNum: '0236',
     name: 'Tyrogue',
     type: ['Fighting'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'SwSh'],
     baseForm: true
   },
   {
@@ -105,9 +105,9 @@ export const pokemon226_250 = [
     dexNum: '0237',
     name: 'Hitmontop',
     type: ['Fighting'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'SwSh'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'SwSh'],
     preEvo: ['236']
   },
   {
@@ -185,7 +185,7 @@ export const pokemon226_250 = [
     dexNum: '0246',
     name: 'Larvitar',
     type: ['Rock', 'Ground'],
-    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -193,7 +193,7 @@ export const pokemon226_250 = [
     dexNum: '0247',
     name: 'Pupitar',
     type: ['Rock', 'Ground'],
-    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
     preEvo: ['246']
   },
@@ -202,9 +202,9 @@ export const pokemon226_250 = [
     dexNum: '0248',
     name: 'Tyranitar',
     type: ['Rock', 'Fark'],
-    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['HGSS', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['HGSS', 'B2W2', 'XY', 'USUM', 'SwSh'],
     preEvo: ['246', '247']
   },
   {

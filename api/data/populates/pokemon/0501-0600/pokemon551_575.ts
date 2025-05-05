@@ -35,6 +35,15 @@ export const pokemon551_575 = [
       baseForm: true
     },
     {
+      id: '554A',
+      dexNum: '0554',
+      name: 'Darumaka',
+      type: ['Ice'],
+      availableIn: ['SwSh'],
+      baseForm: false,
+      form: 'Galarian Darumaka'
+    },
+    {
       id: '555',
       dexNum: '0555',
       name: 'Darmanitan',
@@ -45,20 +54,31 @@ export const pokemon551_575 = [
       preEvo: ['554']
     },
     {
+      id: '555A',
+      dexNum: '0555',
+      name: 'Darmanitan',
+      type: ['Ice'],
+      availableIn: ['SwSh'],
+      baseForm: false,
+      form: 'Galarian Darmanitan',
+      finalStage: ['SwSh'],
+      preEvo: ['554A']
+    },
+    {
       id: '556',
       dexNum: '0556',
       name: 'Maractus',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'SwSh']
     },
     {
       id: '557',
       dexNum: '0557',
       name: 'Dwebble',
       type: ['Bug', 'Rock'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -66,9 +86,9 @@ export const pokemon551_575 = [
       dexNum: '0558',
       name: 'Crustle',
       type: ['Bug', 'Rock'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['557']
     },
     {
@@ -76,7 +96,7 @@ export const pokemon551_575 = [
       dexNum: '0559',
       name: 'Scraggy',
       type: ['Dark', 'Fighting'],
-      availableIn: ['BW','B2W2', 'XY', 'USUM'],
+      availableIn: ['BW','B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -84,9 +104,9 @@ export const pokemon551_575 = [
       dexNum: '0560',
       name: 'Scrafty',
       type: ['Dark', 'Fighting'],
-      availableIn: ['Bw', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['Bw', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       preEvo: ['559']
     },
     {
@@ -94,17 +114,26 @@ export const pokemon551_575 = [
       dexNum: '0561',
       name: 'Sigilyph',
       type: ['Psychic', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh']
     },
     {
       id: '562',
       dexNum: '0562',
       name: 'Yamask',
       type: ['Ghost'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true
+    },
+    {
+      id: '562A',
+      dexNum: '0562',
+      name: 'Yamask',
+      type: ['Ground', 'Ghost'],
+      availableIn: ['SwSh'],
+      baseForm: false,
+      form: 'Galarian Yamask'
     },
     {
       id: '563',
@@ -157,7 +186,7 @@ export const pokemon551_575 = [
       dexNum: '0568',
       name: 'Trubbish',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -165,9 +194,9 @@ export const pokemon551_575 = [
       dexNum: '0569',
       name: 'Garbodor',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       preEvo: ['568'],
     },
     {
@@ -193,7 +222,7 @@ export const pokemon551_575 = [
       dexNum: '0572',
       name: 'Minccino',
       type: ['Normal'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -201,9 +230,9 @@ export const pokemon551_575 = [
       dexNum: '0573',
       name: 'Cinccino',
       type: ['Normal'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
       preEvo: ['572']
     },
     {
@@ -211,7 +240,7 @@ export const pokemon551_575 = [
       dexNum: '0574',
       name: 'Gothita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -219,7 +248,7 @@ export const pokemon551_575 = [
       dexNum: '0575',
       name: 'Gothorita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
       preEvo: ['574']
     },

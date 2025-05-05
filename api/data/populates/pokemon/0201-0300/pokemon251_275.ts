@@ -116,6 +116,15 @@ export const pokemon251_275 = [
     baseForm: true
   },
   {
+    id: '263A',
+    dexNum: '0263',
+    name: 'Zigzagoon',
+    type: ['Dark', 'Normal'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Zigzagoon'
+  },
+  {
     id: '264',
     dexNum: '0264',
     name: 'Linoone',
@@ -124,6 +133,17 @@ export const pokemon251_275 = [
     baseForm: true,
     finalSatge: ['Emerald', 'XY'],
     preEvo: ['263']
+  },
+  {
+    id: '264A',
+    dexNum: '0264',
+    name: 'Linoone',
+    type: ['Dark', 'Normal'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Linoone',
+    finalSatge: ['SwSh'],
+    preEvo: ['263A']
   },
   {
     id: '265',
@@ -176,7 +196,7 @@ export const pokemon251_275 = [
     dexNum: '0270',
     name: 'Lotad',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -184,7 +204,7 @@ export const pokemon251_275 = [
     dexNum: '0271',
     name: 'Lombre',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true,
     preEvo: ['270']
   },
@@ -193,9 +213,9 @@ export const pokemon251_275 = [
     dexNum: '0272',
     name: 'Ludicolo',
     type: ['Water', 'Grass'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true,
-    finalSatge: ['Emerald', 'XY'],
+    finalSatge: ['Emerald', 'XY', 'SwSh'],
     preEvo: ['270', '271']
   },
   {
@@ -203,7 +223,7 @@ export const pokemon251_275 = [
     dexNum: '0273',
     name: 'Seedot',
     type: ['Grass'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'SwSh'],
     baseForm: true
   },
   {
@@ -211,7 +231,7 @@ export const pokemon251_275 = [
     dexNum: '0274',
     name: 'Nuzleaf',
     type: ['Grass', 'Dark'],
-    availableIn: ['HGSS'],
+    availableIn: ['Emerald', 'SwSh'],
     baseForm: true,
     preEvo: ['273']
   },
@@ -220,9 +240,9 @@ export const pokemon251_275 = [
     dexNum: '0275',
     name: 'Shiftry',
     type: ['Grass', 'Dark'],
-    availableIn: ['Emerald'],
+    availableIn: ['Emerald', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'SwSh'],
     preEvo: ['273', '274']
   },
 ]

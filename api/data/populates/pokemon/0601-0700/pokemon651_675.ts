@@ -77,7 +77,7 @@ export const pokemon651_675 = [
       dexNum: '0659',
       name: 'Bunnelby',
       type: ['Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true
     },
     {
@@ -85,9 +85,9 @@ export const pokemon651_675 = [
       dexNum: '0660',
       name: 'Diggersby',
       type: ['Normal', 'Ground'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'SwSh'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'SwSh'],
       preEvo: ['659']
     },
     {
@@ -347,7 +347,7 @@ export const pokemon651_675 = [
       dexNum: '0674',
       name: 'Pancham',
       type: ['Fighting'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -355,9 +355,9 @@ export const pokemon651_675 = [
     dexNum: '0675',
     name: 'Pangoro',
     type: ['Fighting', 'Dark'],
-    availableIn: ['XY', 'USUM'],
+    availableIn: ['XY', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['XY', 'USUM'],
+    finalStage: ['XY', 'USUM', 'SwSh'],
     preEvo: ['674']
     },
   ]

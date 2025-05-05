@@ -40,7 +40,7 @@ export const pokemon351_375 = [
     dexNum: '0355',
     name: 'Duskull',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'SwSh'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon351_375 = [
     dexNum: '0356',
     name: 'Dusclops',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'SwSh'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['355']
@@ -86,7 +86,7 @@ export const pokemon351_375 = [
     dexNum: '0360',
     name: 'Wynaut',
     type: ['Psychic'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -94,7 +94,7 @@ export const pokemon351_375 = [
     dexNum: '0361',
     name: 'Snorunt',
     type: ['Ice'],
-    availableIn: ['Emerald', 'Platinum', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     baseForm: true
   },
   {
@@ -102,9 +102,9 @@ export const pokemon351_375 = [
     dexNum: '0362',
     name: 'Glalie',
     type: ['Ice'],
-    availableIn: ['Emerald', 'Platinum', 'USUM'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     baseForm: true,
-    finalStage: ['Emerald'],
+    finalStage: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
     preEvo: ['361']
   },
   {

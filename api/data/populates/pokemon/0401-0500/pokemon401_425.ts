@@ -49,7 +49,7 @@ export const pokemon401_425 = [
     dexNum: '0406',
     name: 'Budew',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum', 'B2W2', 'XY'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -57,9 +57,9 @@ export const pokemon401_425 = [
     dexNum: '0407',
     name: 'Roserade',
     type: ['Grass', 'Poison'],
-    availableIn: ['Platinum', 'B2W2', 'XY'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2', 'XY'],
+    finalStage: ['Platinum', 'B2W2', 'XY', 'SwSh'],
     preEvo: ['406', '315']
   },
   {
@@ -171,7 +171,7 @@ export const pokemon401_425 = [
     dexNum: '0415',
     name: 'Combee',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'SwSh'],
     baseForm: true
   },
   {
@@ -179,9 +179,9 @@ export const pokemon401_425 = [
     dexNum: '0416',
     name: 'Vespiquen',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY', 'SwSh'],
     preEvo: ['415']
   },
   {
@@ -216,7 +216,7 @@ export const pokemon401_425 = [
     dexNum: '0420',
     name: 'Cherubi',
     type: ['Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: true
   },
   {
@@ -224,16 +224,16 @@ export const pokemon401_425 = [
     dexNum: '0421',
     name: 'Cherrim',
     type: ['Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'SwSh'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'SwSh']
   },
   {
     id: '422',
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum', 'USUM'],
+    availableIn: ['Platinum', 'USUM', 'SwSh'],
     baseForm: true,
     form: 'Shellos West Sea'
   },
@@ -242,7 +242,7 @@ export const pokemon401_425 = [
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum', 'USUM'],
+    availableIn: ['Platinum', 'USUM', 'SwSh'],
     baseForm: false,
     form: 'Shellos East Sea'  
   },
@@ -251,10 +251,10 @@ export const pokemon401_425 = [
     dexNum: '0423',
     name: 'Gastrodon',
     type: ['Water', 'Ground'],
-    availableIn: ['Platinum', 'USUM'],
+    availableIn: ['Platinum', 'USUM', 'SwSh'],
     baseForm: true,
     form: 'Gastrodon West Sea',
-    finalStage: ['Platinum', 'USUM'],
+    finalStage: ['Platinum', 'USUM', 'SwSh'],
     preEvo: ['422']
   },
   {
@@ -262,10 +262,10 @@ export const pokemon401_425 = [
     dexNum: '0423',
     name: 'Gastrodon',
     type: ['Water', 'Ground'],
-    availableIn: ['Platinum', 'USUM'],
+    availableIn: ['Platinum', 'USUM', 'SwSh'],
     baseForm: false,
     form: 'Gastrodon East Sea',
-    finalStage: ['Platinum', 'USUM'],
+    finalStage: ['Platinum', 'USUM', 'SwSh'],
     preEvo: ['422A']
   },
   {
@@ -283,7 +283,7 @@ export const pokemon401_425 = [
     dexNum: '0425',
     name: 'Drifloon',
     type: ['Ghost', 'Flying'],
-    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh'],
     baseForm: true
   },
 ]
