@@ -85,7 +85,7 @@ export const pokemon1_25 = [
     dexNum: '0010',
     name: 'Caterpie',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -93,7 +93,7 @@ export const pokemon1_25 = [
     dexNum: '0011',
     name: 'Metapod',
     type: ['Bug'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true,
     preEvo: ['10'],
   },
@@ -102,9 +102,9 @@ export const pokemon1_25 = [
     dexNum: '0012',
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
     preEvo: ['10', '11'],
   },
   {
@@ -170,6 +170,15 @@ export const pokemon1_25 = [
     baseForm: true
   },
   {
+    id: '19A',
+    dexNum: '0019',
+    name: 'Rattata',
+    type: ['Dark', 'Normal'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Rattata'
+  },
+  {
     id: '20',
     dexNum: '0020',
     name: 'Raticate',
@@ -180,11 +189,22 @@ export const pokemon1_25 = [
     preEvo: ['19'],
   },
   {
+    id: '20A',
+    dexNum: '0020',
+    name: 'Raticate',
+    type: ['Dark', 'Normal'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Raticate',
+    finalStage: ['USUM'],
+    preEvo: ['19A'],
+  },
+  {
     id: '21',
     dexNum: '0021',
     name: 'Spearow',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -192,9 +212,9 @@ export const pokemon1_25 = [
     dexNum: '0022',
     name: 'Fearow',
     type: ['Normal', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
     preEvo: ['21'],
   },
   {
@@ -202,7 +222,7 @@ export const pokemon1_25 = [
     dexNum: '0023',
     name: 'Ekans',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -210,9 +230,9 @@ export const pokemon1_25 = [
     dexNum: '0024',
     name: 'Arbok',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
     preEvo: ['23'],
   },
   {
@@ -220,7 +240,7 @@ export const pokemon1_25 = [
     dexNum: '0025',
     name: 'Pikachu',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
     preEvo: ['172'],
   },

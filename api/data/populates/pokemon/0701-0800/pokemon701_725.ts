@@ -4,34 +4,34 @@ export const pokemon700_725 = [
       dexNum: '0701',
       name: 'Hawlucha',
       type: ['Fighting', 'Flying'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '702',
       dexNum: '0702',
       name: 'Dedenne',
       type: ['Electric', 'Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '703',
       dexNum: '0703',
       name: 'Carbink',
       type: ['Rock', 'Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '704',
       dexNum: '0704',
       name: 'Goomy',
       type: ['Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -39,7 +39,7 @@ export const pokemon700_725 = [
       dexNum: '0705',
       name: 'Sliggoo',
       type: ['Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       preEvo: ['704']
     },
@@ -48,9 +48,9 @@ export const pokemon700_725 = [
       dexNum: '0706',
       name: 'Goodra',
       type: ['Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['704', '705']
     },
     {
@@ -58,16 +58,16 @@ export const pokemon700_725 = [
       dexNum: '0707',
       name: 'Klefki',
       type: ['Steel', 'Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '708',
       dexNum: '0708',
       name: 'Phantump',
       type: ['Ghost', 'Grass'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -75,9 +75,9 @@ export const pokemon700_725 = [
       dexNum: '0709',
       name: 'Trevenant',
       type: ['Ghost', 'Grass'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['708']
     },
     {
@@ -121,7 +121,7 @@ export const pokemon700_725 = [
       dexNum: '0714',
       name: 'Noibat',
       type: ['Flying', 'Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -129,9 +129,9 @@ export const pokemon700_725 = [
       dexNum: '0715',
       name: 'Noivern',
       type: ['Flying', 'Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['714']
     },
     {
@@ -157,9 +157,9 @@ export const pokemon700_725 = [
       dexNum: '0718',
       name: 'Zygarde',
       type: ['Dragon', 'Ground'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '719',
@@ -199,42 +199,39 @@ export const pokemon700_725 = [
       baseForm: true,
       finalStage: ['XY']
     },
-    // {
-    //   id: '697',
-    //   dexNum: '0697',
-    //   name: 'Tyrantrum',
-    //   type: ['Rock', 'Dragon'],
-    //   availableIn: ['XY'],
-    //   baseForm: true,
-    //   finalStage: ['XY'],
-    //   preEvo: ['696']
-    // },
-    // {
-    //   id: '698',
-    //   dexNum: '0698',
-    //   name: 'Amaura',
-    //   type: ['Rock', 'Ice'],
-    //   availableIn: ['XY'],
-    //   baseForm: true
-    // },
-    // {
-    //   id: '699',
-    //   dexNum: '0699',
-    //   name: 'Aurorus',
-    //   type: ['Rock', 'Ice'],
-    //   availableIn: ['XY'],
-    //   baseForm: true,
-    //   finalStage: ['XY'],
-    //   preEvo: ['698']
-    // },
-    // {
-    // id: '700',
-    // dexNum: '0700',
-    // name: 'Sylveon',
-    // type: ['Fairy'],
-    // availableIn: ['XY'],
-    // baseForm: true,
-    // finalStage: ['XY'],
-    // preEvo: ['133']
-    // },
+    {
+      id: '722',
+      dexNum: '0722',
+      name: 'Rowlet',
+      type: ['Grass', 'Flying'],
+      availableIn: ['USUM'],
+      baseForm: true
+    },
+    {
+      id: '723',
+      dexNum: '0723',
+      name: 'Dartrix',
+      type: ['Grass', 'Flying'],
+      availableIn: ['USUM'],
+      baseForm: true,
+      preEvo: ['722']
+    },
+    {
+      id: '724',
+      dexNum: '0724',
+      name: 'Decidueye',
+      type: ['Grass', 'Ghost'],
+      availableIn: ['USUM'],
+      baseForm: true,
+      finalStage: ['USUM'],
+      preEvo: ['722', '723']
+    },
+    {
+      id: '725',
+      dexNum: '0725',
+      name: 'Litten',
+      type: ['Fire'],
+      availableIn: ['USUM'],
+      baseForm: true
+    },
   ]

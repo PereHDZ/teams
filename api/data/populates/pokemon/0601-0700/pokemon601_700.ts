@@ -41,7 +41,7 @@ export const pokemon601_625 = [
       dexNum: '0605',
       name: 'Elgyem',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -49,9 +49,9 @@ export const pokemon601_625 = [
       dexNum: '0606',
       name: 'Beheeyem',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['605']
     },
     {
@@ -167,7 +167,7 @@ export const pokemon601_625 = [
       dexNum: '0619',
       name: 'Mienfoo',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -175,9 +175,9 @@ export const pokemon601_625 = [
       dexNum: '0620',
       name: 'Mienshao',
       type: ['Fighting'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['619']
     },
     {
@@ -185,16 +185,16 @@ export const pokemon601_625 = [
       dexNum: '0621',
       name: 'Druddigon',
       type: ['Dragon'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
     },
     {
       id: '622',
       dexNum: '0622',
       name: 'Golett',
       type: ['Ground', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -202,9 +202,9 @@ export const pokemon601_625 = [
       dexNum: '0623',
       name: 'Golurk',
       type: ['Ground', 'Ghost'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['622']
     },
     {
@@ -212,7 +212,7 @@ export const pokemon601_625 = [
       dexNum: '0624',
       name: 'Pawniard',
       type: ['Dark', 'Steel'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -220,9 +220,9 @@ export const pokemon601_625 = [
     dexNum: '0625',
     name: 'Bisharp',
     type: ['Steel'],
-    availableIn: ['BW', 'B2W2', 'XY'],
+    availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['BW', 'B2W2', 'XY'],
+    finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
     preEvo: ['624']
     },
   ]

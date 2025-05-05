@@ -95,7 +95,7 @@ export const pokemon651_675 = [
       dexNum: '0661',
       name: 'Fletchling',
       type: ['Normal', 'Flying'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -103,7 +103,7 @@ export const pokemon651_675 = [
       dexNum: '0662',
       name: 'Fletchinder',
       type: ['Fire', 'Flying'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       preEvo: ['661']
     },
@@ -112,9 +112,9 @@ export const pokemon651_675 = [
       dexNum: '0663',
       name: 'Talonflame',
       type: ['Fire', 'Flying'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['661', '662']
     },
     {
@@ -149,7 +149,7 @@ export const pokemon651_675 = [
       dexNum: '0667',
       name: 'Litleo',
       type: ['Fire', 'Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -157,21 +157,21 @@ export const pokemon651_675 = [
       dexNum: '0668',
       name: 'Pyroar',
       type: ['Fire', 'Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       form: 'Male Pyroar',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['667']
     },
     {
       id: '668A',
-      dexNum: '0668A',
+      dexNum: '0668',
       name: 'Pyroar',
       type: ['Fire', 'Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Female Pyroar',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['667']
     },
     {
@@ -179,43 +179,43 @@ export const pokemon651_675 = [
       dexNum: '0669',
       name: 'Flabébé',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       form: 'Red Flower Flabébé'
     },
     {
       id: '669A',
-      dexNum: '0669A',
+      dexNum: '0669',
       name: 'Flabébé',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Yellow Flower Flabébé'
     },
     {
       id: '669B',
-      dexNum: '0669B',
+      dexNum: '0669',
       name: 'Flabébé',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Orange Flower Flabébé'
     },
     {
       id: '669C',
-      dexNum: '0669C',
+      dexNum: '0669',
       name: 'Flabébé',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Blue Flower Flabébé'
     },
     {
       id: '669D',
-      dexNum: '0669D',
+      dexNum: '0669',
       name: 'Flabébé',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'White Flower Flabébé'
     },
@@ -224,47 +224,47 @@ export const pokemon651_675 = [
       dexNum: '0670',
       name: 'Floette',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       form: 'Red Flower Floette',
       preEvo: ['669']
     },
     {
       id: '670A',
-      dexNum: '0670A',
+      dexNum: '0670',
       name: 'Floette',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Yellow Flower Floette',
       preEvo: ['669A']
     },
     {
       id: '670B',
-      dexNum: '0670B',
+      dexNum: '0670',
       name: 'Floette',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Orange Flower Floette',
       preEvo: ['669B']
     },
     {
       id: '670C',
-      dexNum: '0670C',
+      dexNum: '0670',
       name: 'Floette',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Blue Flower Floette',
       preEvo: ['669C']
     },
     {
       id: '670D',
-      dexNum: '0670D',
+      dexNum: '0670',
       name: 'Floette',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'White Flower Floette',
       preEvo: ['669D']
@@ -274,54 +274,54 @@ export const pokemon651_675 = [
       dexNum: '0671',
       name: 'Florges',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
       form: 'Red Flower Florges',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['669', '670']
     },
     {
       id: '671A',
-      dexNum: '0671A',
+      dexNum: '0671',
       name: 'Florges',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Yellow Flower Florges',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['669A', '670A']
     },
     {
       id: '671B',
-      dexNum: '0671B',
+      dexNum: '0671',
       name: 'Florges',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Orange Flower Florges',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['669B', '670B']
     },
     {
       id: '671C',
-      dexNum: '0671C',
+      dexNum: '0671',
       name: 'Florges',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'Blue Flower Florges',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['669C', '670C']
     },
     {
       id: '671D',
-      dexNum: '0671D',
+      dexNum: '0671',
       name: 'Florges',
       type: ['Fairy'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: false,
       form: 'White Flower Florges',
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['669D', '670D']
     },
     {
@@ -347,7 +347,7 @@ export const pokemon651_675 = [
       dexNum: '0674',
       name: 'Pancham',
       type: ['Fighting'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -355,9 +355,9 @@ export const pokemon651_675 = [
     dexNum: '0675',
     name: 'Pangoro',
     type: ['Fighting', 'Dark'],
-    availableIn: ['XY'],
+    availableIn: ['XY', 'USUM'],
     baseForm: true,
-    finalStage: ['XY'],
+    finalStage: ['XY', 'USUM'],
     preEvo: ['674']
     },
   ]

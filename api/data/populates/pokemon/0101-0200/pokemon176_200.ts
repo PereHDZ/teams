@@ -14,7 +14,7 @@ export const pokemon176_200 = [
     dexNum: '0177',
     name: 'Natu',
     type: ['Psychic', 'Flying'],
-    availableIn: ['HGSS', 'Emerald'],
+    availableIn: ['HGSS', 'Emerald', 'USUM'],
     baseForm: true
   },
   {
@@ -22,9 +22,9 @@ export const pokemon176_200 = [
     dexNum: '0178',
     name: 'Xatu',
     type: ['Psychic', 'Flying'],
-    availableIn: ['HGSS', 'Emerald'],
+    availableIn: ['HGSS', 'Emerald', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald'],
+    finalStage: ['HGSS', 'Emerald', 'USUM'],
     preEvo: ['177'],
   },
   {
@@ -32,7 +32,7 @@ export const pokemon176_200 = [
     dexNum: '0179',
     name: 'Mareep',
     type: ['Electric'],
-    availableIn: ['HGSS', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -40,7 +40,7 @@ export const pokemon176_200 = [
     dexNum: '0180',
     name: 'Flaaffy',
     type: ['Electric'],
-    availableIn: ['HGSS', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
     preEvo: ['179'],
   },
@@ -49,9 +49,9 @@ export const pokemon176_200 = [
     dexNum: '0181',
     name: 'Ampharos',
     type: ['Electric'],
-    availableIn: ['HGSS', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'B2W2', 'XY'],
+    finalStage: ['HGSS', 'B2W2', 'XY', 'USUM'],
     preEvo: ['179', '180'],
   },
   {
@@ -88,9 +88,9 @@ export const pokemon176_200 = [
     dexNum: '0185',
     name: 'Sudowoodo',
     type: ['Rock'],
-    availableIn: ['HGSS', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'XY', 'USUM'],
     preEvo: ['438']
   },
   {
@@ -98,9 +98,9 @@ export const pokemon176_200 = [
     dexNum: '0186',
     name: 'Politoed',
     type: ['Water'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'XY'],
+    finalStage: ['HGSS', 'XY', 'USUM'],
     preEvo: ['60', '61']
   },
   {
@@ -135,7 +135,7 @@ export const pokemon176_200 = [
     dexNum: '0190',
     name: 'Aipom',
     type: ['Normal'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'USUM'],
     baseForm: true,
     finalStage: ['HGSS'],
   },
@@ -189,9 +189,9 @@ export const pokemon176_200 = [
     dexNum: '0196',
     name: 'Espeon',
     type: ['Psychic'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['133'],
   },
   {
@@ -199,9 +199,9 @@ export const pokemon176_200 = [
     dexNum: '0197',
     name: 'Umbreon',
     type: ['Dark'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['133']
   },
   {
@@ -209,7 +209,7 @@ export const pokemon176_200 = [
     dexNum: '0198',
     name: 'Murkrow',
     type: ['Dark', 'Flying'],
-    availableIn: ['HGSS', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
     finalStage: ['HGSS']
   },
@@ -218,9 +218,9 @@ export const pokemon176_200 = [
     dexNum: '0199',
     name: 'Slowking',
     type: ['Water', 'Psychic'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'XY'],
+    finalStage: ['HGSS', 'XY', 'USUM'],
     preEvo: ['79']
   },
   {
@@ -228,7 +228,7 @@ export const pokemon176_200 = [
     dexNum: '0200',
     name: 'Misdreavus',
     type: ['Ghost'],
-    availableIn: ['HGSS', 'Platinum'],
+    availableIn: ['HGSS', 'Platinum', 'USUM'],
     baseForm: true,
     finalStage: ['HGSS']
   },

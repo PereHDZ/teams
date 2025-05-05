@@ -27,6 +27,10 @@ import { pokemon626_650 } from "./0601-0700/pokemon626_650"
 import { pokemon651_675 } from "./0601-0700/pokemon651_675"
 import { pokemon676_700 } from "./0601-0700/pokemon676_700"
 import { pokemon700_725 } from "./0701-0800/pokemon701_725"
+import { pokemon726_750 } from "./0701-0800/pokemon726_750"
+import { pokemon751_775 } from "./0701-0800/pokemon751_775"
+import { pokemon776_800 } from "./0701-0800/pokemon776_800"
+import { pokemon801_825 } from "./0801-0900/pokemon801_825"
 
 
 export default [
@@ -58,5 +62,9 @@ export default [
     ...pokemon626_650,
     ...pokemon651_675,
     ...pokemon676_700,
-    ...pokemon700_725
+    ...pokemon700_725,
+    ...pokemon726_750,
+    ...pokemon751_775,
+    ...pokemon776_800,
+    ...pokemon801_825
 ]

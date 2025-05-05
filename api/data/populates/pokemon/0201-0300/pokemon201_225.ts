@@ -32,7 +32,7 @@ export const pokemon201_225 = [
     dexNum: '0204',
     name: 'Pineco',
     type: ['Bug'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'USUM'],
     baseForm: true
   },
   {
@@ -40,9 +40,9 @@ export const pokemon201_225 = [
     dexNum: '0205',
     name: 'Forretress',
     type: ['Bug', 'Steel'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS'],
+    finalStage: ['HGSS', 'USUM'],
     preEvo: ['204'],
   },
   {
@@ -50,9 +50,9 @@ export const pokemon201_225 = [
     dexNum: '0206',
     name: 'Dunsparce',
     type: ['Normal'],
-    availableIn: ['HGSS', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'B2W2', 'XY']
+    finalStage: ['HGSS', 'B2W2', 'XY', 'USUM']
   },
   {
     id: '207',
@@ -78,7 +78,7 @@ export const pokemon201_225 = [
     dexNum: '0209',
     name: 'Snubbull',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -86,9 +86,9 @@ export const pokemon201_225 = [
     dexNum: '0210',
     name: 'Granbull',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'XY'],
+    finalStage: ['HGSS', 'XY', 'USUM'],
     preEvo: ['209']
   },
   {
@@ -105,9 +105,9 @@ export const pokemon201_225 = [
     dexNum: '0212',
     name: 'Scizor',
     type: ['Bug', 'Steel'],
-    availableIn: ['HGSS', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'XY', 'USUM'],
     preEvo: ['123']
   },
   {
@@ -124,16 +124,16 @@ export const pokemon201_225 = [
     dexNum: '0214',
     name: 'Heracross',
     type: ['Bug', 'Fighting'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY']
+    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM']
   },
   {
     id: '215',
     dexNum: '0215',
     name: 'Sneasel',
     type: ['Dark', 'Ice'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
     finalStage: ['HGSS']
   },
@@ -196,16 +196,16 @@ export const pokemon201_225 = [
     dexNum: '0222',
     name: 'Corsola',
     type: ['Water', 'Rock'],
-    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'B2W2', 'XY']
+    finalStage: ['HGSS', 'Emerald', 'B2W2', 'XY', 'USUM']
   },
   {
     id: '223',
     dexNum: '0223',
     name: 'Remoraid',
     type: ['Water'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -213,9 +213,9 @@ export const pokemon201_225 = [
     dexNum: '0224',
     name: 'Octillery',
     type: ['Water'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['223']
   },
   {
@@ -223,8 +223,8 @@ export const pokemon201_225 = [
     dexNum: '0225',
     name: 'Delibird',
     type: ['Ice', 'Flying'],
-    availableIn: ['HGSS', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'B2W2', 'XY']
+    finalStage: ['HGSS', 'B2W2', 'XY', 'USUM']
   },
 ]

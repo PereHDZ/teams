@@ -49,7 +49,7 @@ export const pokemon451_475 = [
       dexNum: '0456',
       name: 'Finneon',
       type: ['Water'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'USUM'],
       baseForm: true
     },
     {
@@ -57,9 +57,9 @@ export const pokemon451_475 = [
       dexNum: '0457',
       name: 'Lumineon',
       type: ['Water'],
-      availableIn: ['Platinum'],
+      availableIn: ['Platinum', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum'],
+      finalStage: ['Platinum', 'USUM'],
       preEvo: ['456']
     },
     {
@@ -67,7 +67,7 @@ export const pokemon451_475 = [
       dexNum: '0458',
       name: 'Mantyke',
       type: ['Water', 'Flying'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -93,9 +93,9 @@ export const pokemon451_475 = [
       dexNum: '0461',
       name: 'Weavile',
       type: ['Dark', 'Ice'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
       preEvo: ['215']
     },
     {
@@ -103,9 +103,9 @@ export const pokemon451_475 = [
       dexNum: '0462',
       name: 'Magnezone',
       type: ['Electric', 'Steel'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
       preEvo: ['81', '82']
     },
     {
@@ -113,9 +113,9 @@ export const pokemon451_475 = [
       dexNum: '0463',
       name: 'Lickilicky',
       type: ['Normal'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
       preEvo: ['108']
     },
     {
@@ -143,9 +143,9 @@ export const pokemon451_475 = [
       dexNum: '0466',
       name: 'Electivire',
       type: ['Electric'],
-      availableIn: ['Platinum', 'B2W2'],
+      availableIn: ['Platinum', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2'],
+      finalStage: ['Platinum', 'B2W2', 'USUM'],
       preEvo: ['239', '125']
     },
     {
@@ -153,9 +153,9 @@ export const pokemon451_475 = [
       dexNum: '0467',
       name: 'Magmortar',
       type: ['Fire'],
-      availableIn: ['Platinum', 'B2W2'],
+      availableIn: ['Platinum', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2'],
+      finalStage: ['Platinum', 'B2W2', 'USUM'],
       preEvo: ['240', '126']
     },
     {
@@ -183,9 +183,9 @@ export const pokemon451_475 = [
       dexNum: '0470',
       name: 'Leafeon',
       type: ['Grass'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
       preEvo: ['133']
     },
     {
@@ -193,9 +193,9 @@ export const pokemon451_475 = [
       dexNum: '0471',
       name: 'Glaceon',
       type: ['Ice'],
-      availableIn: ['Platinum', 'B2W2', 'XY'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
       preEvo: ['133']
     },
     {

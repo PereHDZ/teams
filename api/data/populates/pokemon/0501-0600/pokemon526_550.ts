@@ -4,9 +4,9 @@ export const pokemon526_550 = [
       dexNum: '0526',
       name: 'Gigalith',
       type: ['Rock'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['524', '525']
     },
     {
@@ -185,7 +185,7 @@ export const pokemon526_550 = [
       dexNum: '0546',
       name: 'Cottonee',
       type: ['Grass', 'Fairy'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -193,9 +193,9 @@ export const pokemon526_550 = [
       dexNum: '0547',
       name: 'Whimsicott',
       type: ['Grass', 'Fairy'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['546']
     },
     {
@@ -203,7 +203,7 @@ export const pokemon526_550 = [
       dexNum: '0548',
       name: 'Petilil',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -211,9 +211,9 @@ export const pokemon526_550 = [
       dexNum: '0549',
       name: 'Lilligant',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['548']
     },
     {
@@ -221,20 +221,20 @@ export const pokemon526_550 = [
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
       form: 'Red-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
     },
     {
       id: '550A',
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: false,
       form: 'Blue-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
     },
     // {
     //   id: '550B',

@@ -10,12 +10,32 @@ export const pokemon26_50 = [
     preEvo: ['172', '25']
   },
   {
+    id: '26A',
+    dexNum: '0026',
+    name: 'Raichu',
+    type: ['Electric', 'Psychic'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Raichu',
+    finalStage: ['USUM'],
+    preEvo: ['172', '25']
+  },
+  {
     id: '27',
     dexNum: '0027',
     name: 'Sandshrew',
     type: ['Ground'],
     availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
     baseForm: true
+  },
+  {
+    id: '27A',
+    dexNum: '0027',
+    name: 'Sandshrew',
+    type: ['Ice', 'Steel'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Sandshrew'
   },
   {
     id: '28',
@@ -26,6 +46,17 @@ export const pokemon26_50 = [
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
     preEvo: ['27'],
+  },
+  {
+    id: '28A',
+    dexNum: '0028',
+    name: 'Sandslash',
+    type: ['Ice', 'Steel'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Sandshrew',
+    finalStage: ['USUM'],
+    preEvo: ['27A'],
   },
   {
     id: '29',
@@ -86,7 +117,7 @@ export const pokemon26_50 = [
     dexNum: '0035',
     name: 'Clefairy',
     type: ['Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'USUM'],
     baseForm: true,
     preEvo: ['173']
   },
@@ -95,9 +126,9 @@ export const pokemon26_50 = [
     dexNum: '0036',
     name: 'Clefable',
     type: ['Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'USUM'],
     preEvo: ['173', '35'],
   },
   {
@@ -105,8 +136,17 @@ export const pokemon26_50 = [
     dexNum: '0037',
     name: 'Vulpix',
     type: ['Fire'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2 '],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
     baseForm: true
+  },
+  {
+    id: '37A',
+    dexNum: '0037',
+    name: 'Vulpix',
+    type: ['Ice'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Vulpix'
   },
   {
     id: '38',
@@ -119,11 +159,22 @@ export const pokemon26_50 = [
     preEvo: ['37']
   },
   {
+    id: '38A',
+    dexNum: '0038',
+    name: 'Ninetales',
+    type: ['Ice', 'Fairy'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Ninetales',
+    finalStage: ['USUM'],
+    preEvo: ['37A']
+  },
+  {
     id: '39',
     dexNum: '0039',
     name: 'Jigglypuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
     preEvo: ['174'],
   },
@@ -132,9 +183,9 @@ export const pokemon26_50 = [
     dexNum: '0040',
     name: 'Wigglytuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
     preEvo: ['174', '39'],
   },
   {
@@ -142,7 +193,7 @@ export const pokemon26_50 = [
     dexNum: '0041',
     name: 'Zubat',
     type: ['Poison', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -150,7 +201,7 @@ export const pokemon26_50 = [
     dexNum: '42',
     name: 'Golbat',
     type: ['Poison', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
     finalStage: ['FRLG'],
     preEvo: ['41']
@@ -187,7 +238,7 @@ export const pokemon26_50 = [
     dexNum: '0046',
     name: 'Paras',
     type: ['Bug', 'Grass'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'USUM'],
     baseForm: true
   },
   {
@@ -195,9 +246,9 @@ export const pokemon26_50 = [
     dexNum: '0047',
     name: 'Parasect',
     type: ['Bug', 'Grass'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'USUM'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'USUM'],
     preEvo: ['46'],
   },
   {
@@ -225,5 +276,14 @@ export const pokemon26_50 = [
     type: ['Ground'],
     availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true
+  },
+  {
+    id: '50A',
+    dexNum: '0050',
+    name: 'Diglett',
+    type: ['Ground', 'Steel'],
+    availableIn: ['USUM'],
+    baseForm: false,
+    form: 'Alolan Diglett'
   },
 ]

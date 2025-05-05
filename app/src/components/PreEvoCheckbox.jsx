@@ -30,15 +30,21 @@ function PreEvoCheckbox({ id, game, onSelectionChange }) {
                 const results = await Promise.all(promises)
                 const filteredPreEvos = results.filter(preEvo => preEvo.availableIn.includes(game))
                 console.log('Filtered pre-evolutions: ', filteredPreEvos)
-                setPreEvos(filteredPreEvos);
+                setPreEvos(filteredPreEvos)
 
             } catch (error) {
-                alert(error);
+                alert(error)
             }
         };
     
-        fetchPreEvos();
-    }, [finalStagePokemon]);
+        fetchPreEvos()
+    }, [finalStagePokemon])
+
+    useEffect(() => {
+        if (preEvos.length > 0) {
+            setSelectedIds(preEvos.map(p => p.id))
+        }
+    }, [preEvos])
 
     useEffect(() => {
         onSelectionChange?.(selectedIds)
@@ -69,7 +75,8 @@ function PreEvoCheckbox({ id, game, onSelectionChange }) {
                                 type="checkbox" 
                                 value={preEvo.id}
                                 onChange={handleChange}
-                                defaultChecked={selectedIds.includes(preEvo.id)}/>
+                                checked={selectedIds.includes(preEvo.id)}
+                            />
                             <img src={url} alt={preEvo.name} className='checkbox-img'/>
                         </label>    
                     )

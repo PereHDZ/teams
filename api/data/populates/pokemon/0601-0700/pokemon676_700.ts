@@ -4,9 +4,9 @@ export const pokemon676_700 = [
       dexNum: '0676',
       name: 'Furfrou',
       type: ['Normal'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY']
+      finalStage: ['XY', 'USUM']
     },
     {
       id: '677',
@@ -106,7 +106,7 @@ export const pokemon676_700 = [
       dexNum: '0686',
       name: 'Inkay',
       type: ['Dark', 'Psychic'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -114,9 +114,9 @@ export const pokemon676_700 = [
       dexNum: '0687',
       name: 'Malamar',
       type: ['Dark', 'Psychic'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['686']
     },
     {
@@ -142,7 +142,7 @@ export const pokemon676_700 = [
       dexNum: '0690',
       name: 'Skrelp',
       type: ['Poison', 'Water'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -150,9 +150,9 @@ export const pokemon676_700 = [
       dexNum: '0691',
       name: 'Dragalge',
       type: ['Posion', 'Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['690']
     },
     {
@@ -160,7 +160,7 @@ export const pokemon676_700 = [
       dexNum: '0692',
       name: 'Clauncher',
       type: ['Water'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -168,9 +168,9 @@ export const pokemon676_700 = [
       dexNum: '0693',
       name: 'Clawitzer',
       type: ['Water'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['692']
     },
     {
@@ -196,7 +196,7 @@ export const pokemon676_700 = [
       dexNum: '0696',
       name: 'Tyrunt',
       type: ['Rock', 'Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -204,9 +204,9 @@ export const pokemon676_700 = [
       dexNum: '0697',
       name: 'Tyrantrum',
       type: ['Rock', 'Dragon'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['696']
     },
     {
@@ -214,7 +214,7 @@ export const pokemon676_700 = [
       dexNum: '0698',
       name: 'Amaura',
       type: ['Rock', 'Ice'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true
     },
     {
@@ -222,9 +222,9 @@ export const pokemon676_700 = [
       dexNum: '0699',
       name: 'Aurorus',
       type: ['Rock', 'Ice'],
-      availableIn: ['XY'],
+      availableIn: ['XY', 'USUM'],
       baseForm: true,
-      finalStage: ['XY'],
+      finalStage: ['XY', 'USUM'],
       preEvo: ['698']
     },
     {
@@ -232,9 +232,9 @@ export const pokemon676_700 = [
     dexNum: '0700',
     name: 'Sylveon',
     type: ['Fairy'],
-    availableIn: ['XY'],
+    availableIn: ['XY', 'USUM'],
     baseForm: true,
-    finalStage: ['XY'],
+    finalStage: ['XY', 'USUM'],
     preEvo: ['133']
     },
   ]

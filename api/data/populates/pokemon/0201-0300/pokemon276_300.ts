@@ -22,7 +22,7 @@ export const pokemon276_300 = [
     dexNum: '0278',
     name: 'Wingull',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon276_300 = [
     dexNum: '0279',
     name: 'Pelipper',
     type: ['Water', 'Flying'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'B2W2', 'XY'],
+    finalStage: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['278']
   },
   {
@@ -67,7 +67,7 @@ export const pokemon276_300 = [
     dexNum: '0283',
     name: 'Surskit',
     type: ['Bug', 'Water'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -75,9 +75,9 @@ export const pokemon276_300 = [
     dexNum: '0284',
     name: 'Masquerain',
     type: ['Bug', 'Flying'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY'],
+    finalStage: ['Emerald', 'XY', 'USUM'],
     preEvo: ['283']
   },
   {
@@ -185,7 +185,7 @@ export const pokemon276_300 = [
     dexNum: '0296',
     name: 'Makuhita',
     type: ['Fighting'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -193,9 +193,9 @@ export const pokemon276_300 = [
     dexNum: '0297',
     name: 'Hariyama',
     type: ['Fighting'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalSatge: ['Emerald', 'XY'],
+    finalSatge: ['Emerald', 'XY', 'USUM'],
     preEvo: ['296']
   },
   {
@@ -211,7 +211,7 @@ export const pokemon276_300 = [
     dexNum: '0299',
     name: 'Nosepass',
     type: ['Rock'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
     finalStage: ['Emerald']
   },

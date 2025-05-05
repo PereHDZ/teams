@@ -13,7 +13,7 @@ export const pokemon626_650 = [
       dexNum: '0627',
       name: 'Rufflet',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -21,9 +21,9 @@ export const pokemon626_650 = [
       dexNum: '0628',
       name: 'Braviary',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['627']
     },
     {
@@ -31,7 +31,7 @@ export const pokemon626_650 = [
       dexNum: '0629',
       name: 'Vullaby',
       type: ['Dark', 'Flying'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -39,9 +39,9 @@ export const pokemon626_650 = [
       dexNum: '0630',
       name: 'Mandibuzz',
       type: ['Dark', 'Flying'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['Bw', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['629']
     },
     {
@@ -94,7 +94,7 @@ export const pokemon626_650 = [
       dexNum: '0636',
       name: 'Larvesta',
       type: ['Bug', 'Fire'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -102,9 +102,9 @@ export const pokemon626_650 = [
       dexNum: '0637',
       name: 'Volcarona',
       type: ['Bug', 'Fire'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW','B2W2'],
+      finalStage: ['BW','B2W2', 'USUM'],
       preEvo: ['636']
     },
     {

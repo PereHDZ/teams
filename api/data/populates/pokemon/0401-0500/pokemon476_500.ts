@@ -4,9 +4,9 @@ export const pokemon476_500 = [
     dexNum: '0476',
     name: 'Probopass',
     type: ['Rock', 'Steel'],
-    availableIn: ['Platinum', 'B2W2', 'XY'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2', 'XY'],
+    finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['299']
   },
   {
@@ -24,9 +24,9 @@ export const pokemon476_500 = [
     dexNum: '0478',
     name: 'Froslass',
     type: ['Ice', 'Ghost'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'XY'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'XY'],
     preEvo: ['361']
   },
   {

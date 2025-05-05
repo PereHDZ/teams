@@ -14,18 +14,18 @@ export const pokemon301_325 = [
     dexNum: '0302',
     name: 'Sableye',
     type: ['Dark', 'Ghost'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY']
+    finalStage: ['Emerald', 'XY', 'USUM']
   },
   {
     id: '303',
     dexNum: '0303',
     name: 'Mawile',
     type: ['Steel', 'Fairy'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY']
+    finalStage: ['Emerald', 'XY', 'USUM']
   },
   {
     id: '304',
@@ -77,7 +77,7 @@ export const pokemon301_325 = [
     dexNum: '0309',
     name: 'Electrike',
     type: ['Electric'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -85,9 +85,9 @@ export const pokemon301_325 = [
     dexNum: '0310',
     name: 'Manectric',
     type: ['Electric'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY'],
+    finalStage: ['Emerald', 'XY', 'USUM'],
     preEvo: ['309']
   },
   {
@@ -159,7 +159,7 @@ export const pokemon301_325 = [
     dexNum: '0318',
     name: 'Carvanha',
     type: ['Water', 'Dark'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -167,9 +167,9 @@ export const pokemon301_325 = [
     dexNum: '0319',
     name: 'Sharpedo',
     type: ['Water', 'Dark'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY'],
+    finalStage: ['Emerald', 'XY', 'USUM'],
     preEvo: ['318']
   },
   {
@@ -177,7 +177,7 @@ export const pokemon301_325 = [
     dexNum: '0320',
     name: 'Wailmer',
     type: ['Water'],
-    availableIn: ['Emerald', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -185,9 +185,9 @@ export const pokemon301_325 = [
     dexNum: '0321',
     name: 'Wailord',
     type: ['Water'],
-    availableIn: ['Emerald', 'B2W2', 'XY'],
+    availableIn: ['Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2', 'XY'],
+    finalStage: ['Emerald', 'B2W2', 'XY', 'USUM'],
     preEvo: ['320']
   },
   {
@@ -213,9 +213,9 @@ export const pokemon301_325 = [
     dexNum: '0324',
     name: 'Torkoal',
     type: ['Fire'],
-    availableIn: ['Emerald', 'XY'],
+    availableIn: ['Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['Emerald', 'XY']
+    finalStage: ['Emerald', 'XY', 'USUM']
   },
   {
     id: '325',

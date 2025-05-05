@@ -4,7 +4,7 @@ export const pokemon551_575 = [
       dexNum: '0551',
       name: 'Sandile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -12,7 +12,7 @@ export const pokemon551_575 = [
       dexNum: '0552',
       name: 'Krokorok',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
       preEvo: ['551']
     },
@@ -21,9 +21,9 @@ export const pokemon551_575 = [
       dexNum: '0553',
       name: 'Krookodile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['551', '552']
     },
     {
@@ -76,7 +76,7 @@ export const pokemon551_575 = [
       dexNum: '0559',
       name: 'Scraggy',
       type: ['Dark', 'Fighting'],
-      availableIn: ['BW','B2W2', 'XY'],
+      availableIn: ['BW','B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -84,9 +84,9 @@ export const pokemon551_575 = [
       dexNum: '0560',
       name: 'Scrafty',
       type: ['Dark', 'Fighting'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['Bw', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['559']
     },
     {
@@ -121,7 +121,7 @@ export const pokemon551_575 = [
       dexNum: '0564',
       name: 'Tirtouga',
       type: ['Water', 'Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -129,9 +129,9 @@ export const pokemon551_575 = [
       dexNum: '0565',
       name: 'Carracosta',
       type: ['Water', 'Rock'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['564']
     },
     {
@@ -139,7 +139,7 @@ export const pokemon551_575 = [
       dexNum: '0566',
       name: 'Archen',
       type: ['Rock', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -147,9 +147,9 @@ export const pokemon551_575 = [
       dexNum: '0567',
       name: 'Archeops',
       type: ['Rock', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['566']
     },
     {
@@ -157,7 +157,7 @@ export const pokemon551_575 = [
       dexNum: '0568',
       name: 'Trubbish',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -165,9 +165,9 @@ export const pokemon551_575 = [
       dexNum: '0569',
       name: 'Garbodor',
       type: ['Poison'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['568'],
     },
     {
@@ -175,7 +175,7 @@ export const pokemon551_575 = [
       dexNum: '0570',
       name: 'Zorua',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true
     },
     {
@@ -183,9 +183,9 @@ export const pokemon551_575 = [
       dexNum: '0571',
       name: 'Zoroark',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['570']
     },
     {
@@ -193,7 +193,7 @@ export const pokemon551_575 = [
       dexNum: '0572',
       name: 'Minccino',
       type: ['Normal'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true
     },
     {
@@ -201,9 +201,9 @@ export const pokemon551_575 = [
       dexNum: '0573',
       name: 'Cinccino',
       type: ['Normal'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'USUM'],
       preEvo: ['572']
     },
     {

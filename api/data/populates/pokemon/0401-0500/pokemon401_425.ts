@@ -67,7 +67,7 @@ export const pokemon401_425 = [
     dexNum: '0408',
     name: 'Cranidos',
     type: ['Rock'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true
   },
   {
@@ -75,16 +75,16 @@ export const pokemon401_425 = [
     dexNum: '0409',
     name: 'Rampardos',
     type: ['Rock'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'USUM']
   },
   {
     id: '410',
     dexNum: '0410',
     name: 'Shieldon',
     type: ['Rock', 'Steel'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true
   },
   {
@@ -92,9 +92,9 @@ export const pokemon401_425 = [
     dexNum: '0411',
     name: 'Bastiodon',
     type: ['Rock', 'Steel'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'USUM']
   },
   {
     id: '412',
@@ -233,7 +233,7 @@ export const pokemon401_425 = [
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true,
     form: 'Shellos West Sea'
   },
@@ -242,7 +242,7 @@ export const pokemon401_425 = [
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: false,
     form: 'Shellos East Sea'  
   },
@@ -251,10 +251,10 @@ export const pokemon401_425 = [
     dexNum: '0423',
     name: 'Gastrodon',
     type: ['Water', 'Ground'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true,
     form: 'Gastrodon West Sea',
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'USUM'],
     preEvo: ['422']
   },
   {
@@ -262,10 +262,10 @@ export const pokemon401_425 = [
     dexNum: '0423',
     name: 'Gastrodon',
     type: ['Water', 'Ground'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: false,
     form: 'Gastrodon East Sea',
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'USUM'],
     preEvo: ['422A']
   },
   {
@@ -273,9 +273,9 @@ export const pokemon401_425 = [
     dexNum: '0424',
     name: 'Ambipom',
     type: ['Normal'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'USUM'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'USUM'],
     preEvo: ['190']
   },
   {
@@ -283,7 +283,7 @@ export const pokemon401_425 = [
     dexNum: '0425',
     name: 'Drifloon',
     type: ['Ghost', 'Flying'],
-    availableIn: ['Platinum', 'B2W2', 'XY'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
 ]

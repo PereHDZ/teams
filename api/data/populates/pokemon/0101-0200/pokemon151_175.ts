@@ -112,7 +112,7 @@ export const pokemon151_175 = [
     dexNum: '0163',
     name: 'Hoothoot',
     type: ['Normal', 'Flying'],
-    availableIn: ['HGSS', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -120,9 +120,9 @@ export const pokemon151_175 = [
     dexNum: '0164',
     name: 'Noctowl',
     type: ['Normal', 'Flying'],
-    availableIn: ['HGSS', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Platinum', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Platinum', 'XY'],
+    finalStage: ['HGSS', 'Platinum', 'XY', 'USUM'],
     preEvo: ['163'],
   },
   {
@@ -130,7 +130,7 @@ export const pokemon151_175 = [
     dexNum: '0165',
     name: 'Ledyba',
     type: ['Bug', 'Flying'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -138,9 +138,9 @@ export const pokemon151_175 = [
     dexNum: '0166',
     name: 'Ledian',
     type: ['Bug', 'Flying'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'XY'],
+    finalStage: ['HGSS', 'XY', 'USUM'],
     preEvo: ['165'],
   },
   {
@@ -148,7 +148,7 @@ export const pokemon151_175 = [
     dexNum: '0167',
     name: 'Spinarak',
     type: ['Bug', 'Poison'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -156,9 +156,9 @@ export const pokemon151_175 = [
     dexNum: '0168',
     name: 'Ariados',
     type: ['Bug', 'Poison'],
-    availableIn: ['HGSS', 'XY'],
+    availableIn: ['HGSS', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'XY'],
+    finalStage: ['HGSS', 'XY', 'USUM'],
     preEvo: ['167'],
   },
   {
@@ -166,9 +166,9 @@ export const pokemon151_175 = [
     dexNum: '0169',
     name: 'Crobat',
     type: ['Poison', 'Flying'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY'],
+    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
     preEvo: ['41', '42'],
   },
   {
@@ -176,7 +176,7 @@ export const pokemon151_175 = [
     dexNum: '0170',
     name: 'Chinchou',
     type: ['Water', 'Electric'],
-    availableIn: ['HGSS', 'Emerald', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -184,9 +184,9 @@ export const pokemon151_175 = [
     dexNum: '0171',
     name: 'Lanturn',
     type: ['Water', 'Electric'],
-    availableIn: ['HGSS', 'Emerald', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'XY', 'USUM'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'XY'],
+    finalStage: ['HGSS', 'Emerald', 'XY', 'USUM'],
     preEvo: ['170'],
   },
   {
@@ -194,7 +194,7 @@ export const pokemon151_175 = [
     dexNum: '0172',
     name: 'Pichu',
     type: ['Electric'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY', 'USUM'],
     baseForm: true
   },
   {
@@ -202,7 +202,7 @@ export const pokemon151_175 = [
     dexNum: '0173',
     name: 'Cleffa',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'USUM'],
     baseForm: true
   },
   {
@@ -210,7 +210,7 @@ export const pokemon151_175 = [
     dexNum: '0174',
     name: 'Igglybuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY'],
+    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
     baseForm: true
   },
   {
