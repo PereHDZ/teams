@@ -131,7 +131,7 @@ export const pokemon301_325 = [
     dexNum: '0315',
     name: 'Roselia',
     type: ['Grass', 'Poison'],
-    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'B2W2', 'XY', 'SwSh', 'PLA'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['406']

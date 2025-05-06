@@ -4,7 +4,7 @@ export const pokemon501_525 = [
       dexNum: '0501',
       name: 'Oshawott',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'PLA'],
       baseForm: true
     },
     {
@@ -12,7 +12,7 @@ export const pokemon501_525 = [
       dexNum: '0502',
       name: 'Dewott',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'PLA'],
       baseForm: true,
       preEvo: ['501']
     },
@@ -24,6 +24,17 @@ export const pokemon501_525 = [
       availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2'],
+      preEvo: ['501', '502']
+    },
+    {
+      id: '503A',
+      dexNum: '0503',
+      name: 'Samurott',
+      type: ['Water', 'Dark'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'Hisuian Samurott',
+      finalStage: ['PLA'],
       preEvo: ['501', '502']
     },
     {

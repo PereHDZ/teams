@@ -150,7 +150,7 @@ export const pokemon251_275 = [
     dexNum: '0265',
     name: 'Wurmple',
     type: ['Bug'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'PLA'],
     baseForm: true
   },
   {
@@ -158,7 +158,7 @@ export const pokemon251_275 = [
     dexNum: '0266',
     name: 'Silcoon',
     type: ['Bug'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'PLA'],
     baseForm: true,
     preEvo: ['265']
   },
@@ -167,9 +167,9 @@ export const pokemon251_275 = [
     dexNum: '0267',
     name: 'Beautifly',
     type: ['Bug', 'Flying'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'PLA'],
     preEvo: ['265', '266']
   },
   {
@@ -177,7 +177,7 @@ export const pokemon251_275 = [
     dexNum: '0268',
     name: 'Cascoon',
     type: ['Bug'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'PLA'],
     baseForm: true,
     preEvo: ['265']
   },
@@ -186,9 +186,9 @@ export const pokemon251_275 = [
     dexNum: '0269',
     name: 'Dustox',
     type: ['Bug', 'Poison'],
-    availableIn: ['Emerald', 'Platinum'],
+    availableIn: ['Emerald', 'Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum'],
+    finalStage: ['Emerald', 'Platinum', 'PLA'],
     preEvo: ['265', '268']
   },
   {

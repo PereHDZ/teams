@@ -232,9 +232,9 @@ export const pokemon676_700 = [
     dexNum: '0700',
     name: 'Sylveon',
     type: ['Fairy'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['XY', 'USUM', 'SwSh'],
+    finalStage: ['XY', 'USUM', 'SwSh', 'PLA'],
     preEvo: ['133']
     },
   ]

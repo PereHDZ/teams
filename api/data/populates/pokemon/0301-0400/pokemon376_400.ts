@@ -104,7 +104,7 @@ export const pokemon376_400 = [
     dexNum: '0387',
     name: 'Turtwig',
     type: ['Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true
   },
   {
@@ -112,7 +112,7 @@ export const pokemon376_400 = [
     dexNum: '0388',
     name: 'Grotle',
     type: ['Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
     preEvo: ['387']
   },
@@ -121,9 +121,9 @@ export const pokemon376_400 = [
     dexNum: '0389',
     name: 'Torterra',
     type: ['Grass', 'Ground'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'PLA'],
     preEvo: ['387', '388']
   },
   {
@@ -131,7 +131,7 @@ export const pokemon376_400 = [
     dexNum: '0390',
     name: 'Chimchar',
     type: ['Fire'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true
   },
   {
@@ -139,7 +139,7 @@ export const pokemon376_400 = [
     dexNum: '0391',
     name: 'Monferno',
     type: ['Fire', 'Fighting'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
     preEvo: ['390']
   },
@@ -148,9 +148,9 @@ export const pokemon376_400 = [
     dexNum: '0392',
     name: 'Infernape',
     type: ['Fire', 'Fighting'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'PLA'],
     preEvo: ['390', '391']
   },
   {
@@ -158,7 +158,7 @@ export const pokemon376_400 = [
     dexNum: '0393',
     name: 'Piplup',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true
   },
   {
@@ -166,7 +166,7 @@ export const pokemon376_400 = [
     dexNum: '0394',
     name: 'Prinplup',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
     preEvo: ['393']
   },
@@ -175,9 +175,9 @@ export const pokemon376_400 = [
     dexNum: '0395',
     name: 'Empoleon',
     type: ['Water', 'Steel'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum'],
+    finalStage: ['Platinum', 'PLA'],
     preEvo: ['393', '394']
   },
   {
@@ -185,7 +185,7 @@ export const pokemon376_400 = [
     dexNum: '0396',
     name: 'Starly',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'PLA'],
     baseForm: true
   },
   {
@@ -193,7 +193,7 @@ export const pokemon376_400 = [
     dexNum: '0397',
     name: 'Staravia',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'PLA'],
     baseForm: true,
     preEvo: ['396']
   },
@@ -202,9 +202,9 @@ export const pokemon376_400 = [
     dexNum: '0398',
     name: 'Staraptor',
     type: ['Normal', 'Flying'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY', 'PLA'],
     preEvo: ['396', '397']
   },
   {
@@ -212,7 +212,7 @@ export const pokemon376_400 = [
     dexNum: '0399',
     name: 'Bidoof',
     type: ['Water'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'PLA'],
     baseForm: true
   },
   {
@@ -220,9 +220,9 @@ export const pokemon376_400 = [
     dexNum: '0400',
     name: 'Bibarel',
     type: ['Normal', 'Water'],
-    availableIn: ['Platinum', 'XY'],
+    availableIn: ['Platinum', 'XY', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY'],
+    finalStage: ['Platinum', 'XY', 'PLA'],
     preEvo: ['399']
   },
 ]

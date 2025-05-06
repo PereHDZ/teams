@@ -203,7 +203,7 @@ export const pokemon526_550 = [
       dexNum: '0548',
       name: 'Petilil',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'PLA'],
       baseForm: true
     },
     {
@@ -214,6 +214,17 @@ export const pokemon526_550 = [
       availableIn: ['BW', 'B2W2', 'USUM'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'USUM'],
+      preEvo: ['548']
+    },
+    {
+      id: '549A',
+      dexNum: '0549',
+      name: 'Lilligant',
+      type: ['Grass', 'Fighting'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'Hisuian Lilligant',
+      finalStage: ['PLA'],
       preEvo: ['548']
     },
     {
@@ -236,13 +247,13 @@ export const pokemon526_550 = [
       form: 'Blue-Striped Basculin',
       finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh']
     },
-    // {
-    //   id: '550B',
-    //   dexNum: '0550',
-    //   name: 'Basculin',
-    //   type: ['Water'],
-    //   availableIn: [],
-    //   baseForm: false,
-    //   form: 'White-Striped Basculin'
-    // },
+    {
+      id: '550B',
+      dexNum: '0550',
+      name: 'Basculin',
+      type: ['Water'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'White-Striped Basculin'
+    },
   ]

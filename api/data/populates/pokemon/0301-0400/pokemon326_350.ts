@@ -122,7 +122,7 @@ export const pokemon326_350 = [
     dexNum: '0339',
     name: 'Barboach',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -130,9 +130,9 @@ export const pokemon326_350 = [
     dexNum: '0340',
     name: 'Whiscash',
     type: ['Water', 'Ground'],
-    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
+    finalStage: ['Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
     preEvo: ['339']
   },
   {

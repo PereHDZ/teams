@@ -10,6 +10,17 @@ export const pokemon101_125 = [
     preEvo: ['100']
   },
   {
+    id: '101A',
+    dexNum: '0101',
+    name: 'Electrode',
+    type: ['Electric', 'Grass'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Electrode',
+    finalStage: ['PLA'],
+    preEvo: ['100A']
+  },
+  {
     id: '102',
     dexNum: '0102',
     name: 'Exeggcute',
@@ -92,7 +103,7 @@ export const pokemon101_125 = [
     dexNum: '0108',
     name: 'Lickitung',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS']
   },
@@ -130,7 +141,7 @@ export const pokemon101_125 = [
     dexNum: '0111',
     name: 'Rhyhorn',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -138,7 +149,7 @@ export const pokemon101_125 = [
     dexNum: '0112',
     name: 'Rhydon',
     type: ['Ground', 'Rock'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['111'],
@@ -148,7 +159,7 @@ export const pokemon101_125 = [
     dexNum: '0113',
     name: 'Chansey',
     type: ['Normal'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'USUM', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG'],
     preEvo: ['440'],
@@ -158,7 +169,7 @@ export const pokemon101_125 = [
     dexNum: '0114',
     name: 'Tangela',
     type: ['Grass'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS']
   },
@@ -230,9 +241,9 @@ export const pokemon101_125 = [
     dexNum: '0122',
     name: 'Mr. Mime',
     type: ['Psychic', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'PLA'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'PLA'],
     preEvo: ['439'],
   },
   {
@@ -250,7 +261,7 @@ export const pokemon101_125 = [
     dexNum: '0123',
     name: 'Scyther',
     type: ['Bug', 'Flying'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG'],
   },
@@ -269,7 +280,7 @@ export const pokemon101_125 = [
     dexNum: '0125',
     name: 'Electabuzz',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'B2W2', 'USUM', 'PLA'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS'],
     preEvo: ['239'],

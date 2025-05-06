@@ -4,9 +4,9 @@ export const pokemon476_500 = [
     dexNum: '0476',
     name: 'Probopass',
     type: ['Rock', 'Steel'],
-    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
     preEvo: ['299']
   },
   {
@@ -14,9 +14,9 @@ export const pokemon476_500 = [
     dexNum: '0477',
     name: 'Dusknoir',
     type: ['Ghost'],
-    availableIn: ['Platinum', 'SwSh'],
+    availableIn: ['Platinum', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'SwSh'],
+    finalStage: ['Platinum', 'SwSh', 'PLA'],
     preEvo: ['355', '356']
   },
   {
@@ -24,9 +24,9 @@ export const pokemon476_500 = [
     dexNum: '0478',
     name: 'Froslass',
     type: ['Ice', 'Ghost'],
-    availableIn: ['Platinum', 'XY', 'SwSh'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'SwSh'],
+    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
     preEvo: ['361']
   },
   {
@@ -34,196 +34,196 @@ export const pokemon476_500 = [
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Ghost'],
-    availableIn: ['Platinum', 'XY', 'SwSh'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'SwSh']
+    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA']
   },
-  {
-    id: '479A',
-    dexNum: '0479',
-    name: 'Rotom',
-    type: ['Electric', 'Fire'],
-    availableIn: ['Platinum', 'SwSh'],
-    baseForm: false,
-    form: 'Heat Rotom',
-    finalStage: ['Platinum', 'SwSh']
-  },
-  {
-    id: '479B',
-    dexNum: '0479',
-    name: 'Rotom',
-    type: ['Electric', 'Water'],
-    availableIn: ['Platinum', 'SwSh'],
-    baseForm: false,
-    form: 'Wash Rotom',
-    finalStage: ['Platinum', 'SwSh']
-  },
-  {
-    id: '479C',
-    dexNum: '0479',
-    name: 'Rotom',
-    type: ['Electric', 'Ice'],
-    availableIn: ['Platinum', 'SwSh'],
-    baseForm: false,
-    form: 'Frost Rotom',
-    finalStage: ['Platinum', 'SwSh']
-  },
-  {
-    id: '479D',
-    dexNum: '0479',
-    name: 'Rotom',
-    type: ['Electric', 'Flying'],
-    availableIn: ['Platinum', 'SwSh'],
-    baseForm: false,
-    form: 'Fan Rotom',
-    finalStage: ['Platinum', 'SwSh']
-  },
-  {
-    id: '479E',
-    dexNum: '0479',
-    name: 'Rotom',
-    type: ['Electric', 'Grass'],
-    availableIn: ['Platinum', 'SwSh'],
-    baseForm: false,
-    form: 'Mow Rotom',
-    finalStage: ['Platinum', 'SwSh']
-  },
+  // {
+  //   id: '479A',
+  //   dexNum: '0479',
+  //   name: 'Rotom',
+  //   type: ['Electric', 'Fire'],
+  //   availableIn: ['Platinum', 'SwSh'],
+  //   baseForm: false,
+  //   form: 'Heat Rotom',
+  //   finalStage: ['Platinum', 'SwSh']
+  // },
+  // {
+  //   id: '479B',
+  //   dexNum: '0479',
+  //   name: 'Rotom',
+  //   type: ['Electric', 'Water'],
+  //   availableIn: ['Platinum', 'SwSh'],
+  //   baseForm: false,
+  //   form: 'Wash Rotom',
+  //   finalStage: ['Platinum', 'SwSh']
+  // },
+  // {
+  //   id: '479C',
+  //   dexNum: '0479',
+  //   name: 'Rotom',
+  //   type: ['Electric', 'Ice'],
+  //   availableIn: ['Platinum', 'SwSh'],
+  //   baseForm: false,
+  //   form: 'Frost Rotom',
+  //   finalStage: ['Platinum', 'SwSh']
+  // },
+  // {
+  //   id: '479D',
+  //   dexNum: '0479',
+  //   name: 'Rotom',
+  //   type: ['Electric', 'Flying'],
+  //   availableIn: ['Platinum', 'SwSh'],
+  //   baseForm: false,
+  //   form: 'Fan Rotom',
+  //   finalStage: ['Platinum', 'SwSh']
+  // },
+  // {
+  //   id: '479E',
+  //   dexNum: '0479',
+  //   name: 'Rotom',
+  //   type: ['Electric', 'Grass'],
+  //   availableIn: ['Platinum', 'SwSh'],
+  //   baseForm: false,
+  //   form: 'Mow Rotom',
+  //   finalStage: ['Platinum', 'SwSh']
+  // },
   {
     id: '480',
     dexNum: '0480',
     name: 'Uxie',
     type: ['Psychic'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '481',
     dexNum: '0481',
     name: 'Mesprit',
     type: ['Psychic'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '482',
     dexNum: '0482',
     name: 'Azelf',
     type: ['Psychic'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '483',
     dexNum: '0483',
     name: 'Dialga',
     type: ['Steel', 'Dragon'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '484',
     dexNum: '0484',
     name: 'Palkia',
     type: ['Water', 'Dragon'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '485',
     dexNum: '0485',
     name: 'Heatran',
     type: ['Fire', 'Steel'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '486',
     dexNum: '0486',
     name: 'Regigigas',
     type: ['Normal'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '487',
     dexNum: '0487',
     name: 'Giratina',
     type: ['Ghost', 'Dragon'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '488',
     dexNum: '0488',
     name: 'Cresselia',
     type: ['Psychic'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '489',
     dexNum: '0489',
     name: 'Phione',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '490',
     dexNum: '0490',
     name: 'Manaphy',
     type: ['Water'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '491',
     dexNum: '0491',
     name: 'Darkrai',
     type: ['Dark'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '492',
     dexNum: '0492',
     name: 'Shaymin',
     type: ['Grass'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
     form: 'Land Forme',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '492A',
     dexNum: '0492',
     name: 'Shaymin',
     type: ['Grass', 'Flying'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: false,
     form: 'Sky Forme Shaymin',
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '493',
     dexNum: '0493',
     name: 'Arceus',
     type: ['Normal'],
-    availableIn: ['Platinum'],
+    availableIn: ['Platinum', 'PLA'],
     baseForm: true,
-    finalStage: ['Platinum']
+    finalStage: ['Platinum', 'PLA']
   },
   {
     id: '494',

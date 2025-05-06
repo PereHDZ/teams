@@ -40,7 +40,7 @@ export const pokemon151_175 = [
     dexNum: '0155',
     name: 'Cyndaquil',
     type: ['Fire'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'PLA'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon151_175 = [
     dexNum: '0156',
     name: 'Quilava',
     type: ['Fire'],
-    availableIn: ['HGSS'],
+    availableIn: ['HGSS', 'PLA'],
     baseForm: true,
     preEvo: ['155'],
   },
@@ -60,6 +60,17 @@ export const pokemon151_175 = [
     availableIn: ['HGSS'],
     baseForm: true,
     finalStage: ['HGSS'],
+    preEvo: ['155', '156'],
+  },
+  {
+    id: '157A',
+    dexNum: '0157',
+    name: 'Typhlosion',
+    type: ['Fire', 'Ghost'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Typhlosion',
+    finalStage: ['PLA'],
     preEvo: ['155', '156'],
   },
   {
@@ -166,9 +177,9 @@ export const pokemon151_175 = [
     dexNum: '0169',
     name: 'Crobat',
     type: ['Poison', 'Flying'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
     baseForm: true,
-    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
     preEvo: ['41', '42'],
   },
   {
@@ -194,7 +205,7 @@ export const pokemon151_175 = [
     dexNum: '0172',
     name: 'Pichu',
     type: ['Electric'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -202,7 +213,7 @@ export const pokemon151_175 = [
     dexNum: '0173',
     name: 'Cleffa',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'USUM', 'SwSh'],
+    availableIn: ['HGSS', 'Platinum', 'B2W2', 'USUM', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -218,7 +229,7 @@ export const pokemon151_175 = [
     dexNum: '0175',
     name: 'Togepi',
     type: ['Fairy'],
-    availableIn: ['HGSS', 'Platinum', 'SwSh'],
+    availableIn: ['HGSS', 'Platinum', 'SwSh', 'PLA'],
     baseForm: true
   },
 ]

@@ -13,7 +13,7 @@ export const pokemon626_650 = [
       dexNum: '0627',
       name: 'Rufflet',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh', 'PLA'],
       baseForm: true
     },
     {
@@ -24,6 +24,17 @@ export const pokemon626_650 = [
       availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
+      preEvo: ['627']
+    },
+    {
+      id: '628A',
+      dexNum: '0628',
+      name: 'Braviary',
+      type: ['Psychic', 'Flying'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'Hisuian Braviary',
+      finalStage: ['PLA'],
       preEvo: ['627']
     },
     {
@@ -139,18 +150,18 @@ export const pokemon626_650 = [
       dexNum: '0641',
       name: 'Tonadus',
       type: ['Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'PLA'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'PLA']
     },
     {
       id: '642',
       dexNum: '0642',
       name: 'Thundurus',
       type: ['Electric', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'PLA'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'PLA']
     },
     {
       id: '643',
@@ -175,9 +186,9 @@ export const pokemon626_650 = [
       dexNum: '0645',
       name: 'Landorus',
       type: ['Ground', 'Flying'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'PLA'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2']
+      finalStage: ['BW', 'B2W2', 'PLA']
     },
     {
       id: '646',

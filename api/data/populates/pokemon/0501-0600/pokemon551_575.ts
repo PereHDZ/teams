@@ -208,6 +208,15 @@ export const pokemon551_575 = [
       baseForm: true
     },
     {
+      id: '570A',
+      dexNum: '0570',
+      name: 'Zorua',
+      type: ['Normal', 'Ghost'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'Hisuian Zorua'
+    },
+    {
       id: '571',
       dexNum: '0571',
       name: 'Zoroark',
@@ -216,6 +225,17 @@ export const pokemon551_575 = [
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
       preEvo: ['570']
+    },
+    {
+      id: '571A',
+      dexNum: '0571',
+      name: 'Zoroark',
+      type: ['Normal', 'Ghost'],
+      availableIn: ['PLA'],
+      baseForm: false,
+      form: 'Hisuian Zoroark',
+      finalStage: ['PLA'],
+      preEvo: ['570A']
     },
     {
       id: '572',

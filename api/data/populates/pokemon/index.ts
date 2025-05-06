@@ -34,6 +34,7 @@ import { pokemon801_825 } from "./0801-0900/pokemon801_825"
 import { pokemon826_850 } from "./0801-0900/pokemon826_850"
 import { pokemon851_875 } from "./0801-0900/pokemon851_875"
 import { pokemon876_900 } from "./0801-0900/pokemon876_900"
+import { pokemon901_925 } from "./0901-1000/pokemon901_925"
 
 
 export default [
@@ -72,5 +73,6 @@ export default [
     ...pokemon801_825,
     ...pokemon826_850,
     ...pokemon851_875,
-    ...pokemon876_900
+    ...pokemon876_900,
+    ...pokemon901_925
 ]

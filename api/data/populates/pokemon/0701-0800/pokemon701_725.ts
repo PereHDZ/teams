@@ -31,7 +31,7 @@ export const pokemon700_725 = [
     dexNum: '0704',
     name: 'Goomy',
     type: ['Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -44,6 +44,16 @@ export const pokemon700_725 = [
     preEvo: ['704']
   },
   {
+    id: '705A',
+    dexNum: '0705',
+    name: 'Sliggoo',
+    type: ['Steel', 'Dragon'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Sliggoo',
+    preEvo: ['704']
+  },
+  {
     id: '706',
     dexNum: '0706',
     name: 'Goodra',
@@ -52,6 +62,17 @@ export const pokemon700_725 = [
     baseForm: true,
     finalStage: ['XY', 'USUM', 'SwSh'],
     preEvo: ['704', '705']
+  },
+  {
+    id: '706A',
+    dexNum: '0706',
+    name: 'Goodra',
+    type: ['Steel', 'Dragon'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Goodra',
+    finalStage: ['PLA'],
+    preEvo: ['704', '705A']
   },
   {
     id: '707',
@@ -103,7 +124,7 @@ export const pokemon700_725 = [
     dexNum: '0712',
     name: 'Bergmite',
     type: ['Ice'],
-    availableIn: ['XY', 'SwSh'],
+    availableIn: ['XY', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -114,6 +135,17 @@ export const pokemon700_725 = [
     availableIn: ['XY', 'SwSh'],
     baseForm: true,
     finalStage: ['XY', 'SwSh'],
+    preEvo: ['712']
+  },
+  {
+    id: '713A',
+    dexNum: '0713',
+    name: 'Avalugg',
+    type: ['Rock', 'Ice'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Avalugg',
+    finalStage: ['PLA'],
     preEvo: ['712']
   },
   {
@@ -204,7 +236,7 @@ export const pokemon700_725 = [
     dexNum: '0722',
     name: 'Rowlet',
     type: ['Grass', 'Flying'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: true
   },
   {
@@ -212,7 +244,7 @@ export const pokemon700_725 = [
     dexNum: '0723',
     name: 'Dartrix',
     type: ['Grass', 'Flying'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: true,
     preEvo: ['722']
   },
@@ -224,6 +256,17 @@ export const pokemon700_725 = [
     availableIn: ['USUM'],
     baseForm: true,
     finalStage: ['USUM'],
+    preEvo: ['722', '723']
+  },
+  {
+    id: '724A',
+    dexNum: '0724',
+    name: 'Decidueye',
+    type: ['Grass', 'Fighting'],
+    availableIn: ['PLA'],
+    baseForm: false,
+    form: 'Hisuian Decidueye',
+    finalStage: ['PLA'],
     preEvo: ['722', '723']
   },
   {

@@ -40,7 +40,7 @@ export const pokemon351_375 = [
     dexNum: '0355',
     name: 'Duskull',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'Platinum', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -48,7 +48,7 @@ export const pokemon351_375 = [
     dexNum: '0356',
     name: 'Dusclops',
     type: ['Ghost'],
-    availableIn: ['Emerald', 'Platinum', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'SwSh', 'PLA'],
     baseForm: true,
     finalStage: ['Emerald'],
     preEvo: ['355']
@@ -67,9 +67,9 @@ export const pokemon351_375 = [
     dexNum: '0358',
     name: 'Chimecho',
     type: ['Psychic'],
-    availableIn: ['Emerald', 'Platinum', 'XY'],
+    availableIn: ['Emerald', 'Platinum', 'XY', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'XY'],
+    finalStage: ['Emerald', 'Platinum', 'XY', 'PLA'],
     preEvo: ['433']
   },
   {
@@ -94,7 +94,7 @@ export const pokemon351_375 = [
     dexNum: '0361',
     name: 'Snorunt',
     type: ['Ice'],
-    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh', 'PLA'],
     baseForm: true
   },
   {
@@ -102,9 +102,9 @@ export const pokemon351_375 = [
     dexNum: '0362',
     name: 'Glalie',
     type: ['Ice'],
-    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
+    availableIn: ['Emerald', 'Platinum', 'USUM', 'SwSh', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'Platinum', 'USUM', 'SwSh'],
+    finalStage: ['Emerald', 'Platinum', 'USUM', 'SwSh', 'PLA'],
     preEvo: ['361']
   },
   {
@@ -112,7 +112,7 @@ export const pokemon351_375 = [
     dexNum: '0363',
     name: 'Spheal',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'PLA'],
     baseForm: true
   },
   {
@@ -120,7 +120,7 @@ export const pokemon351_375 = [
     dexNum: '0364',
     name: 'Sealeo',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'PLA'],
     baseForm: true,
     preEvo: ['363']
   },
@@ -129,9 +129,9 @@ export const pokemon351_375 = [
     dexNum: '0365',
     name: 'Walrein',
     type: ['Ice', 'Water'],
-    availableIn: ['Emerald', 'B2W2'],
+    availableIn: ['Emerald', 'B2W2', 'PLA'],
     baseForm: true,
-    finalStage: ['Emerald', 'B2W2'],
+    finalStage: ['Emerald', 'B2W2', 'PLA'],
     preEvo: ['363', '364']
   },
   {
