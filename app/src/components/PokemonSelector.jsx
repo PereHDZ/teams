@@ -9,8 +9,9 @@ function PokemonSelector({ type, game, onClose }) {
     const [activeFinalStage, setActiveFinalStage] = useState(null)
     const [selectedPreEvos, setSelectedPreEvos] = useState([])
     const [team, setTeam] = useState({})
+    const [previousIds, setPreviousIds] = useState([])
 
-    const usedIds = Object.values(team).filter(Boolean) 
+    const usedIds = Object.values(team).filter(Boolean)     
 
     const filteredByType = type && type !== 'Misc'
     ? availableFinalStages
@@ -24,12 +25,29 @@ function PokemonSelector({ type, game, onClose }) {
     useEffect(() => {
         try {
             logic.retrieveTeamByGame(game)
-                .then(setTeam)
+                .then(data => {
+                    setTeam(data)
+                    
+                    const typeKey = type.toLowerCase()
+                    const finalStageId = data[typeKey]
+                    
+                    if (!finalStageId) {
+                        setPreviousIds([])
+                        return
+                    }
+
+                    logic.retrievePokemonById(finalStageId)
+                        .then(pokemon => {
+                            const preEvos = pokemon.preEvo || [] 
+                            setPreviousIds([finalStageId, ...preEvos])
+                        })
+                        .catch(error => alert(error))
+                })
                 .catch(error => alert(error))
         } catch (error) {
             alert(error)
         }
-    }, [game])
+    }, [game, type])
 
     useEffect(() => {
         try{
@@ -43,23 +61,28 @@ function PokemonSelector({ type, game, onClose }) {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-
+    
         if (!activeFinalStage) {
             alert('Please select a Pokémon before submitting')
             return
         }
-
+    
         try {
             const allIds = [...selectedPreEvos, activeFinalStage]
-
+            const idsToDelete = previousIds.filter(id => !allIds.includes(id))
+    
+            if (idsToDelete.length > 0) {
+                await logic.removePokemonUsedIn(idsToDelete, game)
+            }
+    
             await logic.updateTeam(game, type.toLowerCase(), activeFinalStage)
             await logic.updatePokemonUsedIn(allIds, game)
-            
+    
             onClose()
         } catch (error) {
             alert(error.message)
         }
-    }  
+    }
     
     return <>
         <div className='pokemon-selector'>

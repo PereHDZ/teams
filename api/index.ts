@@ -69,6 +69,18 @@ mongoose.connect(MONGODB_URL)
         })
 
 
+        api.patch('/pokemon/not-used-in', async (req, res) => {
+            const { ids, game } = req.body
+        
+            try {
+                await logic.removePokemonUsedIn(ids, game)
+                res.sendStatus(204)
+            } catch (error: any) {
+                res.status(500).send(error.message)
+            }
+        })
+
+
 
 
         api.get('/teams', async (req, res) => {
