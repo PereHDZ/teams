@@ -13,6 +13,7 @@ function App() {
   const [selectedType, setSelectedType ] = useState(null)
   const [selectedGame, setSelectedGame ] = useState(null)
   const [allTeams, setAllTeams] = useState([])
+  const [refresh, setRefresh] = useState(0)
 
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
@@ -56,6 +57,7 @@ function App() {
     setSelectedGame(null)
     setSelectorVisible(false)
     fetchTeams()
+    setRefresh(prev => prev + 1)
   }
 
   return (
@@ -74,7 +76,8 @@ function App() {
             start={region.start} 
             end={region.end} 
             color={region.color} 
-            name={region.name} 
+            name={region.name}
+            refresh={refresh} 
             key={region.name}/>)
         })}
 
