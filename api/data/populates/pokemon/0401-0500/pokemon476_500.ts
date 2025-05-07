@@ -24,9 +24,9 @@ export const pokemon476_500 = [
     dexNum: '0478',
     name: 'Froslass',
     type: ['Ice', 'Ghost'],
-    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     preEvo: ['361']
   },
   {
@@ -34,9 +34,9 @@ export const pokemon476_500 = [
     dexNum: '0479',
     name: 'Rotom',
     type: ['Electric', 'Ghost'],
-    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA']
+    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV']
   },
   // {
   //   id: '479A',

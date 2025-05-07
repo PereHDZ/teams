@@ -4,9 +4,9 @@ export const pokemon26_50 = [
     dexNum: '0026',
     name: 'Raichu',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     preEvo: ['172', '25']
   },
   {
@@ -174,7 +174,7 @@ export const pokemon26_50 = [
     dexNum: '0039',
     name: 'Jigglypuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM', 'SV'],
     baseForm: true,
     preEvo: ['174'],
   },
@@ -183,9 +183,9 @@ export const pokemon26_50 = [
     dexNum: '0040',
     name: 'Wigglytuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'XY', 'USUM', 'SV'],
     preEvo: ['174', '39'],
   },
   {
@@ -256,7 +256,7 @@ export const pokemon26_50 = [
     dexNum: '0048',
     name: 'Venonat',
     type: ['Bug', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'SV'],
     baseForm: true
   },
   {
@@ -264,9 +264,9 @@ export const pokemon26_50 = [
     dexNum: '0049',
     name: 'Venomoth',
     type: ['Bug', 'Poison'],
-    availableIn: ['FRLG', 'HGSS'],
+    availableIn: ['FRLG', 'HGSS', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS'],
+    finalStage: ['FRLG', 'HGSS', 'SV'],
     preEvo: ['48'],
   },
   {
@@ -274,7 +274,7 @@ export const pokemon26_50 = [
     dexNum: '0050',
     name: 'Diglett',
     type: ['Ground'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh', 'SV'],
     baseForm: true
   },
   {

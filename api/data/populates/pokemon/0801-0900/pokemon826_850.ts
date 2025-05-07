@@ -68,7 +68,7 @@ export const pokemon826_850 = [
       dexNum: '0833',
       name: 'Chewtle',
       type: ['Water'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -76,9 +76,9 @@ export const pokemon826_850 = [
       dexNum: '0834',
       name: 'Drednaw',
       type: ['Water', 'Rock'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['833']
     },
     {
@@ -104,7 +104,7 @@ export const pokemon826_850 = [
       dexNum: '0837',
       name: 'Rolycoly',
       type: ['Rock'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -112,7 +112,7 @@ export const pokemon826_850 = [
       dexNum: '0838',
       name: 'Carkol',
       type: ['Rock', 'Fire'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       preEvo: ['837']
     },
@@ -121,9 +121,9 @@ export const pokemon826_850 = [
       dexNum: '0839',
       name: 'Coalossal',
       type: ['Rock', 'Fire'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['837', '838']
     },
     {
@@ -131,7 +131,7 @@ export const pokemon826_850 = [
       dexNum: '0840',
       name: 'Applin',
       type: ['Grass', 'Dragon'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -139,9 +139,9 @@ export const pokemon826_850 = [
       dexNum: '0841',
       name: 'Flapple',
       type: ['Grass', 'Dragon'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['840']
     },
     {
@@ -149,9 +149,9 @@ export const pokemon826_850 = [
       dexNum: '0842',
       name: 'Appletun',
       type: ['Grass', 'Dragon'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['840']
     },
     {
@@ -159,7 +159,7 @@ export const pokemon826_850 = [
       dexNum: '0843',
       name: 'Silicobra',
       type: ['Ground'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -167,9 +167,9 @@ export const pokemon826_850 = [
       dexNum: '0844',
       name: 'Sandaconda',
       type: ['Ground'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['843']
     },
     {
@@ -186,7 +186,7 @@ export const pokemon826_850 = [
       dexNum: '0846',
       name: 'Arrokuda',
       type: ['Water'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -194,9 +194,9 @@ export const pokemon826_850 = [
       dexNum: '0847',
       name: 'Barraskewda',
       type: ['Water'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['846']
     },
     {
@@ -204,7 +204,7 @@ export const pokemon826_850 = [
       dexNum: '0848',
       name: 'Toxel',
       type: ['Electric', 'Poison'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -212,10 +212,10 @@ export const pokemon826_850 = [
       dexNum: '0849',
       name: 'Toxtricity',
       type: ['Electric', 'Poison'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       form: 'Amped Form Toxtricity',
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['848']
     },
     {
@@ -223,10 +223,10 @@ export const pokemon826_850 = [
       dexNum: '0849',
       name: 'Toxtricity',
       type: ['Electric', 'Poison'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: false,
       form: 'Low Key Form Toxtricity',
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['848']
     },
     {

@@ -166,7 +166,7 @@ export const pokemon801_825 = [
     dexNum: '0819',
     name: 'Skwovet',
     type: ['Normal'],
-    availableIn: ['SwSh'],
+    availableIn: ['SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -174,9 +174,9 @@ export const pokemon801_825 = [
     dexNum: '0820',
     name: 'Greedent',
     type: ['Normal'],
-    availableIn: ['SwSh'],
+    availableIn: ['SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['SwSh'],
+    finalStage: ['SwSh', 'SV'],
     preEvo: ['819']
   },
   {
@@ -184,7 +184,7 @@ export const pokemon801_825 = [
     dexNum: '0821',
     name: 'Rookidee',
     type: ['Flying'],
-    availableIn: ['SwSh'],
+    availableIn: ['SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -192,7 +192,7 @@ export const pokemon801_825 = [
     dexNum: '0822',
     name: 'Corvisquire',
     type: ['Flying'],
-    availableIn: ['SwSh'],
+    availableIn: ['SwSh', 'SV'],
     baseForm: true,
     preEvo: ['821']
   },
@@ -201,9 +201,9 @@ export const pokemon801_825 = [
     dexNum: '0823',
     name: 'Corviknigh',
     type: ['Flying', 'Steel'],
-    availableIn: ['SwSh'],
+    availableIn: ['SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['SwSh'],
+    finalStage: ['SwSh', 'SV'],
     preEvo: ['821', '822']
   },
   {

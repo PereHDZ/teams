@@ -205,7 +205,7 @@ export const pokemon151_175 = [
     dexNum: '0172',
     name: 'Pichu',
     type: ['Electric'],
-    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['HGSS', 'Emerald', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -221,7 +221,7 @@ export const pokemon151_175 = [
     dexNum: '0174',
     name: 'Igglybuff',
     type: ['Normal', 'Fairy'],
-    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY', 'USUM'],
+    availableIn: ['HGSS', 'Emerald', 'B2W2', 'XY', 'USUM', 'SV'],
     baseForm: true
   },
   {

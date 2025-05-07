@@ -4,9 +4,9 @@ export const pokemon426_450 = [
       dexNum: '0426',
       name: 'Drifblim',
       type: ['Ghost', 'Flying'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       preEvo: ['425']
     },
     {
@@ -32,9 +32,9 @@ export const pokemon426_450 = [
       dexNum: '0429',
       name: 'Mismagius',
       type: ['Ghost'],
-      availableIn: ['Platinum', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'USUM', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'USUM', 'PLA'],
+      finalStage: ['Platinum', 'USUM', 'PLA', 'SV'],
       preEvo: ['200']
     },
     {
@@ -42,9 +42,9 @@ export const pokemon426_450 = [
       dexNum: '0430',
       name: 'Honchkrow',
       type: ['Dark', 'Flying'],
-      availableIn: ['Platinum', 'XY', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'USUM', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       preEvo: ['198']
     },
     {
@@ -78,7 +78,7 @@ export const pokemon426_450 = [
       dexNum: '0434',
       name: 'Stunky',
       type: ['Poison', 'Dark'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -86,9 +86,9 @@ export const pokemon426_450 = [
       dexNum: '0435',
       name: 'Skuntank',
       type: ['Poison', 'Dark'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       preEvo: ['434']
     },
     {
@@ -96,7 +96,7 @@ export const pokemon426_450 = [
       dexNum: '0436',
       name: 'Bronzor',
       type: ['Steel', 'Psychic'],
-      availableIn: ['Platinum', 'B2W2', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -104,9 +104,9 @@ export const pokemon426_450 = [
       dexNum: '0437',
       name: 'Bronzong',
       type: ['Steel', 'Psychic'],
-      availableIn: ['Platinum', 'B2W2', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'SwSh', 'PLA', 'SV'],
       preEvo: ['436']
     },
     {
@@ -114,7 +114,7 @@ export const pokemon426_450 = [
       dexNum: '0438',
       name: 'Bonsly',
       type: ['Rock'],
-      availableIn: ['Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
     },
     {
@@ -130,7 +130,7 @@ export const pokemon426_450 = [
       dexNum: '0440',
       name: 'Happiny',
       type: ['Normal'],
-      availableIn: ['Platinum', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'USUM', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -147,16 +147,16 @@ export const pokemon426_450 = [
       dexNum: '0442',
       name: 'Spiritomb',
       type: ['Ghost', 'Dark'],
-      availableIn: ['Platinum', 'PLA'],
+      availableIn: ['Platinum', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'PLA']
+      finalStage: ['Platinum', 'PLA', 'SV']
     },
     {
       id: '443',
       dexNum: '0443',
       name: 'Gible',
       type: ['Dragon', 'Ground'],
-      availableIn: ['Platinum', 'XY', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -164,7 +164,7 @@ export const pokemon426_450 = [
       dexNum: '0444',
       name: 'Gabite',
       type: ['Dragon', 'Ground'],
-      availableIn: ['Platinum', 'XY', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       baseForm: true,
       preEvo: ['443']
     },
@@ -173,9 +173,9 @@ export const pokemon426_450 = [
       dexNum: '0445',
       name: 'Garchomp',
       type: ['Dragon', 'Ground'],
-      availableIn: ['Platinum', 'XY', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'USUM', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'USUM', 'PLA', 'SV'],
       preEvo: ['443', '444']
     },
     {
@@ -191,7 +191,7 @@ export const pokemon426_450 = [
       dexNum: '0447',
       name: 'Riolu',
       type: ['Fighting'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -199,9 +199,9 @@ export const pokemon426_450 = [
       dexNum: '0448',
       name: 'Lucario',
       type: ['Fighting', 'Steel'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       preEvo: ['447']
     },
     {
@@ -209,7 +209,7 @@ export const pokemon426_450 = [
       dexNum: '0449',
       name: 'Hippopotas',
       type: ['Ground'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
       form: 'Male Hippopotas'
     },
@@ -218,9 +218,9 @@ export const pokemon426_450 = [
       dexNum: '0450',
       name: 'Hippowdon',
       type: ['Ground'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       preEvo: ['449']
     },
   ]

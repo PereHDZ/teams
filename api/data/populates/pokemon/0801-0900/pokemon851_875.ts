@@ -32,7 +32,7 @@ export const pokemon851_875 = [
       dexNum: '0854',
       name: 'Sinistea',
       type: ['Ghost'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -40,9 +40,9 @@ export const pokemon851_875 = [
       dexNum: '0855',
       name: 'Polteageist',
       type: ['Ghost'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['854']
     },
     {
@@ -50,7 +50,7 @@ export const pokemon851_875 = [
       dexNum: '0856',
       name: 'Hatenna',
       type: ['Psychic'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -58,7 +58,7 @@ export const pokemon851_875 = [
       dexNum: '0857',
       name: 'Hattrem',
       type: ['Psychic'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       preEvo: ['856']
     },
@@ -67,9 +67,9 @@ export const pokemon851_875 = [
       dexNum: '0858',
       name: 'Hatterene',
       type: ['Psychic', 'Fairy'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['856', '857']
     },
     {
@@ -77,7 +77,7 @@ export const pokemon851_875 = [
       dexNum: '0859',
       name: 'Impidimp',
       type: ['Dark', 'Fairy'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -85,7 +85,7 @@ export const pokemon851_875 = [
       dexNum: '0860',
       name: 'Morgrem',
       type: ['Dark', 'Fairy'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       preEvo: ['859']
     },
@@ -94,9 +94,9 @@ export const pokemon851_875 = [
       dexNum: '0861',
       name: 'Grimmsnarl',
       type: ['Dark', 'Fairy'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       perEvo: ['859', '860']
     },
     {
@@ -271,25 +271,25 @@ export const pokemon851_875 = [
       dexNum: '0870',
       name: 'Falinks',
       type: ['Fighting'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '871',
       dexNum: '0871',
       name: 'Pincurchin',
       type: ['Electric'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '872',
       dexNum: '0872',
       name: 'Snom',
       type: ['Ice', 'Bug'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -297,9 +297,9 @@ export const pokemon851_875 = [
       dexNum: '0873',
       name: 'Frosmoth',
       type: ['Ice', 'Bug'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['872']
     },
     {
@@ -307,17 +307,17 @@ export const pokemon851_875 = [
       dexNum: '0874',
       name: 'Stonjourner',
       type: ['Rock'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '875',
       dexNum: '0875',
       name: 'Eiscue',
       type: ['Ice'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
   ]

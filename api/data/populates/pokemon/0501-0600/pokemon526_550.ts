@@ -203,7 +203,7 @@ export const pokemon526_550 = [
       dexNum: '0548',
       name: 'Petilil',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2', 'USUM', 'PLA'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -211,9 +211,9 @@ export const pokemon526_550 = [
       dexNum: '0549',
       name: 'Lilligant',
       type: ['Grass'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SV'],
       preEvo: ['548']
     },
     {
@@ -232,20 +232,20 @@ export const pokemon526_550 = [
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh', 'SV'],
       baseForm: true,
       form: 'Red-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh', 'SV']
     },
     {
       id: '550A',
       dexNum: '0550',
       name: 'Basculin',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh', 'SV'],
       baseForm: false,
       form: 'Blue-Striped Basculin',
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh', 'SV']
     },
     {
       id: '550B',

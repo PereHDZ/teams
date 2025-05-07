@@ -4,7 +4,7 @@ export const pokemon551_575 = [
       dexNum: '0551',
       name: 'Sandile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true
     },
     {
@@ -12,7 +12,7 @@ export const pokemon551_575 = [
       dexNum: '0552',
       name: 'Krokorok',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true,
       preEvo: ['551']
     },
@@ -21,9 +21,9 @@ export const pokemon551_575 = [
       dexNum: '0553',
       name: 'Krookodile',
       type: ['Ground', 'Dark'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       preEvo: ['551', '552']
     },
     {
@@ -204,7 +204,7 @@ export const pokemon551_575 = [
       dexNum: '0570',
       name: 'Zorua',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true
     },
     {
@@ -221,9 +221,9 @@ export const pokemon551_575 = [
       dexNum: '0571',
       name: 'Zoroark',
       type: ['Dark'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM'],
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       preEvo: ['570']
     },
     {
@@ -260,7 +260,7 @@ export const pokemon551_575 = [
       dexNum: '0574',
       name: 'Gothita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -268,7 +268,7 @@ export const pokemon551_575 = [
       dexNum: '0575',
       name: 'Gothorita',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true,
       preEvo: ['574']
     },

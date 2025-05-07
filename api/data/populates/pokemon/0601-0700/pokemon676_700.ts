@@ -142,7 +142,7 @@ export const pokemon676_700 = [
       dexNum: '0690',
       name: 'Skrelp',
       type: ['Poison', 'Water'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SV'],
       baseForm: true
     },
     {
@@ -150,9 +150,9 @@ export const pokemon676_700 = [
       dexNum: '0691',
       name: 'Dragalge',
       type: ['Posion', 'Dragon'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['XY', 'USUM'],
+      finalStage: ['XY', 'USUM', 'SV'],
       preEvo: ['690']
     },
     {
@@ -160,7 +160,7 @@ export const pokemon676_700 = [
       dexNum: '0692',
       name: 'Clauncher',
       type: ['Water'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SV'],
       baseForm: true
     },
     {
@@ -168,9 +168,9 @@ export const pokemon676_700 = [
       dexNum: '0693',
       name: 'Clawitzer',
       type: ['Water'],
-      availableIn: ['XY', 'USUM'],
+      availableIn: ['XY', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['XY', 'USUM'],
+      finalStage: ['XY', 'USUM', 'SV'],
       preEvo: ['692']
     },
     {
@@ -232,9 +232,9 @@ export const pokemon676_700 = [
     dexNum: '0700',
     name: 'Sylveon',
     type: ['Fairy'],
-    availableIn: ['XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM', 'SwSh', 'PLA'],
+    finalStage: ['XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     preEvo: ['133']
     },
   ]

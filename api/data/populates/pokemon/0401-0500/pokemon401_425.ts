@@ -4,7 +4,7 @@ export const pokemon401_425 = [
     dexNum: '0401',
     name: 'Kircketot',
     type: ['Bug'],
-    availableIn: ['Platinum', 'PLA'],
+    availableIn: ['Platinum', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -12,9 +12,9 @@ export const pokemon401_425 = [
     dexNum: '0402',
     name: 'Kricketune',
     type: ['Bug'],
-    availableIn: ['Platinum', 'PLA'],
+    availableIn: ['Platinum', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'PLA'],
+    finalStage: ['Platinum', 'PLA', 'SV'],
     preEvo: ['401']
   },
   {
@@ -22,7 +22,7 @@ export const pokemon401_425 = [
     dexNum: '0403',
     name: 'Shinx',
     type: ['Electric'],
-    availableIn: ['Platinum', 'PLA'],
+    availableIn: ['Platinum', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -30,7 +30,7 @@ export const pokemon401_425 = [
     dexNum: '0404',
     name: 'Luxio',
     type: ['Electric'],
-    availableIn: ['Platinum', 'PLA'],
+    availableIn: ['Platinum', 'PLA', 'SV'],
     baseForm: true,
     preEvo: ['403']
   },
@@ -39,9 +39,9 @@ export const pokemon401_425 = [
     dexNum: '0405',
     name: 'Luxray',
     type: ['Electric'],
-    availableIn: ['Platinum', 'PLA'],
+    availableIn: ['Platinum', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'PLA'],
+    finalStage: ['Platinum', 'PLA', 'SV'],
     preEvo: ['403', '404']
   },
   {
@@ -173,7 +173,7 @@ export const pokemon401_425 = [
     dexNum: '0415',
     name: 'Combee',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -181,9 +181,9 @@ export const pokemon401_425 = [
     dexNum: '0416',
     name: 'Vespiquen',
     type: ['Bug', 'Flying'],
-    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+    finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
     preEvo: ['415']
   },
   {
@@ -191,16 +191,16 @@ export const pokemon401_425 = [
     dexNum: '0417',
     name: 'Pachirisu',
     type: ['Electric'],
-    availableIn: ['Platinum', 'XY', 'PLA'],
+    availableIn: ['Platinum', 'XY', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'XY', 'PLA']
+    finalStage: ['Platinum', 'XY', 'PLA', 'SV']
   },
   {
     id: '418',
     dexNum: '0418',
     name: 'Buizel',
     type: ['Water'],
-    availableIn: ['Platinum', 'B2W2', 'XY', 'PLA'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -208,9 +208,9 @@ export const pokemon401_425 = [
     dexNum: '0419',
     name: 'Floatzel',
     type: ['Water'],
-    availableIn: ['Platinum', 'B2W2', 'XY', 'PLA'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['Platinum', 'B2W2', 'XY', 'PLA'],
+    finalStage: ['Platinum', 'B2W2', 'XY', 'PLA', 'SV'],
     preEvo: ['418']
   },
   {
@@ -236,7 +236,7 @@ export const pokemon401_425 = [
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
     form: 'Shellos West Sea'
   },
@@ -245,7 +245,7 @@ export const pokemon401_425 = [
     dexNum: '0422',
     name: 'Shellos',
     type: ['Water'],
-    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: false,
     form: 'Shellos East Sea'  
   },
@@ -254,10 +254,10 @@ export const pokemon401_425 = [
     dexNum: '0423',
     name: 'Gastrodon',
     type: ['Water', 'Ground'],
-    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
     form: 'Gastrodon West Sea',
-    finalStage: ['Platinum', 'USUM', 'SwSh', 'PLA'],
+    finalStage: ['Platinum', 'USUM', 'SwSh', 'PLA', 'SV'],
     preEvo: ['422']
   },
   {
@@ -286,7 +286,7 @@ export const pokemon401_425 = [
     dexNum: '0425',
     name: 'Drifloon',
     type: ['Ghost', 'Flying'],
-    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
 ]

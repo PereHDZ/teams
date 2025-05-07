@@ -4,9 +4,9 @@ export const pokemon576_600 = [
       dexNum: '0576',
       name: 'Gothitelle',
       type: ['Psychic'],
-      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       preEvo: ['574', '575']
     },
     {
@@ -86,7 +86,7 @@ export const pokemon576_600 = [
       dexNum: '0585',
       name: 'Deerling',
       type: ['Normal', 'Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SV'],
       baseForm: true
     },
     {
@@ -94,9 +94,9 @@ export const pokemon576_600 = [
       dexNum: '0586',
       name: 'Sawsbuck',
       type: ['Normal', 'Grass'],
-      availableIn: ['BW', 'B2W2'],
+      availableIn: ['BW', 'B2W2', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2'],
+      finalStage: ['BW', 'B2W2', 'SV'],
       preEvo: ['585']
     },
     {
@@ -131,7 +131,7 @@ export const pokemon576_600 = [
       dexNum: '0590',
       name: 'Foongus',
       type: ['Grass', 'Poison'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SV'],
       baseForm: true
     },
     {
@@ -139,9 +139,9 @@ export const pokemon576_600 = [
       dexNum: '0591',
       name: 'Amoonguss',
       type: ['Grass', 'Poison'],
-      availableIn: ['BW', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SV'],
       preEvo: ['590']
     },
     {
@@ -189,9 +189,9 @@ export const pokemon576_600 = [
       dexNum: '0594',
       name: 'Alolomola',
       type: ['Water'],
-      availableIn: ['BW', 'B2W2', 'XY', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'USUM']
+      finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SV']
     },
     {
       id: '595',

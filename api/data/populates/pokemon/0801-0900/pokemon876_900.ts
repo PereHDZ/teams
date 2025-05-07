@@ -4,20 +4,20 @@ export const pokemon876_900 = [
       dexNum: '0876',
       name: 'Indeedee',
       type: ['Psychic', 'Normal'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       form: 'Male Indeede',
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '876A',
       dexNum: '0876',
       name: 'Indeedee',
       type: ['Psychic', 'Normal'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: false,
       form: 'Female Indeedee',
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '877',
@@ -33,7 +33,7 @@ export const pokemon876_900 = [
       dexNum: '0878',
       name: 'Cufant',
       type: ['Steel'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -41,9 +41,9 @@ export const pokemon876_900 = [
       dexNum: '0879',
       name: 'Copperajah',
       type: ['Steel'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['878']
     },
     {
@@ -96,7 +96,7 @@ export const pokemon876_900 = [
       dexNum: '0885',
       name: 'Dreepy',
       type: ['Dragon', 'Ghost'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -104,7 +104,7 @@ export const pokemon876_900 = [
       dexNum: '0886',
       name: 'Drakloak',
       type: ['Dragon', 'Ghost'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
       perEvo: ['885']
     },
@@ -113,9 +113,9 @@ export const pokemon876_900 = [
       dexNum: '0887',
       name: 'Dragapult',
       type: ['Dragon', 'Ghost'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwS'],
+      finalStage: ['SwSh', 'SV'],
       preEvo: ['885', '886']
     },
     {

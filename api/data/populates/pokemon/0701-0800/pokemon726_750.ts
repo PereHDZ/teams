@@ -77,7 +77,7 @@ export const pokemon726_750 = [
     dexNum: '0734',
     name: 'Yungoos',
     type: ['Normal'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true
   },
   {
@@ -85,9 +85,9 @@ export const pokemon726_750 = [
     dexNum: '0735',
     name: 'Gumshoos',
     type: ['Normal'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'SV'],
     preEvo: ['734']
   },
   {
@@ -122,7 +122,7 @@ export const pokemon726_750 = [
     dexNum: '0739',
     name: 'Crabrawler',
     type: ['Fighting'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true
   },
   {
@@ -130,9 +130,9 @@ export const pokemon726_750 = [
     dexNum: '0740',
     name: 'Crabomniable',
     type: ['Fighting', 'Ice'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'SV'],
     preEvo: ['739']
   },
   {
@@ -140,40 +140,40 @@ export const pokemon726_750 = [
     dexNum: '0741',
     name: 'Oricorio',
     type: ['Fire', 'Flying'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
     form: 'Baile Style Oricorio',
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
   {
     id: '741A',
     dexNum: '0741',
     name: 'Oricorio',
-    type: ['Fire', 'Electric'],
-    availableIn: ['USUM'],
+    type: ['Electric', 'Flying'],
+    availableIn: ['USUM', 'SV'],
     baseForm: false,
     form: 'Pom-Pom Style Oricorio',
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
   {
     id: '741B',
     dexNum: '0741',
     name: 'Oricorio',
-    type: ['Fire', 'Psychic'],
-    availableIn: ['USUM'],
+    type: ['Psychic', 'Flying'],
+    availableIn: ['USUM', 'SV'],
     baseForm: false,
     form: "Pa'u Style Oricorio",
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
   {
     id: '741C',
     dexNum: '0741',
     name: 'Oricorio',
-    type: ['Fire', 'Ghost'],
-    availableIn: ['USUM'],
+    type: ['Ghost', 'Flying'],
+    availableIn: ['USUM', 'SV'],
     baseForm: false,
     form: 'Sensu Style Oricorio',
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
   {
     id: '742',
@@ -198,7 +198,7 @@ export const pokemon726_750 = [
     dexNum: '0744',
     name: 'Rockruff',
     type: ['Rock'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: true
   },
   {
@@ -206,10 +206,10 @@ export const pokemon726_750 = [
     dexNum: '0745',
     name: 'Lycanroc',
     type: ['Rock'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: true,
     form: 'Midday Form Lycanroc',
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'PLA'],
     preEvo: ['744']
   },
   {
@@ -217,10 +217,10 @@ export const pokemon726_750 = [
     dexNum: '0745',
     name: 'Lycanroc',
     type: ['Rock'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: false,
     form: 'Midnight Form Lycanroc',
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'PLA'],
     preEvo: ['744']
   },
   {
@@ -228,10 +228,10 @@ export const pokemon726_750 = [
     dexNum: '0745',
     name: 'Lycanroc',
     type: ['Rock'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'PLA'],
     baseForm: false,
     form: 'Dusk Form Lycanroc',
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'PLA'],
     preEvo: ['744']
   },
   {
@@ -248,7 +248,7 @@ export const pokemon726_750 = [
     dexNum: '0747',
     name: 'Mareanie',
     type: ['Poison', 'Water'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -256,9 +256,9 @@ export const pokemon726_750 = [
     dexNum: '0748',
     name: 'Toxapex',
     type: ['Poison', 'Water'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh'],
+    finalStage: ['USUM', 'SwSh', 'SV'],
     preEvo: ['747']
   },
   {
@@ -266,7 +266,7 @@ export const pokemon726_750 = [
     dexNum: '0749',
     name: 'Mudbray',
     type: ['Ground'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -274,9 +274,9 @@ export const pokemon726_750 = [
     dexNum: '0750',
     name: 'Mudsdale',
     type: ['Ground'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh'],
+    finalStage: ['USUM', 'SwSh', 'SV'],
     preEvo: ['749']
   },
 ]

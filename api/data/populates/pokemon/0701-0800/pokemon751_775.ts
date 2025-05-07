@@ -22,7 +22,7 @@ export const pokemon751_775 = [
     dexNum: '0753',
     name: 'Fomantis',
     type: ['Grass'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true
   },
   {
@@ -30,9 +30,9 @@ export const pokemon751_775 = [
     dexNum: '0754',
     name: 'Lurantis',
     type: ['Water'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'SV'],
     preEvo: ['753']
   },
   {
@@ -58,7 +58,7 @@ export const pokemon751_775 = [
     dexNum: '0757',
     name: 'Salandit',
     type: ['Poison', 'Fire'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -66,9 +66,9 @@ export const pokemon751_775 = [
     dexNum: '0758',
     name: 'Salazzle',
     type: ['Posion', 'Fire'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh'],
+    finalStage: ['USUM', 'SwSh', 'SV'],
     preEvo: ['757']
   },
   {
@@ -94,7 +94,7 @@ export const pokemon751_775 = [
     dexNum: '0761',
     name: 'Bounsweet',
     type: ['Grass'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -102,7 +102,7 @@ export const pokemon751_775 = [
     dexNum: '0762',
     name: 'Steenee',
     type: ['Grass'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
     preEvo: ['761']
   },
@@ -111,9 +111,9 @@ export const pokemon751_775 = [
     dexNum: '0763',
     name: 'Tsareena',
     type: ['Grass'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh'],
+    finalStage: ['USUM', 'SwSh', 'SV'],
     preEvo: ['761', '762']
   },
   {
@@ -130,18 +130,18 @@ export const pokemon751_775 = [
     dexNum: '0765',
     name: 'Oranguru',
     type: ['Normal', 'Psychic'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh']
+    finalStage: ['USUM', 'SwSh', 'SV']
   },
   {
     id: '766',
     dexNum: '0766',
     name: 'Passimian',
     type: ['Fighting'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh']
+    finalStage: ['USUM', 'SwSh', 'SV']
   },
   {
     id: '767',
@@ -166,7 +166,7 @@ export const pokemon751_775 = [
     dexNum: '0769',
     name: 'Sandygast',
     type: ['Ghost', 'Ground'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true
   },
   {
@@ -174,9 +174,9 @@ export const pokemon751_775 = [
     dexNum: '0770',
     name: 'Palossand',
     type: ['Ghost', 'Ground'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM'],
+    finalStage: ['USUM', 'SV'],
     preEvo: ['769']
   },
   {
@@ -291,8 +291,8 @@ export const pokemon751_775 = [
     dexNum: '0775',
     name: 'Komala',
     type: ['Normal'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
 ]

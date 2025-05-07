@@ -4,18 +4,18 @@ export const pokemon700_725 = [
     dexNum: '0701',
     name: 'Hawlucha',
     type: ['Fighting', 'Flying'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM', 'SwSh']
+    finalStage: ['XY', 'USUM', 'SwSh', 'SV']
   },
   {
     id: '702',
     dexNum: '0702',
     name: 'Dedenne',
     type: ['Electric', 'Fairy'],
-    availableIn: ['XY', 'USUM'],
+    availableIn: ['XY', 'USUM', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM']
+    finalStage: ['XY', 'USUM', 'SV']
   },
   {
     id: '703',
@@ -31,7 +31,7 @@ export const pokemon700_725 = [
     dexNum: '0704',
     name: 'Goomy',
     type: ['Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -39,7 +39,7 @@ export const pokemon700_725 = [
     dexNum: '0705',
     name: 'Sliggoo',
     type: ['Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true,
     preEvo: ['704']
   },
@@ -58,9 +58,9 @@ export const pokemon700_725 = [
     dexNum: '0706',
     name: 'Goodra',
     type: ['Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM', 'SwSh'],
+    finalStage: ['XY', 'USUM', 'SwSh', 'SV'],
     preEvo: ['704', '705']
   },
   {
@@ -79,9 +79,9 @@ export const pokemon700_725 = [
     dexNum: '0707',
     name: 'Klefki',
     type: ['Steel', 'Fairy'],
-    availableIn: ['XY', 'USUM'],
+    availableIn: ['XY', 'USUM', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM']
+    finalStage: ['XY', 'USUM', 'SV']
   },
   {
     id: '708',
@@ -124,7 +124,7 @@ export const pokemon700_725 = [
     dexNum: '0712',
     name: 'Bergmite',
     type: ['Ice'],
-    availableIn: ['XY', 'SwSh', 'PLA'],
+    availableIn: ['XY', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -132,9 +132,9 @@ export const pokemon700_725 = [
     dexNum: '0713',
     name: 'Avalugg',
     type: ['Ice'],
-    availableIn: ['XY', 'SwSh'],
+    availableIn: ['XY', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'SwSh'],
+    finalStage: ['XY', 'SwSh', 'SV'],
     preEvo: ['712']
   },
   {
@@ -153,7 +153,7 @@ export const pokemon700_725 = [
     dexNum: '0714',
     name: 'Noibat',
     type: ['Flying', 'Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -161,9 +161,9 @@ export const pokemon700_725 = [
     dexNum: '0715',
     name: 'Noivern',
     type: ['Flying', 'Dragon'],
-    availableIn: ['XY', 'USUM', 'SwSh'],
+    availableIn: ['XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['XY', 'USUM', 'SwSh'],
+    finalStage: ['XY', 'USUM', 'SwSh', 'SV'],
     preEvo: ['714']
   },
   {

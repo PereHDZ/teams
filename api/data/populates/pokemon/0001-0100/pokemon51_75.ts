@@ -4,9 +4,9 @@ export const pokemon51_75 = [
         dexNum: '0051',
         name: 'Dugtrio',
         type: ['Ground'],
-        availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh'],
+        availableIn: ['FRLG', 'HGSS', 'XY', 'SwSh', 'SV'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'XY', 'SwSh'],
+        finalStage: ['FRLG', 'HGSS', 'XY', 'SwSh', 'SV'],
         preEvo: ['50']
       },
     {
@@ -25,7 +25,7 @@ export const pokemon51_75 = [
         dexNum: '0052',
         name: 'Meowth',
         type: ['Normal'],
-        availableIn: ['FRLG', 'HGSS', 'SwSh'],
+        availableIn: ['FRLG', 'HGSS', 'SwSh', 'SV'],
         baseForm: true
       },
       {
@@ -51,9 +51,9 @@ export const pokemon51_75 = [
         dexNum: '0053',
         name: 'Persian',
         type: ['Normal'],
-        availableIn: ['FRLG', 'HGSS', 'SwSh'],
+        availableIn: ['FRLG', 'HGSS', 'SwSh', 'SV'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'SwSh'],
+        finalStage: ['FRLG', 'HGSS', 'SwSh', 'SV'],
         preEvo: ['52'],
       },
       {
@@ -72,7 +72,7 @@ export const pokemon51_75 = [
         dexNum: '0054',
         name: 'Psyduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
         baseForm: true
       },
       {
@@ -80,9 +80,9 @@ export const pokemon51_75 = [
         dexNum: '0055',
         name: 'Golduck',
         type: ['Water'],
-        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+        availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+        finalStage: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
         preEvo: ['54'],
       },
       {
@@ -90,7 +90,7 @@ export const pokemon51_75 = [
         dexNum: '0056',
         name: 'Mankey',
         type: ['Fighting'],
-        availableIn: ['FRLG', 'HGSS', 'USUM'],
+        availableIn: ['FRLG', 'HGSS', 'USUM', 'SV'],
        baseForm: true
       },
       {
@@ -98,7 +98,7 @@ export const pokemon51_75 = [
         dexNum: '0057',
         name: 'Primeape',
         type: ['Fighting'],
-        availableIn: ['FRLG', 'HGSS', 'USUM'],
+        availableIn: ['FRLG', 'HGSS', 'USUM', 'SV'],
         baseForm: true,
         finalStage: ['FRLG', 'HGSS', 'USUM'],
         preEvo: ['56']
@@ -108,7 +108,7 @@ export const pokemon51_75 = [
         dexNum: '0058',
         name: 'Growlithe',
         type: ['Fire'],
-        availableIn: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh'],
+        availableIn: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh', 'SV'],
         baseForm: true
       },
       {
@@ -125,9 +125,9 @@ export const pokemon51_75 = [
         dexNum: '0059',
         name: 'Arcanine',
         type: ['Fire'],
-        availableIn: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh'],
+        availableIn: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh', 'SV'],
         baseForm: true,
-        finalStage: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh'],
+        finalStage: ['FRLG', 'HGSS', 'B2W2', 'USUM', 'SwSh', 'SV'],
         preEvo: ['58'],
       },
       {

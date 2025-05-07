@@ -60,220 +60,208 @@ export const pokemon901_925 = [
       baseForm: true,
       finalStage: ['PLA']
     },
-    // {
-    //   id: '881',
-    //   dexNum: '0881',
-    //   name: 'Arctozolt',
-    //   type: ['Electric', 'Ice'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '882',
-    //   dexNum: '0882',
-    //   name: 'Dracovish',
-    //   type: ['Water', 'Dragon'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '883',
-    //   dexNum: '0883',
-    //   name: 'Arctovish',
-    //   type: ['Water', 'Ice'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '884',
-    //   dexNum: '0884',
-    //   name: 'Duraludon',
-    //   type: ['Steel', 'Dragon'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '885',
-    //   dexNum: '0885',
-    //   name: 'Dreepy',
-    //   type: ['Dragon', 'Ghost'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true
-    // },
-    // {
-    //   id: '886',
-    //   dexNum: '0886',
-    //   name: 'Drakloak',
-    //   type: ['Dragon', 'Ghost'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   perEvo: ['885']
-    // },
-    // {
-    //   id: '887',
-    //   dexNum: '0887',
-    //   name: 'Dragapult',
-    //   type: ['Dragon', 'Ghost'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwS'],
-    //   preEvo: ['885', '886']
-    // },
-    // {
-    //   id: '888',
-    //   dexNum: '0888',
-    //   name: 'Zacian',
-    //   type: ['Fairy'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   form: 'Hero of Many Battles Zacian',
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '888A',
-    //   dexNum: '0888',
-    //   name: 'Zacian',
-    //   type: ['Fairy', 'Steel'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: false,
-    //   form: 'Crowned Sword Zacian',
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '889',
-    //   dexNum: '0889',
-    //   name: 'Zamazenta',
-    //   type: ['Fighting'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   form: 'Hero of Many Battles Zamazenta',
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '889A',
-    //   dexNum: '0889',
-    //   name: 'Zamazenta',
-    //   type: ['Fighting', 'Steel'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: false,
-    //   form: 'Crowned Shield Zamazenta',
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '890',
-    //   dexNum: '0890',
-    //   name: 'Eternatus',
-    //   type: ['Poison', 'Dragon'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '891',
-    //   dexNum: '0891',
-    //   name: 'Kubfu',
-    //   type: ['Fighting'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true
-    // },
-    // {
-    //   id: '892',
-    //   dexNum: '0892',
-    //   name: 'Urshifu',
-    //   type: ['Fighting', 'Dark'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   form: 'Single Strike Urshifu',
-    //   finalStage: ['SwSh'],
-    //   preEvo: ['891']
-    // },
-    // {
-    //   id: '892A',
-    //   dexNum: '0892',
-    //   name: 'Urshifu',
-    //   type: ['Fighting', 'Water'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: false,
-    //   form: 'Rapid Strike Urshifu',
-    //   finalStage: ['SwSh'],
-    //   preEvo: ['891']
-    // },
-    // {
-    //   id: '893',
-    //   dexNum: '0893',
-    //   name: 'Zarude',
-    //   type: ['Dark', 'Grass'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '894',
-    //   dexNum: '0894',
-    //   name: 'Regieleki',
-    //   type: ['Electric'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '895',
-    //   dexNum: '0895',
-    //   name: 'Regidrago',
-    //   type: ['Dragon'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '896',
-    //   dexNum: '0896',
-    //   name: 'Glastrier',
-    //   type: ['Ice'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '897',
-    //   dexNum: '0897',
-    //   name: 'Spectrier',
-    //   type: ['Ghost'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '898',
-    //   dexNum: '0898',
-    //   name: 'Calyrex',
-    //   type: ['Psychic', 'Grass'],
-    //   availableIn: ['SwSh'],
-    //   baseForm: true,
-    //   finalStage: ['SwSh']
-    // },
-    // {
-    //   id: '899',
-    //   dexNum: '0899',
-    //   name: 'Wyrdeer',
-    //   type: ['Normal', 'Psychic'],
-    //   availableIn: ['PLA'],
-    //   baseForm: true,
-    //   finalStage: ['PLA'],
-    //   preEvo: ['234']
-    // },
-    // {
-    //   id: '900',
-    //   dexNum: '0900',
-    //   name: 'Kleavor',
-    //   type: ['Bug', 'Rock'],
-    //   availableIn: ['PLA'],
-    //   baseForm: true,
-    //   finalStage: ['PLA'],
-    //   preEvo: ['123']
-    // },
+    {
+      id: '906',
+      dexNum: '0906',
+      name: 'Sprigatito',
+      type: ['Grass'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '907',
+      dexNum: '0907',
+      name: 'Floragato',
+      type: ['Grass'],
+      availableIn: ['SV'],
+      baseForm: true,
+      preEvo: ['906']
+    },
+    {
+      id: '908',
+      dexNum: '0908',
+      name: 'Meowscarada',
+      type: ['Grass', 'Dark'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      preEvo: ['906', '907']
+    },
+    {
+      id: '909',
+      dexNum: '0909',
+      name: 'Fuecoco',
+      type: ['Fire'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '910',
+      dexNum: '0910',
+      name: 'Crocalor',
+      type: ['Fire'],
+      availableIn: ['SV'],
+      baseForm: true,
+      preEvo: ['909']
+    },
+    {
+      id: '911',
+      dexNum: '0911',
+      name: 'Skeledirge',
+      type: ['Fire', 'Ghost'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      perEvo: ['909', '910']
+    },
+    {
+      id: '912',
+      dexNum: '0912',
+      name: 'Quaxly',
+      type: ['Water'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '913',
+      dexNum: '0913',
+      name: 'Quaxwell',
+      type: ['Water'],
+      availableIn: ['SV'],
+      baseForm: true,
+      preEvo: ['912']
+    },
+    {
+      id: '914',
+      dexNum: '0914',
+      name: 'Quaquaval',
+      type: ['Water', 'Fighting'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      preEvo: ['912', '913']
+    },
+    {
+      id: '915',
+      dexNum: '0915',
+      name: 'Lechonk',
+      type: ['Normal'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '916',
+      dexNum: '0916',
+      name: 'Oinkologne',
+      type: ['Normal'],
+      availableIn: ['SV'],
+      baseForm: true,
+      form: 'Male Oinkologne',
+      finalStage: ['SV'],
+      preEvo: ['915']
+    },
+    {
+      id: '916A',
+      dexNum: '0916',
+      name: 'Oinkologne',
+      type: ['Normal'],
+      availableIn: ['SwSh'],
+      baseForm: false,
+      form: 'Female Oinkologne',
+      finalStage: ['SV'],
+      preEvo: ['915']
+    },
+    {
+      id: '917',
+      dexNum: '0917',
+      name: 'Tarountula',
+      type: ['Bug'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '918',
+      dexNum: '0918',
+      name: 'Spidops',
+      type: ['Bug'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      preEvo: ['917']
+    },
+    {
+      id: '919',
+      dexNum: '0919',
+      name: 'Nymble',
+      type: ['Bug'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '920',
+      dexNum: '0920',
+      name: 'Lokix',
+      type: ['Bug', 'Dark'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      preEvo: ['919']
+    },
+    {
+      id: '921',
+      dexNum: '0921',
+      name: 'Pawmi',
+      type: ['Electric'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '922',
+      dexNum: '0922',
+      name: 'Pawmo',
+      type: ['Electric', 'Fighting'],
+      availableIn: ['SV'],
+      baseForm: true,
+      preEvo: ['921']
+    },
+    {
+      id: '923',
+      dexNum: '0923',
+      name: 'Pawmot',
+      type: ['Electric', 'Fighting'],
+      availableIn: ['SV'],
+      baseForm: true,
+      finalStage: ['SV'],
+      preEvo: ['921', '922']
+    },
+    {
+      id: '924',
+      dexNum: '0924',
+      name: 'Tandemaus',
+      type: ['Normal'],
+      availableIn: ['SV'],
+      baseForm: true
+    },
+    {
+      id: '925',
+      dexNum: '0925',
+      name: 'Maushold',
+      type: ['Normal'],
+      availableIn: ['SV'],
+      baseForm: true,
+      form: 'Family of Three Moushold',
+      finalStage: ['SV'],
+      preEvo: ['924']
+    },
+    {
+      id: '925A',
+      dexNum: '0925',
+      name: 'Maushold',
+      type: ['Normal'],
+      availableIn: ['SV'],
+      baseForm: false,
+      form: 'Family of Four Maushold',
+      finalStage: ['SV'],
+      preEvo: ['924']
+    },
   ]

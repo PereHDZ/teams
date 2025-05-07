@@ -13,7 +13,7 @@ export const pokemon626_650 = [
       dexNum: '0627',
       name: 'Rufflet',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -21,9 +21,9 @@ export const pokemon626_650 = [
       dexNum: '0628',
       name: 'Braviary',
       type: ['Normal', 'Flying'],
-      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
+      finalStage: ['BW', 'B2W2', 'USUM', 'SwSh', 'SV'],
       preEvo: ['627']
     },
     {
@@ -78,7 +78,7 @@ export const pokemon626_650 = [
       dexNum: '0633',
       name: 'Deino',
       type: ['Dark', 'Dragon'],
-      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true
     },
     {
@@ -86,7 +86,7 @@ export const pokemon626_650 = [
       dexNum: '0634',
       name: 'Zweilous',
       type: ['Dark', 'Dragon'],
-      availableIn: ['BW','B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW','B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true,
       preEvo: ['633']
     },
@@ -95,9 +95,9 @@ export const pokemon626_650 = [
       dexNum: '0635',
       name: 'Hydreigon',
       type: ['Dark', 'Dragon'],
-      availableIn: ['Bw', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['Bw', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
+      finalStage: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       preEvo: ['633', '634']
     },
     {
@@ -105,7 +105,7 @@ export const pokemon626_650 = [
       dexNum: '0636',
       name: 'Larvesta',
       type: ['Bug', 'Fire'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SV'],
       baseForm: true
     },
     {
@@ -113,9 +113,9 @@ export const pokemon626_650 = [
       dexNum: '0637',
       name: 'Volcarona',
       type: ['Bug', 'Fire'],
-      availableIn: ['BW', 'B2W2', 'USUM'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SV'],
       baseForm: true,
-      finalStage: ['BW','B2W2', 'USUM'],
+      finalStage: ['BW','B2W2', 'USUM', 'SV'],
       preEvo: ['636']
     },
     {

@@ -22,7 +22,7 @@ export const pokemon451_475 = [
       dexNum: '0453',
       name: 'Croagunk',
       type: ['Poison', 'Fighting'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -30,9 +30,9 @@ export const pokemon451_475 = [
       dexNum: '0454',
       name: 'Toxicroak',
       type: ['Poison', 'Fighting'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'SwSh', 'PLA', 'SV'],
       preEvo: ['453']
     },
     {
@@ -49,7 +49,7 @@ export const pokemon451_475 = [
       dexNum: '0456',
       name: 'Finneon',
       type: ['Water'],
-      availableIn: ['Platinum', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'USUM', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -57,9 +57,9 @@ export const pokemon451_475 = [
       dexNum: '0457',
       name: 'Lumineon',
       type: ['Water'],
-      availableIn: ['Platinum', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'USUM', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'USUM', 'PLA'],
+      finalStage: ['Platinum', 'USUM', 'PLA', 'SV'],
       preEvo: ['456']
     },
     {
@@ -75,7 +75,7 @@ export const pokemon451_475 = [
       dexNum: '0459',
       name: 'Snover',
       type: ['Grass', 'Ice'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true
     },
     {
@@ -83,9 +83,9 @@ export const pokemon451_475 = [
       dexNum: '0460',
       name: 'Abomasnow',
       type: ['Grass', 'Ice'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       preEvo: ['459']
     },
     {
@@ -93,9 +93,9 @@ export const pokemon451_475 = [
       dexNum: '0461',
       name: 'Weavile',
       type: ['Dark', 'Ice'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       preEvo: ['215']
     },
     {
@@ -103,9 +103,9 @@ export const pokemon451_475 = [
       dexNum: '0462',
       name: 'Magnezone',
       type: ['Electric', 'Steel'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
       preEvo: ['81', '82']
     },
     {
@@ -183,9 +183,9 @@ export const pokemon451_475 = [
       dexNum: '0470',
       name: 'Leafeon',
       type: ['Grass'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       preEvo: ['133']
     },
     {
@@ -193,9 +193,9 @@ export const pokemon451_475 = [
       dexNum: '0471',
       name: 'Glaceon',
       type: ['Ice'],
-      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
       preEvo: ['133']
     },
     {
@@ -233,9 +233,9 @@ export const pokemon451_475 = [
       dexNum: '0475',
       name: 'Gallade',
       type: ['Psychic', 'Fighting'],
-      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      availableIn: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       baseForm: true,
-      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA'],
+      finalStage: ['Platinum', 'XY', 'SwSh', 'PLA', 'SV'],
       preEvo: ['280', '281']
     },
   ]

@@ -22,18 +22,18 @@ export const pokemon776_800 = [
     dexNum: '0778',
     name: 'Mimikyu',
     type: ['Ghost', 'Fairy'],
-    availableIn: ['USUM', 'SwSh'],
+    availableIn: ['USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['USUM', 'SwSh']
+    finalStage: ['USUM', 'SwSh', 'SV']
   },
   {
     id: '779',
     dexNum: '0779',
     name: 'Bruxish',
     type: ['Water', ' Psychic'],
-    availableIn: ['USUM'],
+    availableIn: ['USUM', 'SV'],
     baseForm: true,
-    finalStage: ['USUM']
+    finalStage: ['USUM', 'SV']
   },
   {
     id: '780',

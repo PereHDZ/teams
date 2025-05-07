@@ -62,26 +62,46 @@ export const pokemon76_100 = [
     id: '79',
     dexNum: '0079',
     name: 'Slowpoke',
-    type: ['Water', 'Psychic', 'HGSS', 'XY', 'USUM'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    type: ['Water', 'Psychic'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
     baseForm: true
+  },
+  {
+    id: '79A',
+    dexNum: '0079',
+    name: 'Slowpoke',
+    type: ['Psychic'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Slowpoke'
   },
   {
     id: '80',
     dexNum: '0080',
     name: 'Slowbro',
     type: ['Water',  'Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
     preEvo: ['79'],
+  },
+  {
+    id: '80A',
+    dexNum: '0080',
+    name: 'Slowbro',
+    type: ['Poison',  'Psychic'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
+    baseForm: false,
+    form: 'Galarian Slowbro',
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
+    preEvo: ['79A'],
   },
   {
     id: '81',
     dexNum: '0081',
     name: 'Magnemite',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -89,7 +109,7 @@ export const pokemon76_100 = [
     dexNum: '0082',
     name: 'Magneton',
     type: ['Electric', 'Steel'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'Platinum', 'B2W2', 'XY', 'USUM', 'PLA', 'SV'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'Emerald'],
     preEvo: ['81']
@@ -153,7 +173,7 @@ export const pokemon76_100 = [
     dexNum: '0088',
     name: 'Grimer',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'SV'],
     baseForm: true
   },
   {
@@ -170,9 +190,9 @@ export const pokemon76_100 = [
     dexNum: '0089',
     name: 'Muk',
     type: ['Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2'],
+    finalStage: ['FRLG', 'HGSS', 'Emerald', 'B2W2', 'SV'],
     preEvo: ['88'],
   },
   {
@@ -191,7 +211,7 @@ export const pokemon76_100 = [
     dexNum: '0090',
     name: 'Shellder',
     type: ['Water'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true
   },
   {
@@ -199,9 +219,9 @@ export const pokemon76_100 = [
     dexNum: '0091',
     name: 'Cloyster',
     type: ['Water', 'Ice'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SwSh', 'SV'],
     preEvo: ['90'],
   },
   {
@@ -209,7 +229,7 @@ export const pokemon76_100 = [
     dexNum: '0092',
     name: 'Gastly',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true
   },
   {
@@ -217,7 +237,7 @@ export const pokemon76_100 = [
     dexNum: '0093',
     name: 'Haunter',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
     preEvo: ['92'],
   },
@@ -226,9 +246,9 @@ export const pokemon76_100 = [
     dexNum: '0094',
     name: 'Gengar',
     type: ['Ghost', 'Poison'],
-    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA'],
+    finalStage: ['FRLG', 'HGSS', 'Platinum', 'XY', 'USUM', 'SwSh', 'PLA', 'SV'],
     preEvo: ['92', '93'],
   },
   {
@@ -245,7 +265,7 @@ export const pokemon76_100 = [
     dexNum: '0096',
     name: 'Drowzee',
     type: ['Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'USUM', 'SV'],
     baseForm: true
   },
   {
@@ -253,9 +273,9 @@ export const pokemon76_100 = [
     dexNum: '0097',
     name: 'Hypno',
     type: ['Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'USUM'],
+    availableIn: ['FRLG', 'HGSS', 'USUM', 'SV'],
     baseForm: true,
-    finalStage: ['FRLG', 'HGSS', 'USUM'],
+    finalStage: ['FRLG', 'HGSS', 'USUM', 'SV'],
     preEvo: ['96'],
   },
   {
@@ -281,7 +301,7 @@ export const pokemon76_100 = [
     dexNum: '0100',
     name: 'Voltorb',
     type: ['Electric'],
-    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY'],
+    availableIn: ['FRLG', 'HGSS', 'Emerald', 'XY', 'SV'],
     baseForm: true
   },
   {
