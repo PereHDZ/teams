@@ -3,6 +3,7 @@ import retrieveBaseForms from "./retrieveBaseForms"
 import retrievePokemonById from "./retrievePokemonById"
 import updatePokemonUsedIn from "./updatePokemonUsedIn"
 import removePokemonUsedIn from "./removePokemonUsedIn"
+import retrievePokemonByDexNum from "./retrievePokemonByDexNum"
 
 import retrieveTeams from "./retrieveTeams"
 import retrieveTeamByGame from "./retrieveTeamByGame"
@@ -14,6 +15,7 @@ const logic = {
     retrievePokemonById,
     updatePokemonUsedIn,
     removePokemonUsedIn,
+    retrievePokemonByDexNum,
 
     retrieveTeams,
     retrieveTeamByGame,

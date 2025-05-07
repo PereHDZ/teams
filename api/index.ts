@@ -56,6 +56,18 @@ mongoose.connect(MONGODB_URL)
             }
         })
 
+        api.get('/pokemons/dex/:dexNum', async (req, res) => {
+            const { dexNum } = req.params
+
+            try {
+                const pokemon = await logic.retrievePokemonByDexNum(dexNum)
+                res.json(pokemon)
+            } catch (error) {
+                console.error('Error occurred:', error.message);
+                res.status(500).json({ error: error.message });
+            }
+        })
+
 
         api.patch('/pokemon/usedIn', async (req, res) => {
             const { ids, game } = req.body
