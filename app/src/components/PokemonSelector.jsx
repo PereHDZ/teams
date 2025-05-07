@@ -50,7 +50,11 @@ function PokemonSelector({ type, game, onClose }) {
         }
 
         try {
+            const allIds = [...selectedPreEvos, activeFinalStage]
+
             await logic.updateTeam(game, type.toLowerCase(), activeFinalStage)
+            await logic.updatePokemonUsedIn(allIds, game)
+            
             onClose()
         } catch (error) {
             alert(error.message)

@@ -38,6 +38,10 @@ const pokemon = new Schema ({
     preEvo: {
         type: [String],
         required: false
+    },
+    usedIn: {
+        type: [String],
+        required: false
     }
 })
 

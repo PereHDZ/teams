@@ -8,7 +8,7 @@ async function retrieveFinalStagesFromGame(game:string) : Promise<PokemonType[]>
             availableIn: { $in: [game] }
         }).lean().exec();
         
-        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, form, finalStage, preEvo}) => ({
+        return finalStages.map(({ id, dexNum, name, type, availableIn, baseForm, form, finalStage, preEvo, usedIn }) => ({
             id,
             dexNum,
             name,
@@ -17,7 +17,8 @@ async function retrieveFinalStagesFromGame(game:string) : Promise<PokemonType[]>
             baseForm,
             form,
             finalStage,
-            preEvo
+            preEvo,
+            usedIn
         }));
     } catch (error: any) {
         throw new Error(error.message)

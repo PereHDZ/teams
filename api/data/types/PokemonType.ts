@@ -8,6 +8,7 @@ type PokemonType = {
     form?: string,
     finalStage?: string[],
     preEvo?: string[],
+    usedIn?: string[]
 }
 
 export default PokemonType
