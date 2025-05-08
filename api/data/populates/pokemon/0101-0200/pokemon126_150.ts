@@ -41,7 +41,7 @@ export const pokemon126_150 = [
     id: '128B',
     dexNum: '0128',
     name: 'Tauros',
-    type: ['Fighting', 'Fie'],
+    type: ['Fighting', 'Fire'],
     availableIn: ['SV'],
     baseForm: false,
     form: 'Blaze Breed Tauros',

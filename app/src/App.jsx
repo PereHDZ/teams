@@ -7,6 +7,7 @@ import './App.css'
 import GenGrid from './components/GenGrid'
 import TeamGrid from './components/TeamGrid'
 import PokemonSelector from './components/PokemonSelector'
+import PokemonCard from './components/PokemonCard'
 
 function App() {
   const [selectorVisible, setSelectorVisible ] = useState(false)
@@ -14,6 +15,7 @@ function App() {
   const [selectedGame, setSelectedGame ] = useState(null)
   const [allTeams, setAllTeams] = useState([])
   const [refresh, setRefresh] = useState(0)
+  const [pokemonToShow, setPokemonToShow] = useState(null)
 
   const regions = [
     newRegion('Kanto', 1, 151, '#d87d7d'),
@@ -60,6 +62,10 @@ function App() {
     setRefresh(prev => prev + 1)
   }
 
+  function onClosePokemonCard() {
+    setPokemonToShow(null)
+  }
+
   return (
     <>
       {selectorVisible && (
@@ -70,6 +76,10 @@ function App() {
         />
       )}
 
+      {!!pokemonToShow && <PokemonCard 
+          dexNum={pokemonToShow} 
+          onClosePokemonCard={onClosePokemonCard} />}
+
       <div className='center'>
         {regions.map(region => {
           return (<GenGrid 
@@ -77,7 +87,8 @@ function App() {
             end={region.end} 
             color={region.color} 
             name={region.name}
-            refresh={refresh} 
+            refresh={refresh}
+            setPokemonToShow={setPokemonToShow}
             key={region.name}/>)
         })}
 

@@ -1,0 +1,73 @@
+.fullscreen {
+    position: fixed;
+    top: 0;             
+    left: 0;            
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.card {
+    background-color: aliceblue;
+    min-width: 40vw;
+    min-height: 90vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.close-icon {
+    max-width: 25px;
+    margin-bottom: 10px;
+}
+
+.variant-selector {
+    display: flex; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    height: auto;
+    align-self: center;
+}
+
+.selected-variant {
+    background-color:rgb(212, 215, 216);
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.dex-num {
+    align-self: baseline;
+    margin: 7vh 0 0 2vw
+}
+
+.variant-name {
+    align-self: baseline;
+}
+
+.typing {
+    align-self: baseline;
+    margin-top: 3vh;
+    display: flex;
+}
+
+.type-img {
+    max-width: 50px;
+}
+
+#first {
+    margin-left: 1vw;
+}
+
+.used-in-dev {
+    flex-grow: 1;                  
+    display: flex;                 
+    justify-content: center;      
+    align-items: center;          
+    text-align: center;           
+    padding: 20px;                
+}

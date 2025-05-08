@@ -96,7 +96,7 @@ export const pokemon951_975 = [
       availableIn: ['SV'],
       baseForm: true,
       finalStage: ['SV'],
-      perEvo: ['960']
+      preEvo: ['960']
     },
     {
       id: '962',

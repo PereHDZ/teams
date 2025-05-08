@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './GenGrid.css'
 import logic from '../logic'
 
-function GenGrid({ end, start, color, name, refresh }) {
+function GenGrid({ end, start, color, name, refresh, setPokemonToShow }) {
   const [allBaseForms, setAllBaseForms] = useState([])
   const [usedStatus, setUsedStatus] = useState({})
 
@@ -39,7 +39,7 @@ function GenGrid({ end, start, color, name, refresh }) {
 
   return (
     <div className='grid-wrapper'>
-      <div className='grid-title' style={{ backgroundColor: color }}>
+      <div className='grid-title' style={{ backgroundColor: color }} id={`${name}`}>
         <h2>{name}</h2>
       </div>
 
@@ -52,7 +52,9 @@ function GenGrid({ end, start, color, name, refresh }) {
               key={baseForm.id}
               className={`sprite-cell ${isUsed ? 'used' : ''}`}
               style={{ backgroundColor: color }}
+              onClick={() => setPokemonToShow(baseForm.dexNum)}
             >
+              <span className='tooltip'>{baseForm.name}</span>
               <img
                 src={`/national/image_${baseForm.id}.jpg`}
                 alt={`Pokémon ${baseForm.name}`}

@@ -97,7 +97,7 @@ export const pokemon851_875 = [
       availableIn: ['SwSh', 'SV'],
       baseForm: true,
       finalStage: ['SwSh', 'SV'],
-      perEvo: ['859', '860']
+      preEvo: ['859', '860']
     },
     {
       id: '862',

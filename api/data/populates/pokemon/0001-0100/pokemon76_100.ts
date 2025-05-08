@@ -90,10 +90,10 @@ export const pokemon76_100 = [
     dexNum: '0080',
     name: 'Slowbro',
     type: ['Poison',  'Psychic'],
-    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
+    availableIn: ['FRLG', 'HGSS', 'XY', 'USUM'],
     baseForm: false,
     form: 'Galarian Slowbro',
-    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM', 'SV'],
+    finalStage: ['FRLG', 'HGSS', 'XY', 'USUM'],
     preEvo: ['79A'],
   },
   {

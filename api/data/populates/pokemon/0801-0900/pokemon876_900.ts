@@ -87,9 +87,9 @@ export const pokemon876_900 = [
       dexNum: '0884',
       name: 'Duraludon',
       type: ['Steel', 'Dragon'],
-      availableIn: ['SwSh'],
+      availableIn: ['SwSh', 'SV'],
       baseForm: true,
-      finalStage: ['SwSh']
+      finalStage: ['SwSh', 'SV']
     },
     {
       id: '885',
