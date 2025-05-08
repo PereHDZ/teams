@@ -196,6 +196,18 @@ export const pokemon501_525 = [
       type: ['Normal', 'Flying'],
       availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
+      form: 'Male Unfezant',
+      finalStage: ['BW', 'B2W2', 'SwSh'],
+      preEvo: ['519', '520']
+    },
+    {
+      id: '521A',
+      dexNum: '0521',
+      name: 'Unfezant',
+      type: ['Normal', 'Flying'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
+      baseForm: false,
+      form: 'Female Unfezant',
       finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['519', '520']
     },

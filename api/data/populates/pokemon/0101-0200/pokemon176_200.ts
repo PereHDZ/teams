@@ -236,7 +236,7 @@ export const pokemon176_200 = [
     id: '199A',
     dexNum: '0199',
     name: 'Slowking',
-    type: ['Posion', 'Psychic'],
+    type: ['Poison', 'Psychic'],
     availableIn: ['SwSh'],
     baseForm: false,
     form: 'Galarian Slowking',

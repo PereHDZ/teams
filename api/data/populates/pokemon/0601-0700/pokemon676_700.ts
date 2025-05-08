@@ -29,7 +29,7 @@ export const pokemon676_700 = [
     },
     {
       id: '678A',
-      dexNum: '0678A',
+      dexNum: '0678',
       name: 'Meowstic',
       type: ['Psychic'],
       availableIn: ['XY', 'SwSh'],

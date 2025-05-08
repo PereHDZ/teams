@@ -56,7 +56,7 @@ function GenGrid({ end, start, color, name, refresh, setPokemonToShow }) {
             >
               <span className='tooltip'>{baseForm.name}</span>
               <img
-                src={`/national/image_${baseForm.id}.jpg`}
+                src={`/national/image_${baseForm.id}.png`}
                 alt={`Pokémon ${baseForm.name}`}
                 className='sprite-img'
               />

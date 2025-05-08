@@ -13,12 +13,13 @@
 
 .card {
     background-color: aliceblue;
-    min-width: 40vw;
+    width: 40vw; 
     min-height: 90vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 25px;
+    overflow: hidden; 
 }
 
 .close-icon {
@@ -27,11 +28,16 @@
 }
 
 .variant-selector {
-    display: flex; 
-    overflow-x: auto; 
-    white-space: nowrap; 
-    height: auto;
-    align-self: center;
+    display: flex;
+    justify-content: center;  /* Center items by default */
+    overflow-x: auto;         /* Allows horizontal scrolling when content overflows */
+    white-space: nowrap;      /* Prevents wrapping */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+.variant-selector > * {
+flex-shrink: 0;           /* Prevents items from shrinking */
 }
 
 .selected-variant {

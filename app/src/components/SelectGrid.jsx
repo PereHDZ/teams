@@ -15,7 +15,7 @@ function SelectGrid ({ finalStages, setActiveFinalStage }){
     return <>
         <div className='selector-grid'>
             {finalStages.map((finalStage, index) => {
-                const url = finalStage.baseForm ? `/national/image_${finalStage.id}.jpg` : `/variants/${finalStage.form}.png`
+                const url = finalStage.baseForm ? `/national/image_${finalStage.id}.png` : `/variants/${finalStage.form}.png`
 
                 return (
                     <div 

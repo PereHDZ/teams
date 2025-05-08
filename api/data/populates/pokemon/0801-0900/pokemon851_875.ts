@@ -179,8 +179,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869A',
+      id: '869A',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -190,8 +190,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869B',
+      id: '869B',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -201,8 +201,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869C',
+      id: '869C',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -212,8 +212,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869D',
+      id: '869D',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -223,8 +223,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869E',
+      id: '869E',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -234,8 +234,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869F',
+      id: '869F',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -245,8 +245,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869G',
+      id: '869G',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],
@@ -256,8 +256,8 @@ export const pokemon851_875 = [
       preEvo: ['868']
     },
     {
-      id: '869',
-      dexNum: '0869H',
+      id: '869H',
+      dexNum: '0869',
       name: 'Alcremie',
       type: ['Fairy'],
       availableIn: ['SwSh'],

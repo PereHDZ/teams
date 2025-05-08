@@ -65,7 +65,7 @@ function PreEvoCheckbox({ id, game, onSelectionChange }) {
 
                 {preEvos.map(preEvo => {
                     const url = preEvo.baseForm
-                        ? `/national/image_${preEvo.id}.jpg`
+                        ? `/national/image_${preEvo.id}.png`
                         : `/variants/${preEvo.form}.png`
 
                     return (

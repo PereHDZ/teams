@@ -54,7 +54,7 @@ export const pokemon26_50 = [
     type: ['Ice', 'Steel'],
     availableIn: ['USUM'],
     baseForm: false,
-    form: 'Alolan Sandshrew',
+    form: 'Alolan Sandslash',
     finalStage: ['USUM'],
     preEvo: ['27A'],
   },

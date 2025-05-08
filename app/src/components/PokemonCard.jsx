@@ -36,7 +36,7 @@ function PokemonCard({ dexNum, onClosePokemonCard }) {
 
                 <div className='variant-selector'>
                     {allVariants.map(variant => {
-                        const src = !!variant.baseForm ? `/national/image_${variant.id}.jpg` : `/variants/${variant.form}.png`
+                        const src = !!variant.baseForm ? `/national/image_${variant.id}.png` : `/variants/${variant.form}.png`
                         const isSelected = currentVariant?.id === variant.id
 
                         return (

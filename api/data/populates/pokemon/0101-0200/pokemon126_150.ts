@@ -205,6 +205,16 @@ export const pokemon126_150 = [
     finalStage: ['FRLG', 'HGSS', 'XY']
   },
   {
+    id: '144A',
+    dexNum: '0144',
+    name: 'Articuno',
+    type: ['Psychic', 'Flying'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Articuno',
+    finalStage: ['SwSh']
+  },
+  {
     id: '145',
     dexNum: '0145',
     name: 'Zapdos',
@@ -214,6 +224,16 @@ export const pokemon126_150 = [
     finalStage: ['FRLG', 'HGSS', 'XY']
   },
   {
+    id: '145A',
+    dexNum: '0145',
+    name: 'Zapdos',
+    type: ['Fighting', 'Flying'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Zapdos',
+    finalStage: ['SwSh']
+  },
+  {
     id: '146',
     dexNum: '0146',
     name: 'Moltres',
@@ -221,6 +241,16 @@ export const pokemon126_150 = [
     availableIn: ['FRLG', 'HGSS', 'XY'],
     baseForm: true,
     finalStage: ['FRLG', 'HGSS', 'XY']
+  },
+  {
+    id: '146A',
+    dexNum: '0146',
+    name: 'Moltres',
+    type: ['Dark', 'Flying'],
+    availableIn: ['SwSh'],
+    baseForm: false,
+    form: 'Galarian Moltres',
+    finalStage: ['SwSh']
   },
   {
     id: '147',
