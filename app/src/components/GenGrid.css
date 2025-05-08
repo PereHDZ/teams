@@ -57,7 +57,7 @@
 
 .sprite-cell.used {
     border: 2px solid black;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.882);
 }
 
 .sprite-cell.used:hover {
@@ -68,10 +68,6 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-}
-
-.test {
-    background-color: #7c0d0d;
 }
 
 .sprite-cell .tooltip {

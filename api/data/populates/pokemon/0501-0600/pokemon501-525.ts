@@ -42,7 +42,7 @@ export const pokemon501_525 = [
       dexNum: '0504',
       name: 'Patrat',
       type: ['Normal'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true
     },
     {
@@ -50,9 +50,9 @@ export const pokemon501_525 = [
       dexNum: '0505',
       name: 'Watchog',
       type: ['Normal'],
-      availableIn: ['Bw', 'B2W2', 'XY'],
+      availableIn: ['BW', 'B2W2', 'XY'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2', 'XY'],
+      finalStage: ['BW', 'B2W2', 'XY'],
       preEvo: ['504']
     },
     {
@@ -196,7 +196,7 @@ export const pokemon501_525 = [
       type: ['Normal', 'Flying'],
       availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2', 'SwSh'],
+      finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['519', '520']
     },
     {
@@ -212,7 +212,7 @@ export const pokemon501_525 = [
       dexNum: '0523',
       name: 'Zebstrika',
       type: ['Electric'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2'],
       preEvo: ['522']

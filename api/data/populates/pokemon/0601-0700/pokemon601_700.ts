@@ -121,7 +121,7 @@ export const pokemon601_625 = [
       dexNum: '0614',
       name: 'Beartic',
       type: ['Ice'],
-      availableIn: ['Bw', 'B2W2', 'XY', 'SwSh', 'SV'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY', 'SwSh', 'SV'],
       preEvo: ['613']

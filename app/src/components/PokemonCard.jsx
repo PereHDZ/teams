@@ -90,11 +90,13 @@ function PokemonCard({ dexNum, onClosePokemonCard }) {
                                 usedVariants.map(variant => (
                                     <h2 key={variant.id}>
                                         You have used {variant.form || variant.name } in {' '}
-                                        { variant.usedIn.join(' ')}
+                                        {variant.usedIn.length === 1
+                                            ? variant.usedIn[0]
+                                            : variant.usedIn.slice(0, -1).join(', ') + ' and ' + variant.usedIn.slice(-1)}
                                     </h2>
                                 ))
                             ) : (
-                                <h2>You have not used {currentVariant.form || currentVariant.name } yet</h2>
+                                <h2>You have not used { allVariants[0].name } yet</h2>
                             )}
                         </div>
                     </>

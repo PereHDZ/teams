@@ -42,7 +42,7 @@ export const pokemon626_650 = [
       dexNum: '0629',
       name: 'Vullaby',
       type: ['Dark', 'Flying'],
-      availableIn: ['Bw', 'B2W2', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true
     },
     {
@@ -50,7 +50,7 @@ export const pokemon626_650 = [
       dexNum: '0630',
       name: 'Mandibuzz',
       type: ['Dark', 'Flying'],
-      availableIn: ['Bw', 'B2W2', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'USUM', 'SwSh'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'USUM', 'SwSh'],
       preEvo: ['629']
@@ -132,7 +132,7 @@ export const pokemon626_650 = [
       dexNum: '0639',
       name: 'Terrakion',
       type: ['Rock', 'Fighting'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2']
     },
@@ -195,7 +195,7 @@ export const pokemon626_650 = [
       dexNum: '0646',
       name: 'Kyurem',
       type: ['Dragon', 'Ice'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
       finalStage: ['BW', 'B2W2']
     },

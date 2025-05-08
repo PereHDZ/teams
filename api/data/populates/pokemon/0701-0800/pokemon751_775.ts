@@ -29,7 +29,7 @@ export const pokemon751_775 = [
     id: '754',
     dexNum: '0754',
     name: 'Lurantis',
-    type: ['Water'],
+    type: ['Grass'],
     availableIn: ['USUM', 'SV'],
     baseForm: true,
     finalStage: ['USUM', 'SV'],

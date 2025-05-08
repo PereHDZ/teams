@@ -40,9 +40,9 @@ export const pokemon526_550 = [
       dexNum: '0530',
       name: 'Excadrill',
       type: ['Ground', 'Steel'],
-      availableIn: ['Bw', 'B2W2', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2', 'SwSh'],
+      finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['529']
     },
     {
@@ -150,7 +150,7 @@ export const pokemon526_550 = [
       type: ['Bug', 'Grass'],
       availableIn: ['BW', 'B2W2'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2'],
+      finalStage: ['BW', 'B2W2'],
       preEvo: ['540', '541']
     },
     {

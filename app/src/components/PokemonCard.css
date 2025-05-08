@@ -69,5 +69,6 @@
     justify-content: center;      
     align-items: center;          
     text-align: center;           
-    padding: 20px;                
+    padding: 20px;
+    flex-direction: column;                
 }

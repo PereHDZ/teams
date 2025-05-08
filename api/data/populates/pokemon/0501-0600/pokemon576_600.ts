@@ -121,7 +121,7 @@ export const pokemon576_600 = [
       dexNum: '0589',
       name: 'Escavalier',
       type: ['Bug', 'Steel'],
-      availableIn: ['Bw', 'B2W2', 'XY', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'SwSh'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY', 'SwSh'],
       preEvo: ['588']
@@ -206,7 +206,7 @@ export const pokemon576_600 = [
       dexNum: '0596',
       name: 'Galvantula',
       type: ['Bug', 'Electric'],
-      availableIn: ['Bw', 'B2W2', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'SwSh'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'SwSh'],
       preEvo: ['595']

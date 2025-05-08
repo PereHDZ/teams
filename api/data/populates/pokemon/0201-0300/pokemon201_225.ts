@@ -151,10 +151,9 @@ export const pokemon201_225 = [
     dexNum: '0215',
     name: 'Sneasel',
     type: ['Fighting', 'Poison'],
-    availableIn: ['HGSS', 'Platinum', 'B2W2', 'XY', 'USUM', 'SwSh', 'PLA'],
+    availableIn: ['PLA'],
     baseForm: false,
-    form: 'Hisuian Sneasel',
-    finalStage: ['HGSS']
+    form: 'Hisuian Sneasel'
   },
   {
     id: '216',

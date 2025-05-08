@@ -31,7 +31,7 @@ export const pokemon551_575 = [
       dexNum: '0554',
       name: 'Darumaka',
       type: ['Fire'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true
     },
     {
@@ -48,9 +48,9 @@ export const pokemon551_575 = [
       dexNum: '0555',
       name: 'Darmanitan',
       type: ['Fire'],
-      availableIn: ['Bw', 'B2W2'],
+      availableIn: ['BW', 'B2W2'],
       baseForm: true,
-      finalStage: ['Bw', 'B2W2'],
+      finalStage: ['BW', 'B2W2'],
       preEvo: ['554']
     },
     {
@@ -104,7 +104,7 @@ export const pokemon551_575 = [
       dexNum: '0560',
       name: 'Scrafty',
       type: ['Dark', 'Fighting'],
-      availableIn: ['Bw', 'B2W2', 'XY', 'USUM', 'SwSh'],
+      availableIn: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       baseForm: true,
       finalStage: ['BW', 'B2W2', 'XY', 'USUM', 'SwSh'],
       preEvo: ['559']

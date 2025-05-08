@@ -45,7 +45,7 @@ function Team({ team, onSelect }) {
                             const pokemon = pokemonMap[type]
                             url = pokemon.baseForm
                                 ? `/national/image_${pokemon.id}.jpg`
-                                : `/variant/${pokemon.form}.png`
+                                : `/variants/${pokemon.form}.png`
                         } else {
                             url = `/type_icons/${type.charAt(0).toUpperCase() + type.slice(1)}_icon_Sleep.png`
                         }

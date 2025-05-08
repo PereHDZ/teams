@@ -59,6 +59,10 @@ function PokemonSelector({ type, game, onClose }) {
         }
     },[game])
 
+    useEffect(() => {
+        setSelectedPreEvos([]);
+    }, [activeFinalStage]);
+
     const handleSubmit = async (e) => {
         e.preventDefault()
     
